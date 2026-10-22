@@ -1,0 +1,61 @@
+﻿variant,category,site,confirmed_trials,eligible_trials,ecr
+rule_only,Command Injection,DVWA,4,16,0.25
+rule_only,Command Injection,XVWA,4,16,0.25
+rule_only,Command Injection,bWAPP,4,16,0.25
+rule_only,Local File Inclusion,DVWA,0,12,0.0
+rule_only,Local File Inclusion,XVWA,0,12,0.0
+rule_only,Open Redirect,OWASP_Juice_Shop,0,9,0.0
+rule_only,Open Redirect,XVWA,9,9,1.0
+rule_only,Path Traversal,DVWA,0,24,0.0
+rule_only,Path Traversal,XVWA,0,24,0.0
+rule_only,SQL Injection,DVWA,12,30,0.4
+rule_only,SQL Injection,XVWA,12,30,0.4
+rule_only,XSS,DVWA,30,30,1.0
+rule_only,XSS,OWASP_Juice_Shop,8,30,0.26666666666666666
+rule_only,XSS,XVWA,30,30,1.0
+rule_only,XSS,bWAPP,30,30,1.0
+mutation_only_fixed2,Command Injection,DVWA,4,37,0.10810810810810811
+mutation_only_fixed2,Command Injection,XVWA,4,37,0.10810810810810811
+mutation_only_fixed2,Command Injection,bWAPP,4,37,0.10810810810810811
+mutation_only_fixed2,Local File Inclusion,DVWA,3,12,0.25
+mutation_only_fixed2,Local File Inclusion,XVWA,3,12,0.25
+mutation_only_fixed2,Open Redirect,OWASP_Juice_Shop,0,9,0.0
+mutation_only_fixed2,Open Redirect,XVWA,9,9,1.0
+mutation_only_fixed2,Path Traversal,DVWA,6,24,0.25
+mutation_only_fixed2,Path Traversal,XVWA,3,24,0.125
+mutation_only_fixed2,SQL Injection,DVWA,35,112,0.3125
+mutation_only_fixed2,SQL Injection,XVWA,35,112,0.3125
+mutation_only_fixed2,XSS,DVWA,51,51,1.0
+mutation_only_fixed2,XSS,OWASP_Juice_Shop,13,51,0.2549019607843137
+mutation_only_fixed2,XSS,XVWA,51,51,1.0
+mutation_only_fixed2,XSS,bWAPP,51,51,1.0
+rule_mutation_density_no_filter,Command Injection,DVWA,49,180,0.2722222222222222
+rule_mutation_density_no_filter,Command Injection,XVWA,49,180,0.2722222222222222
+rule_mutation_density_no_filter,Command Injection,bWAPP,49,180,0.2722222222222222
+rule_mutation_density_no_filter,Local File Inclusion,DVWA,18,180,0.1
+rule_mutation_density_no_filter,Local File Inclusion,XVWA,18,180,0.1
+rule_mutation_density_no_filter,Open Redirect,OWASP_Juice_Shop,0,180,0.0
+rule_mutation_density_no_filter,Open Redirect,XVWA,180,180,1.0
+rule_mutation_density_no_filter,Path Traversal,DVWA,19,180,0.10555555555555556
+rule_mutation_density_no_filter,Path Traversal,XVWA,10,180,0.05555555555555555
+rule_mutation_density_no_filter,SQL Injection,DVWA,62,180,0.34444444444444444
+rule_mutation_density_no_filter,SQL Injection,XVWA,62,180,0.34444444444444444
+rule_mutation_density_no_filter,XSS,DVWA,170,180,0.9444444444444444
+rule_mutation_density_no_filter,XSS,OWASP_Juice_Shop,46,180,0.25555555555555554
+rule_mutation_density_no_filter,XSS,XVWA,170,180,0.9444444444444444
+rule_mutation_density_no_filter,XSS,bWAPP,170,180,0.9444444444444444
+full_hybrid_density,Command Injection,DVWA,8,38,0.21052631578947367
+full_hybrid_density,Command Injection,XVWA,8,38,0.21052631578947367
+full_hybrid_density,Command Injection,bWAPP,8,38,0.21052631578947367
+full_hybrid_density,Local File Inclusion,DVWA,3,21,0.14285714285714285
+full_hybrid_density,Local File Inclusion,XVWA,3,21,0.14285714285714285
+full_hybrid_density,Open Redirect,OWASP_Juice_Shop,0,12,0.0
+full_hybrid_density,Open Redirect,XVWA,12,12,1.0
+full_hybrid_density,Path Traversal,DVWA,8,42,0.19047619047619047
+full_hybrid_density,Path Traversal,XVWA,5,42,0.11904761904761904
+full_hybrid_density,SQL Injection,DVWA,20,69,0.2898550724637681
+full_hybrid_density,SQL Injection,XVWA,20,69,0.2898550724637681
+full_hybrid_density,XSS,DVWA,51,51,1.0
+full_hybrid_density,XSS,OWASP_Juice_Shop,11,51,0.21568627450980393
+full_hybrid_density,XSS,XVWA,51,51,1.0
+full_hybrid_density,XSS,bWAPP,51,51,1.0

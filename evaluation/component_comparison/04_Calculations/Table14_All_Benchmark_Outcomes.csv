@@ -1,0 +1,140 @@
+﻿variant,category,site,outcome,confirmed,trials
+rule_only,API Abuse,OWASP_Juice_Shop,API_RESPONSE_UNCONFIRMED,false,9
+rule_only,Command Injection,DVWA,COMMAND_OUTPUT_CONFIRMED,true,4
+rule_only,Command Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,12
+rule_only,Command Injection,XVWA,COMMAND_OUTPUT_CONFIRMED,true,4
+rule_only,Command Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,12
+rule_only,Command Injection,bWAPP,COMMAND_OUTPUT_CONFIRMED,true,4
+rule_only,Command Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,12
+rule_only,GraphQL Injection,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,9
+rule_only,IDOR,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,21
+rule_only,IDOR,XVWA,OBJECT_RESPONSE_UNCONFIRMED,false,21
+rule_only,Local File Inclusion,DVWA,NO_CONFIRMATION_SIGNAL,false,12
+rule_only,Local File Inclusion,XVWA,NO_CONFIRMATION_SIGNAL,false,12
+rule_only,Open Redirect,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,9
+rule_only,Open Redirect,XVWA,EXTERNAL_REDIRECT_CONFIRMED,true,9
+rule_only,Path Traversal,DVWA,NO_CONFIRMATION_SIGNAL,false,24
+rule_only,Path Traversal,XVWA,NO_CONFIRMATION_SIGNAL,false,24
+rule_only,Remote File Inclusion,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,9
+rule_only,SQL Injection,DVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,18
+rule_only,SQL Injection,DVWA,SQL_RESULT_DIFFERENTIAL,true,12
+rule_only,SQL Injection,XVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,18
+rule_only,SQL Injection,XVWA,SQL_RESULT_DIFFERENTIAL,true,12
+rule_only,SQL Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,30
+rule_only,SSRF,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,15
+rule_only,XSS,DVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,30
+rule_only,XSS,OWASP_Juice_Shop,JAVASCRIPT_DIALOG_CONFIRMED,true,8
+rule_only,XSS,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,22
+rule_only,XSS,XVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,30
+rule_only,XSS,bWAPP,JAVASCRIPT_DIALOG_CONFIRMED,true,30
+rule_only,XXE,bWAPP,XML_PARSER_SIGNAL_UNCONFIRMED,false,9
+mutation_only_fixed2,API Abuse,OWASP_Juice_Shop,API_RESPONSE_UNCONFIRMED,false,9
+mutation_only_fixed2,Command Injection,DVWA,COMMAND_OUTPUT_CONFIRMED,true,4
+mutation_only_fixed2,Command Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,33
+mutation_only_fixed2,Command Injection,XVWA,COMMAND_OUTPUT_CONFIRMED,true,4
+mutation_only_fixed2,Command Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,33
+mutation_only_fixed2,Command Injection,bWAPP,COMMAND_OUTPUT_CONFIRMED,true,4
+mutation_only_fixed2,Command Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,33
+mutation_only_fixed2,GraphQL Injection,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,9
+mutation_only_fixed2,IDOR,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,21
+mutation_only_fixed2,IDOR,XVWA,OBJECT_RESPONSE_UNCONFIRMED,false,21
+mutation_only_fixed2,Local File Inclusion,DVWA,FILE_CONTENT_CONFIRMED,true,3
+mutation_only_fixed2,Local File Inclusion,DVWA,NO_CONFIRMATION_SIGNAL,false,9
+mutation_only_fixed2,Local File Inclusion,XVWA,FILE_CONTENT_CONFIRMED,true,3
+mutation_only_fixed2,Local File Inclusion,XVWA,NO_CONFIRMATION_SIGNAL,false,9
+mutation_only_fixed2,Open Redirect,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,9
+mutation_only_fixed2,Open Redirect,XVWA,EXTERNAL_REDIRECT_CONFIRMED,true,9
+mutation_only_fixed2,Path Traversal,DVWA,FILE_CONTENT_CONFIRMED,true,6
+mutation_only_fixed2,Path Traversal,DVWA,NO_CONFIRMATION_SIGNAL,false,18
+mutation_only_fixed2,Path Traversal,XVWA,FILE_CONTENT_CONFIRMED,true,3
+mutation_only_fixed2,Path Traversal,XVWA,NO_CONFIRMATION_SIGNAL,false,21
+mutation_only_fixed2,Remote File Inclusion,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,9
+mutation_only_fixed2,SQL Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,30
+mutation_only_fixed2,SQL Injection,DVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,47
+mutation_only_fixed2,SQL Injection,DVWA,SQL_RESULT_DIFFERENTIAL,true,35
+mutation_only_fixed2,SQL Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,30
+mutation_only_fixed2,SQL Injection,XVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,47
+mutation_only_fixed2,SQL Injection,XVWA,SQL_RESULT_DIFFERENTIAL,true,35
+mutation_only_fixed2,SQL Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,112
+mutation_only_fixed2,SSRF,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,12
+mutation_only_fixed2,XSS,DVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+mutation_only_fixed2,XSS,OWASP_Juice_Shop,JAVASCRIPT_DIALOG_CONFIRMED,true,13
+mutation_only_fixed2,XSS,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,38
+mutation_only_fixed2,XSS,XVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+mutation_only_fixed2,XSS,bWAPP,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+mutation_only_fixed2,XXE,bWAPP,XML_PARSER_SIGNAL_UNCONFIRMED,false,9
+rule_mutation_density_no_filter,API Abuse,OWASP_Juice_Shop,API_RESPONSE_UNCONFIRMED,false,180
+rule_mutation_density_no_filter,Command Injection,DVWA,COMMAND_OUTPUT_CONFIRMED,true,49
+rule_mutation_density_no_filter,Command Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,131
+rule_mutation_density_no_filter,Command Injection,XVWA,COMMAND_OUTPUT_CONFIRMED,true,49
+rule_mutation_density_no_filter,Command Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,131
+rule_mutation_density_no_filter,Command Injection,bWAPP,COMMAND_OUTPUT_CONFIRMED,true,49
+rule_mutation_density_no_filter,Command Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,131
+rule_mutation_density_no_filter,GraphQL Injection,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,180
+rule_mutation_density_no_filter,IDOR,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,180
+rule_mutation_density_no_filter,IDOR,XVWA,OBJECT_RESPONSE_UNCONFIRMED,false,180
+rule_mutation_density_no_filter,Local File Inclusion,DVWA,FILE_CONTENT_CONFIRMED,true,18
+rule_mutation_density_no_filter,Local File Inclusion,DVWA,NO_CONFIRMATION_SIGNAL,false,162
+rule_mutation_density_no_filter,Local File Inclusion,XVWA,FILE_CONTENT_CONFIRMED,true,18
+rule_mutation_density_no_filter,Local File Inclusion,XVWA,NO_CONFIRMATION_SIGNAL,false,162
+rule_mutation_density_no_filter,Open Redirect,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,180
+rule_mutation_density_no_filter,Open Redirect,XVWA,EXTERNAL_REDIRECT_CONFIRMED,true,180
+rule_mutation_density_no_filter,Path Traversal,DVWA,FILE_CONTENT_CONFIRMED,true,19
+rule_mutation_density_no_filter,Path Traversal,DVWA,NO_CONFIRMATION_SIGNAL,false,161
+rule_mutation_density_no_filter,Path Traversal,XVWA,FILE_CONTENT_CONFIRMED,true,10
+rule_mutation_density_no_filter,Path Traversal,XVWA,NO_CONFIRMATION_SIGNAL,false,170
+rule_mutation_density_no_filter,Remote File Inclusion,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,180
+rule_mutation_density_no_filter,SQL Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,13
+rule_mutation_density_no_filter,SQL Injection,DVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,105
+rule_mutation_density_no_filter,SQL Injection,DVWA,SQL_RESULT_DIFFERENTIAL,true,62
+rule_mutation_density_no_filter,SQL Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,13
+rule_mutation_density_no_filter,SQL Injection,XVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,105
+rule_mutation_density_no_filter,SQL Injection,XVWA,SQL_RESULT_DIFFERENTIAL,true,62
+rule_mutation_density_no_filter,SQL Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,180
+rule_mutation_density_no_filter,SSRF,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,180
+rule_mutation_density_no_filter,XSS,DVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,170
+rule_mutation_density_no_filter,XSS,DVWA,REFLECTED_NOT_EXECUTED,false,10
+rule_mutation_density_no_filter,XSS,OWASP_Juice_Shop,JAVASCRIPT_DIALOG_CONFIRMED,true,46
+rule_mutation_density_no_filter,XSS,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,134
+rule_mutation_density_no_filter,XSS,XVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,170
+rule_mutation_density_no_filter,XSS,XVWA,NO_CONFIRMATION_SIGNAL,false,6
+rule_mutation_density_no_filter,XSS,XVWA,REFLECTED_NOT_EXECUTED,false,4
+rule_mutation_density_no_filter,XSS,bWAPP,JAVASCRIPT_DIALOG_CONFIRMED,true,170
+rule_mutation_density_no_filter,XSS,bWAPP,NO_CONFIRMATION_SIGNAL,false,6
+rule_mutation_density_no_filter,XSS,bWAPP,REFLECTED_NOT_EXECUTED,false,4
+rule_mutation_density_no_filter,XXE,bWAPP,XML_PARSER_SIGNAL_UNCONFIRMED,false,180
+full_hybrid_density,API Abuse,OWASP_Juice_Shop,API_RESPONSE_UNCONFIRMED,false,9
+full_hybrid_density,Command Injection,DVWA,COMMAND_OUTPUT_CONFIRMED,true,8
+full_hybrid_density,Command Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,30
+full_hybrid_density,Command Injection,XVWA,COMMAND_OUTPUT_CONFIRMED,true,8
+full_hybrid_density,Command Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,30
+full_hybrid_density,Command Injection,bWAPP,COMMAND_OUTPUT_CONFIRMED,true,8
+full_hybrid_density,Command Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,30
+full_hybrid_density,GraphQL Injection,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,13
+full_hybrid_density,IDOR,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,32
+full_hybrid_density,IDOR,XVWA,OBJECT_RESPONSE_UNCONFIRMED,false,32
+full_hybrid_density,Local File Inclusion,DVWA,FILE_CONTENT_CONFIRMED,true,3
+full_hybrid_density,Local File Inclusion,DVWA,NO_CONFIRMATION_SIGNAL,false,18
+full_hybrid_density,Local File Inclusion,XVWA,FILE_CONTENT_CONFIRMED,true,3
+full_hybrid_density,Local File Inclusion,XVWA,NO_CONFIRMATION_SIGNAL,false,18
+full_hybrid_density,Open Redirect,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,12
+full_hybrid_density,Open Redirect,XVWA,EXTERNAL_REDIRECT_CONFIRMED,true,12
+full_hybrid_density,Path Traversal,DVWA,FILE_CONTENT_CONFIRMED,true,8
+full_hybrid_density,Path Traversal,DVWA,NO_CONFIRMATION_SIGNAL,false,34
+full_hybrid_density,Path Traversal,XVWA,FILE_CONTENT_CONFIRMED,true,5
+full_hybrid_density,Path Traversal,XVWA,NO_CONFIRMATION_SIGNAL,false,37
+full_hybrid_density,Remote File Inclusion,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,18
+full_hybrid_density,SQL Injection,DVWA,NO_CONFIRMATION_SIGNAL,false,8
+full_hybrid_density,SQL Injection,DVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,41
+full_hybrid_density,SQL Injection,DVWA,SQL_RESULT_DIFFERENTIAL,true,20
+full_hybrid_density,SQL Injection,XVWA,NO_CONFIRMATION_SIGNAL,false,8
+full_hybrid_density,SQL Injection,XVWA,SQL_ERROR_SIGNAL_UNCONFIRMED,false,41
+full_hybrid_density,SQL Injection,XVWA,SQL_RESULT_DIFFERENTIAL,true,20
+full_hybrid_density,SQL Injection,bWAPP,NO_CONFIRMATION_SIGNAL,false,69
+full_hybrid_density,SSRF,XVWA,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,15
+full_hybrid_density,XSS,DVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+full_hybrid_density,XSS,OWASP_Juice_Shop,JAVASCRIPT_DIALOG_CONFIRMED,true,11
+full_hybrid_density,XSS,OWASP_Juice_Shop,NO_CONFIRMATION_SIGNAL,false,40
+full_hybrid_density,XSS,XVWA,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+full_hybrid_density,XSS,bWAPP,JAVASCRIPT_DIALOG_CONFIRMED,true,51
+full_hybrid_density,XXE,bWAPP,XML_PARSER_SIGNAL_UNCONFIRMED,false,18

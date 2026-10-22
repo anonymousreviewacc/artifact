@@ -1,0 +1,68 @@
+{
+  "run_id": "table14_shared_rng_mutation_only_fixed2_20261019T024320Z",
+  "tested_at_utc": "2026-10-19T02:44:37.872199+00:00",
+  "input_rows": 314,
+  "result_rows": 831,
+  "browser": "Google Chrome via Playwright headless; page requests restricted to localhost/127.0.0.1/::1",
+  "api_requests": "Only local base URLs; redirects were not followed; response bodies were not persisted.",
+  "login_attempts": {
+    "DVWA": "attempted_admin_password_security_low",
+    "OWASP_Juice_Shop": "anonymous_local_test",
+    "XVWA": "setup_issue:TimeoutError",
+    "bWAPP": "attempted_bee_bug"
+  },
+  "blocked_nonlocal_browser_requests": {
+    "DVWA": 0,
+    "OWASP_Juice_Shop": 0,
+    "XVWA": 1,
+    "bWAPP": 0
+  },
+  "sql_baseline_result_counts": {
+    "DVWA": 2,
+    "XVWA": 0,
+    "bWAPP": 0
+  },
+  "confirmation_counts": {
+    "DVWA|SQL Injection|SQL_RESULT_DIFFERENTIAL|true": 35,
+    "DVWA|SQL Injection|SQL_ERROR_SIGNAL_UNCONFIRMED|false": 47,
+    "DVWA|SQL Injection|NO_CONFIRMATION_SIGNAL|false": 30,
+    "XVWA|SQL Injection|SQL_RESULT_DIFFERENTIAL|true": 35,
+    "XVWA|SQL Injection|SQL_ERROR_SIGNAL_UNCONFIRMED|false": 47,
+    "XVWA|SQL Injection|NO_CONFIRMATION_SIGNAL|false": 30,
+    "bWAPP|SQL Injection|NO_CONFIRMATION_SIGNAL|false": 112,
+    "DVWA|XSS|JAVASCRIPT_DIALOG_CONFIRMED|true": 51,
+    "OWASP_Juice_Shop|XSS|NO_CONFIRMATION_SIGNAL|false": 38,
+    "OWASP_Juice_Shop|XSS|JAVASCRIPT_DIALOG_CONFIRMED|true": 13,
+    "XVWA|XSS|JAVASCRIPT_DIALOG_CONFIRMED|true": 51,
+    "bWAPP|XSS|JAVASCRIPT_DIALOG_CONFIRMED|true": 51,
+    "OWASP_Juice_Shop|IDOR|NO_CONFIRMATION_SIGNAL|false": 21,
+    "XVWA|IDOR|OBJECT_RESPONSE_UNCONFIRMED|false": 21,
+    "DVWA|Command Injection|NO_CONFIRMATION_SIGNAL|false": 33,
+    "DVWA|Command Injection|COMMAND_OUTPUT_CONFIRMED|true": 4,
+    "XVWA|Command Injection|NO_CONFIRMATION_SIGNAL|false": 33,
+    "XVWA|Command Injection|COMMAND_OUTPUT_CONFIRMED|true": 4,
+    "bWAPP|Command Injection|NO_CONFIRMATION_SIGNAL|false": 33,
+    "bWAPP|Command Injection|COMMAND_OUTPUT_CONFIRMED|true": 4,
+    "DVWA|Path Traversal|NO_CONFIRMATION_SIGNAL|false": 18,
+    "DVWA|Path Traversal|FILE_CONTENT_CONFIRMED|true": 6,
+    "XVWA|Path Traversal|NO_CONFIRMATION_SIGNAL|false": 21,
+    "XVWA|Path Traversal|FILE_CONTENT_CONFIRMED|true": 3,
+    "XVWA|SSRF|SKIPPED_SAFETY_OR_SIDE_EFFECT|false": 12,
+    "DVWA|Local File Inclusion|NO_CONFIRMATION_SIGNAL|false": 9,
+    "DVWA|Local File Inclusion|FILE_CONTENT_CONFIRMED|true": 3,
+    "XVWA|Local File Inclusion|NO_CONFIRMATION_SIGNAL|false": 9,
+    "XVWA|Local File Inclusion|FILE_CONTENT_CONFIRMED|true": 3,
+    "XVWA|Remote File Inclusion|SKIPPED_SAFETY_OR_SIDE_EFFECT|false": 9,
+    "bWAPP|XXE|XML_PARSER_SIGNAL_UNCONFIRMED|false": 9,
+    "OWASP_Juice_Shop|GraphQL Injection|NO_CONFIRMATION_SIGNAL|false": 9,
+    "OWASP_Juice_Shop|Open Redirect|NO_CONFIRMATION_SIGNAL|false": 9,
+    "XVWA|Open Redirect|EXTERNAL_REDIRECT_CONFIRMED|true": 9,
+    "OWASP_Juice_Shop|API Abuse|API_RESPONSE_UNCONFIRMED|false": 9
+  },
+  "unsupported_or_skipped": {
+    "Remote File Inclusion": "Skipped: app payloads contain remote include URLs; no server-side remote fetch performed.",
+    "SSRF": "Skipped: only XVWA sink is available; it fetches submitted URL and writes a random image file. Avoided creating files and blocked any off-loopback destination.",
+    "other category/site pairs": "Not applicable because no matching handler/oracle was available; not scored as negative."
+  },
+  "result_csv": "/path/to/Research_project\\Baseline_app_comparision\\03_Benchmark_Results\\shared_rng_final\\mutation_only_fixed2\\mutation_only_fixed2_benchmark_results.csv"
+}

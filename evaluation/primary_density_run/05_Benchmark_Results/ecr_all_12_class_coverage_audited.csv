@@ -1,0 +1,13 @@
+﻿category,accepted_output_entries,main_run_result_rows,main_run_ECR_trials,main_run_confirmed,main_run_ECR_percent,supplemental_probe_trials,supplemental_probe_confirmed,supplemental_probe_confirmation_percent,status,scope_note
+SQL Injection,63,189,126,52,41.27,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+XSS,54,216,216,175,81.02,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+IDOR,32,64,,,,,,,NOT_ESTIMABLE_NO_VALIDATED_ORACLE,No validated class-specific oracle; not a zero ECR.
+Command Injection,45,135,135,18,13.33,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+Path Traversal,42,84,84,11,13.10,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+SSRF,15,15,,,,9,0,0.00,SUPPLEMENTAL_PROBE_ONLY,Loopback-only XVWA probe; no fetch/write confirmation.
+Local File Inclusion,20,40,40,6,15.00,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+Remote File Inclusion,18,18,,,,9,9,100.00,SUPPLEMENTAL_PROBE_ONLY,bWAPP local-canary HTTP includes; HTTPS cases skipped.
+XXE,18,18,,,,12,0,0.00,SUPPLEMENTAL_PROBE_ONLY,bWAPP XML-context local-file-marker probe; URL-encoded Evasion cases not submitted.
+GraphQL Injection,13,13,,,,,,,NOT_ESTIMABLE_NO_VALIDATED_ORACLE,No validated class-specific oracle; not a zero ECR.
+Open Redirect,12,24,24,12,50.00,,,,MAIN_RUN_ECR_MEASURED,Main-run direct behavioral oracle; scoped to tested payload/site pairs.
+API Abuse,9,9,,,,,,,NOT_ESTIMABLE_NO_VALIDATED_ORACLE,No validated class-specific oracle; not a zero ECR.

@@ -1,0 +1,37 @@
+category,mode,count,unique_payloads
+"SQL Injection","Basic",60,60
+"XSS","Basic",60,60
+"IDOR","Basic",60,60
+"Command Injection","Basic",60,60
+"Path Traversal","Basic",60,60
+"SSRF","Basic",45,45
+"Local File Inclusion","Basic",36,36
+"Remote File Inclusion","Basic",27,27
+"XXE","Basic",27,27
+"GraphQL Injection","Basic",27,27
+"Open Redirect","Basic",27,27
+"API Abuse","Basic",27,27
+"SQL Injection","Advanced",60,60
+"XSS","Advanced",60,60
+"IDOR","Advanced",60,60
+"Command Injection","Advanced",60,60
+"Path Traversal","Advanced",60,60
+"SSRF","Advanced",45,45
+"Local File Inclusion","Advanced",36,36
+"Remote File Inclusion","Advanced",27,27
+"XXE","Advanced",27,27
+"GraphQL Injection","Advanced",27,27
+"Open Redirect","Advanced",27,27
+"API Abuse","Advanced",27,27
+"SQL Injection","Evasion",60,60
+"XSS","Evasion",60,60
+"IDOR","Evasion",60,60
+"Command Injection","Evasion",60,60
+"Path Traversal","Evasion",60,60
+"SSRF","Evasion",45,45
+"Local File Inclusion","Evasion",36,36
+"Remote File Inclusion","Evasion",27,27
+"XXE","Evasion",27,27
+"GraphQL Injection","Evasion",27,27
+"Open Redirect","Evasion",27,27
+"API Abuse","Evasion",27,27

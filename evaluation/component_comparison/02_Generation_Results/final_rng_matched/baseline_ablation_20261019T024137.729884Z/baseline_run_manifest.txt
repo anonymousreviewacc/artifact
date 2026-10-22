@@ -1,0 +1,15 @@
+run_id=baseline_ablation_20261019T024137.729884Z
+variant_count=4
+categories=12
+profiles=3
+attempts_per_category_profile=60
+total_attempts=8640
+returned_payload_rows=3005
+TFLite_predictions=3005
+variant_rule_only=direct seed selection; profile transform; class predicate and per-call duplicate suppression enabled
+variant_mutation_only_fixed2=forced mutation; fixed Moderate tier (2 class-specific operations); profile transform; class predicate and per-call duplicate suppression enabled
+variant_rule_mutation_density_no_filter=70/30 direct/mutation path; seed-derived density tier; no predicate filtering or duplicate suppression; all attempts emitted
+variant_full_hybrid_density=70/30 direct/mutation path; seed-derived density tier; class predicate and per-call duplicate suppression enabled
+pairing=one deterministic shared Random stream per configuration/category/profile cell, matching the app call order for seed selection, path choice, and mutation-operator draws
+ECR=local benchmark harness, only validated class/site oracles; SSRF and RFI not submitted to network fetch/include sinks
+source=isolated test build; generator mutations/validators called reflectively from the copied production GNNGenerator.java; production app and LaTeX source were not modified

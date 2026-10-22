@@ -1,0 +1,16 @@
+﻿variant,category,site,confirmed_trials,eligible_trials,ecr
+rule_only,Command Injection,DVWA,4,16,0.25
+rule_only,Command Injection,XVWA,4,16,0.25
+rule_only,Command Injection,bWAPP,4,16,0.25
+rule_only,Local File Inclusion,DVWA,0,12,0.0
+rule_only,Local File Inclusion,XVWA,0,12,0.0
+rule_only,Open Redirect,OWASP_Juice_Shop,0,9,0.0
+rule_only,Open Redirect,XVWA,9,9,1.0
+rule_only,Path Traversal,DVWA,0,24,0.0
+rule_only,Path Traversal,XVWA,0,24,0.0
+rule_only,SQL Injection,DVWA,12,30,0.4
+rule_only,SQL Injection,XVWA,12,30,0.4
+rule_only,XSS,DVWA,30,30,1.0
+rule_only,XSS,OWASP_Juice_Shop,8,30,0.26666666666666666
+rule_only,XSS,XVWA,30,30,1.0
+rule_only,XSS,bWAPP,30,30,1.0

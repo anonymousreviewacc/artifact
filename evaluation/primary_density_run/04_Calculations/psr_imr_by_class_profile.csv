@@ -1,0 +1,37 @@
+﻿category,profile,attempts,distinct_valid_outputs,PSR,mutation_attempts,invalid_mutations,IMR,direct_seed_attempts,low_density_mutations,moderate_density_mutations,high_density_mutations
+API Abuse,Advanced,60,3,0.05,19,0,0.0,41,0,6,13
+API Abuse,Basic,60,3,0.05,16,0,0.0,44,0,5,11
+API Abuse,Evasion,60,3,0.05,18,0,0.0,42,0,7,11
+Command Injection,Advanced,60,21,0.35,23,0,0.0,37,20,3,0
+Command Injection,Basic,60,20,0.3333333333333333,21,0,0.0,39,17,4,0
+Command Injection,Evasion,60,4,0.06666666666666667,21,16,0.7619047619047619,39,16,5,0
+GraphQL Injection,Advanced,60,3,0.05,24,0,0.0,36,0,14,10
+GraphQL Injection,Basic,60,5,0.08333333333333333,20,0,0.0,40,0,11,9
+GraphQL Injection,Evasion,60,5,0.08333333333333333,15,0,0.0,45,0,10,5
+IDOR,Advanced,60,11,0.18333333333333332,19,0,0.0,41,13,0,6
+IDOR,Basic,60,11,0.18333333333333332,24,0,0.0,36,22,0,2
+IDOR,Evasion,60,10,0.16666666666666666,15,0,0.0,45,12,0,3
+Local File Inclusion,Advanced,60,6,0.1,12,0,0.0,48,5,0,7
+Local File Inclusion,Basic,60,7,0.11666666666666667,15,0,0.0,45,4,0,11
+Local File Inclusion,Evasion,60,7,0.11666666666666667,16,0,0.0,44,3,0,13
+Open Redirect,Advanced,60,4,0.06666666666666667,15,0,0.0,45,15,0,0
+Open Redirect,Basic,60,4,0.06666666666666667,16,0,0.0,44,16,0,0
+Open Redirect,Evasion,60,4,0.06666666666666667,23,0,0.0,37,23,0,0
+Path Traversal,Advanced,60,14,0.23333333333333334,16,0,0.0,44,1,0,15
+Path Traversal,Basic,60,15,0.25,20,0,0.0,40,5,0,15
+Path Traversal,Evasion,60,13,0.21666666666666667,13,0,0.0,47,2,0,11
+Remote File Inclusion,Advanced,60,6,0.1,17,0,0.0,43,0,17,0
+Remote File Inclusion,Basic,60,6,0.1,21,0,0.0,39,0,21,0
+Remote File Inclusion,Evasion,60,6,0.1,14,0,0.0,46,0,14,0
+SQL Injection,Advanced,60,21,0.35,24,0,0.0,36,9,5,10
+SQL Injection,Basic,60,24,0.4,18,1,0.05555555555555555,42,5,6,7
+SQL Injection,Evasion,60,18,0.3,12,3,0.25,48,0,6,6
+SSRF,Advanced,60,5,0.08333333333333333,24,0,0.0,36,2,3,19
+SSRF,Basic,60,5,0.08333333333333333,18,0,0.0,42,5,3,10
+SSRF,Evasion,60,5,0.08333333333333333,15,0,0.0,45,3,5,7
+XSS,Advanced,60,20,0.3333333333333333,22,1,0.045454545454545456,38,8,14,0
+XSS,Basic,60,22,0.36666666666666664,19,1,0.05263157894736842,41,6,13,0
+XSS,Evasion,60,12,0.2,18,9,0.5,42,5,13,0
+XXE,Advanced,60,6,0.1,27,0,0.0,33,0,27,0
+XXE,Basic,60,6,0.1,20,0,0.0,40,0,20,0
+XXE,Evasion,60,6,0.1,17,0,0.0,43,0,17,0

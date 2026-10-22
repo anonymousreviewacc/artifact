@@ -1,0 +1,16 @@
+﻿variant,category,site,confirmed_trials,eligible_trials,ecr
+full_hybrid_density,Command Injection,DVWA,6,45,0.13333333333333333
+full_hybrid_density,Command Injection,XVWA,6,45,0.13333333333333333
+full_hybrid_density,Command Injection,bWAPP,6,45,0.13333333333333333
+full_hybrid_density,Local File Inclusion,DVWA,3,20,0.15
+full_hybrid_density,Local File Inclusion,XVWA,3,20,0.15
+full_hybrid_density,Open Redirect,OWASP_Juice_Shop,0,12,0.0
+full_hybrid_density,Open Redirect,XVWA,12,12,1.0
+full_hybrid_density,Path Traversal,DVWA,9,45,0.2
+full_hybrid_density,Path Traversal,XVWA,6,45,0.13333333333333333
+full_hybrid_density,SQL Injection,DVWA,21,62,0.3387096774193548
+full_hybrid_density,SQL Injection,XVWA,21,62,0.3387096774193548
+full_hybrid_density,XSS,DVWA,51,51,1.0
+full_hybrid_density,XSS,OWASP_Juice_Shop,13,51,0.2549019607843137
+full_hybrid_density,XSS,XVWA,51,51,1.0
+full_hybrid_density,XSS,bWAPP,51,51,1.0

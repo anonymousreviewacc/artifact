@@ -1,0 +1,7 @@
+﻿variant,category,confirmed_trials,eligible_trials,ecr
+mutation_only_fixed2,Command Injection,12,117,0.10256410256410256
+mutation_only_fixed2,Local File Inclusion,6,24,0.25
+mutation_only_fixed2,Open Redirect,9,18,0.5
+mutation_only_fixed2,Path Traversal,9,48,0.1875
+mutation_only_fixed2,SQL Injection,84,226,0.37168141592920356
+mutation_only_fixed2,XSS,173,212,0.8160377358490566

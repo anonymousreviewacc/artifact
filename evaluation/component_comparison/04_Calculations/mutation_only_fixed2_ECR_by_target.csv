@@ -1,0 +1,16 @@
+﻿variant,category,site,confirmed_trials,eligible_trials,ecr
+mutation_only_fixed2,Command Injection,DVWA,4,39,0.10256410256410256
+mutation_only_fixed2,Command Injection,XVWA,4,39,0.10256410256410256
+mutation_only_fixed2,Command Injection,bWAPP,4,39,0.10256410256410256
+mutation_only_fixed2,Local File Inclusion,DVWA,3,12,0.25
+mutation_only_fixed2,Local File Inclusion,XVWA,3,12,0.25
+mutation_only_fixed2,Open Redirect,OWASP_Juice_Shop,0,9,0.0
+mutation_only_fixed2,Open Redirect,XVWA,9,9,1.0
+mutation_only_fixed2,Path Traversal,DVWA,6,24,0.25
+mutation_only_fixed2,Path Traversal,XVWA,3,24,0.125
+mutation_only_fixed2,SQL Injection,DVWA,42,113,0.37168141592920356
+mutation_only_fixed2,SQL Injection,XVWA,42,113,0.37168141592920356
+mutation_only_fixed2,XSS,DVWA,53,53,1.0
+mutation_only_fixed2,XSS,OWASP_Juice_Shop,14,53,0.2641509433962264
+mutation_only_fixed2,XSS,XVWA,53,53,1.0
+mutation_only_fixed2,XSS,bWAPP,53,53,1.0

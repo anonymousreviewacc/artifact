@@ -1,0 +1,7 @@
+﻿variant,category,confirmed_trials,eligible_trials,ecr
+rule_only,Command Injection,12,48,0.25
+rule_only,Local File Inclusion,0,24,0.0
+rule_only,Open Redirect,9,18,0.5
+rule_only,Path Traversal,0,48,0.0
+rule_only,SQL Injection,24,60,0.4
+rule_only,XSS,98,120,0.8166666666666667

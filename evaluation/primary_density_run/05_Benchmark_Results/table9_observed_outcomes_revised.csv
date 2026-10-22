@@ -1,0 +1,7 @@
+﻿Observed outcome group,Count,Percent of all 825 rows,Interpretation
+Confirmed behavioral signal,274,33.21,Explicit class-specific behavioral oracle; ECR numerator.
+"Oracle-supported, no confirmation",289,35.03,No predefined success signal; does not prove target safety.
+"SQL error signal, unconfirmed",62,7.52,Error text observed; not counted as exploit confirmation.
+No validated class-specific oracle,104,12.61,Observed response but no defensible success/failure oracle.
+Benchmark environment error,63,7.64,bWAPP SQL route/configuration issue; excluded from ECR.
+Safety skipped,33,4.00,SSRF/RFI main-run cases withheld from server-side fetch/include.

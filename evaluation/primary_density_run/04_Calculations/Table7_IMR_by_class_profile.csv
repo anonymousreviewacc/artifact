@@ -1,0 +1,13 @@
+﻿Class,Basic invalid_mutations/mutation_attempts,Basic IMR,Advanced invalid_mutations/mutation_attempts,Advanced IMR,Evasion invalid_mutations/mutation_attempts,Evasion IMR
+API Abuse,0/16,0.000000,0/19,0.000000,0/18,0.000000
+Command Injection,0/21,0.000000,0/23,0.000000,16/21,0.761905
+GraphQL Injection,0/20,0.000000,0/24,0.000000,0/15,0.000000
+IDOR,0/24,0.000000,0/19,0.000000,0/15,0.000000
+Local File Inclusion,0/15,0.000000,0/12,0.000000,0/16,0.000000
+Open Redirect,0/16,0.000000,0/15,0.000000,0/23,0.000000
+Path Traversal,0/20,0.000000,0/16,0.000000,0/13,0.000000
+Remote File Inclusion,0/21,0.000000,0/17,0.000000,0/14,0.000000
+SQL Injection,1/18,0.055556,0/24,0.000000,3/12,0.250000
+SSRF,0/18,0.000000,0/24,0.000000,0/15,0.000000
+XSS,1/19,0.052632,1/22,0.045455,9/18,0.500000
+XXE,0/20,0.000000,0/27,0.000000,0/17,0.000000

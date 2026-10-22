@@ -1,0 +1,46 @@
+{
+  "seed_entries": 67,
+  "unique_seed_strings": 64,
+  "categories": 12,
+  "profiles": 3,
+  "theta1": 0.015151515151515152,
+  "theta2": 0.07142857142857142,
+  "threshold_selection": "Among observed scores from the 67 class-labelled in-app seed entries, choose cutoffs minimizing absolute distance from N/3 and 2N/3 cumulative counts; ties choose smaller scores. Frozen before benchmark execution.",
+  "seed_group_counts": {
+    "MODERATE": 21,
+    "HIGH": 21,
+    "LOW": 25
+  },
+  "run_count": 36,
+  "attempts": 2160,
+  "direct_seed_attempts": 1493,
+  "direct_seed_fraction": 0.6912037037037037,
+  "mutation_attempts": 667,
+  "mutation_fraction": 0.3087962962962963,
+  "mutation_tier_counts": {
+    "HIGH": 201,
+    "LOW": 217,
+    "MODERATE": 249
+  },
+  "distinct_valid_outputs": 341,
+  "PSR": 0.15787037037037038,
+  "invalid_mutations": 31,
+  "IMR": 0.046476761619190406,
+  "all_path_structural_rejects": 70,
+  "validation": "36 runs x 60 attempts; score, cutoffs, branch tier, and operation_sequence cross-checked against the exact seed-derived scores.",
+  "interpretation_limit": "PSR is distinct outputs accepted by the current class-structure predicates divided by attempts. These predicates are not proof of parser acceptance or exploitability. IMR is structurally rejected adaptive-mutation attempts divided by adaptive-mutation attempts.",
+  "audit_reconciliation": {
+    "source": "01_App_Logs/density_mutation_events.csv and 02_App_Payloads/density_generated_payloads.csv",
+    "attempt_level_predicate_pass_attempts": 2090,
+    "attempt_level_predicate_pass_fraction": 0.9675925925925926,
+    "predicate_failures_all_paths": 70,
+    "predicate_failures_direct_seed": 39,
+    "predicate_failures_adaptive_mutation": 31,
+    "unique_accepted_output_entries_after_dedup_within_each_category_profile_call": 341,
+    "globally_distinct_payload_texts_ignoring_category_and_profile": 171,
+    "PSR_definition": "Distinct accepted output entries after per-call deduplication divided by all attempts; repeats across category/profile calls remain separate context-specific output entries.",
+    "PSR_recomputed": 0.15787037037037038,
+    "raw_predicate_pass_fraction_is_not_PSR": true,
+    "IMR_recomputed": 0.046476761619190406
+  }
+}

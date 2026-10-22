@@ -1,0 +1,7 @@
+﻿variant,category,confirmed_trials,eligible_trials,ecr
+rule_mutation_density_no_filter,Command Injection,123,540,0.22777777777777777
+rule_mutation_density_no_filter,Local File Inclusion,14,360,0.03888888888888889
+rule_mutation_density_no_filter,Open Redirect,180,360,0.5
+rule_mutation_density_no_filter,Path Traversal,31,360,0.08611111111111111
+rule_mutation_density_no_filter,SQL Injection,104,360,0.28888888888888886
+rule_mutation_density_no_filter,XSS,572,720,0.7944444444444444

@@ -1,0 +1,25 @@
+﻿variant,category,confirmed_trials,eligible_trials,ecr
+rule_only,Command Injection,12,48,0.25
+rule_only,Local File Inclusion,0,24,0.0
+rule_only,Open Redirect,9,18,0.5
+rule_only,Path Traversal,0,48,0.0
+rule_only,SQL Injection,24,60,0.4
+rule_only,XSS,98,120,0.8166666666666667
+mutation_only_fixed2,Command Injection,12,111,0.10810810810810811
+mutation_only_fixed2,Local File Inclusion,6,24,0.25
+mutation_only_fixed2,Open Redirect,9,18,0.5
+mutation_only_fixed2,Path Traversal,9,48,0.1875
+mutation_only_fixed2,SQL Injection,70,224,0.3125
+mutation_only_fixed2,XSS,166,204,0.8137254901960784
+rule_mutation_density_no_filter,Command Injection,147,540,0.2722222222222222
+rule_mutation_density_no_filter,Local File Inclusion,36,360,0.1
+rule_mutation_density_no_filter,Open Redirect,180,360,0.5
+rule_mutation_density_no_filter,Path Traversal,29,360,0.08055555555555556
+rule_mutation_density_no_filter,SQL Injection,124,360,0.34444444444444444
+rule_mutation_density_no_filter,XSS,556,720,0.7722222222222223
+full_hybrid_density,Command Injection,24,114,0.21052631578947367
+full_hybrid_density,Local File Inclusion,6,42,0.14285714285714285
+full_hybrid_density,Open Redirect,12,24,0.5
+full_hybrid_density,Path Traversal,13,84,0.15476190476190477
+full_hybrid_density,SQL Injection,40,138,0.2898550724637681
+full_hybrid_density,XSS,164,204,0.803921568627451

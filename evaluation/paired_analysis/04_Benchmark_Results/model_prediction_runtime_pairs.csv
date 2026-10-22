@@ -1,0 +1,1702 @@
+﻿site,category,mode,index,predicted_category,intended_category,classification_correct,runtime_confirmed,evidence
+DVWA,SQL Injection,Basic,1,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,2,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,3,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,4,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,5,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,6,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,7,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,8,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,9,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,10,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,11,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,12,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,13,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,14,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,15,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,16,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,17,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Basic,18,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,19,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,20,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,21,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,22,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,23,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,24,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,25,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Basic,26,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,27,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,28,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,29,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,30,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,31,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,32,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,33,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,34,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,35,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,36,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,37,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,38,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,39,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,40,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,41,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,42,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,43,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,44,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,45,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,46,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,47,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,48,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,49,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,50,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,51,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,52,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,53,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,54,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Basic,55,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,56,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,57,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Basic,58,SQL,SQL,True,False,
+DVWA,SQL Injection,Basic,59,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Basic,60,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,1,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,2,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,3,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,4,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,5,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,6,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,7,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Advanced,8,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,9,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,10,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,11,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,12,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,13,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,14,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,15,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,16,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,17,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Advanced,18,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,19,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,20,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,21,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,22,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,23,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Advanced,24,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,25,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,26,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,27,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,28,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,29,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,30,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,31,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,32,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,33,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,34,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,35,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,36,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,37,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,38,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,39,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,40,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,41,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,42,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,43,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,44,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,45,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,46,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,47,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,48,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,49,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,50,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,51,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,52,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,53,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,54,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,55,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,56,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,57,SQL,SQL,True,False,
+DVWA,SQL Injection,Advanced,58,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,59,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Advanced,60,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,1,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,2,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,3,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,4,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Evasion,5,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,6,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,7,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,8,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,9,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,10,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,11,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,12,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,13,CMD,SQL,False,False,
+DVWA,SQL Injection,Evasion,14,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,15,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,16,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,17,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,18,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,19,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,20,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,21,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,22,CMD,SQL,False,False,
+DVWA,SQL Injection,Evasion,23,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,24,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,25,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,26,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,27,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,28,SQL,SQL,True,False,sql_error_text
+DVWA,SQL Injection,Evasion,29,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,30,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,31,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,32,GRAPHQL,SQL,False,False,
+DVWA,SQL Injection,Evasion,33,CMD,SQL,False,False,
+DVWA,SQL Injection,Evasion,34,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,35,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,36,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,37,GRAPHQL,SQL,False,False,
+DVWA,SQL Injection,Evasion,38,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,39,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,40,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,41,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,42,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,43,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,44,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,45,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,46,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,47,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,48,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,49,GRAPHQL,SQL,False,False,
+DVWA,SQL Injection,Evasion,50,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,51,CMD,SQL,False,False,
+DVWA,SQL Injection,Evasion,52,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,53,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,54,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,55,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,56,GRAPHQL,SQL,False,False,sql_error_text
+DVWA,SQL Injection,Evasion,57,SQL,SQL,True,False,
+DVWA,SQL Injection,Evasion,58,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,59,SQL,SQL,True,True,result_rows:6;baseline:2
+DVWA,SQL Injection,Evasion,60,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,1,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,2,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,3,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,4,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,5,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,6,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,7,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,8,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,9,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,10,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,11,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,12,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,13,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,14,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,15,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,16,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,17,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Basic,18,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,19,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,20,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,21,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,22,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,23,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,24,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,25,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Basic,26,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,27,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,28,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,29,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,30,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,31,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,32,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,33,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,34,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,35,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,36,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,37,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,38,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,39,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,40,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,41,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,42,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,43,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,44,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,45,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,46,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,47,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,48,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,49,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,50,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,51,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,52,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,53,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,54,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Basic,55,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,56,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,57,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Basic,58,SQL,SQL,True,False,
+XVWA,SQL Injection,Basic,59,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Basic,60,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,1,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,2,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,3,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,4,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,5,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,6,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,7,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Advanced,8,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,9,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,10,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,11,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,12,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,13,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,14,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,15,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,16,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,17,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Advanced,18,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,19,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,20,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,21,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,22,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,23,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Advanced,24,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,25,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,26,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,27,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,28,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,29,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,30,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,31,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,32,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,33,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,34,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,35,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,36,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,37,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,38,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,39,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,40,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,41,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,42,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,43,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,44,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,45,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,46,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,47,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,48,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,49,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,50,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,51,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,52,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,53,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,54,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,55,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,56,SQL,SQL,True,False,
+XVWA,SQL Injection,Advanced,57,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,58,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,59,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Advanced,60,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,1,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,2,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,3,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,4,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Evasion,5,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,6,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,7,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,8,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,9,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,10,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,11,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,12,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,13,CMD,SQL,False,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,14,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,15,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,16,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,17,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,18,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,19,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,20,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,21,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,22,CMD,SQL,False,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,23,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,24,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,25,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,26,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,27,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,28,SQL,SQL,True,False,sql_error_text
+XVWA,SQL Injection,Evasion,29,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,30,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,31,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,32,GRAPHQL,SQL,False,False,
+XVWA,SQL Injection,Evasion,33,CMD,SQL,False,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,34,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,35,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,36,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,37,GRAPHQL,SQL,False,False,
+XVWA,SQL Injection,Evasion,38,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,39,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,40,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,41,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,42,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,43,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,44,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,45,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,46,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,47,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,48,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,49,GRAPHQL,SQL,False,False,
+XVWA,SQL Injection,Evasion,50,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,51,CMD,SQL,False,False,
+XVWA,SQL Injection,Evasion,52,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,53,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,54,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,55,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,56,GRAPHQL,SQL,False,False,sql_error_text
+XVWA,SQL Injection,Evasion,57,SQL,SQL,True,False,
+XVWA,SQL Injection,Evasion,58,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,59,SQL,SQL,True,True,result_rows:10;baseline:0
+XVWA,SQL Injection,Evasion,60,SQL,SQL,True,False,
+DVWA,XSS,Basic,1,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,2,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,3,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,4,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,5,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,6,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,7,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,8,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,9,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,10,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,11,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,12,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,13,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,14,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,15,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,16,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,17,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,18,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,19,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,20,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,21,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,22,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,23,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,24,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,25,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,26,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,27,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,28,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,29,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,30,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,31,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,32,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,33,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,34,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,35,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,36,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,37,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,38,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,39,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,40,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,41,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,42,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,43,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,44,XSS,XSS,True,False,payload_reflected_without_dialog
+DVWA,XSS,Basic,45,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,46,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,47,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,48,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,49,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,50,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,51,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,52,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,53,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,54,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,55,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,56,XSS,XSS,True,False,payload_reflected_without_dialog
+DVWA,XSS,Basic,57,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,58,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,59,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Basic,60,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,1,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,2,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,3,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,4,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,5,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,6,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,7,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,8,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,9,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,10,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,11,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,12,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,13,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,14,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,15,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,16,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,17,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,18,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,19,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,20,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,21,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,22,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,23,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,24,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,25,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,26,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,27,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,28,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,29,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,30,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,31,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,32,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,33,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,34,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,35,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,36,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,37,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,38,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,39,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,40,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,41,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,42,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,43,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,44,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,45,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,46,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,47,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,48,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,49,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,50,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,51,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,52,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,53,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,54,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,55,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,56,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,57,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,58,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,59,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Advanced,60,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,1,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,2,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,3,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,4,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,5,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,6,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,7,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,8,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,9,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,10,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,11,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,12,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,13,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,14,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,15,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,16,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,17,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,18,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,19,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,20,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,21,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,22,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,23,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,24,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,25,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,26,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,27,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,28,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,29,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,30,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,31,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,32,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,33,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,34,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,35,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,36,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,37,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,38,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,39,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,40,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,41,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,42,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,43,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,44,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,45,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,46,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,47,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,48,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,49,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,50,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,51,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,52,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,53,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,54,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,55,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,56,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,57,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,58,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,59,XSS,XSS,True,True,browser_dialog_event
+DVWA,XSS,Evasion,60,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,1,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,2,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,3,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,4,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,5,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,6,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,7,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,8,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,9,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,10,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,11,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,12,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,13,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,14,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,15,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,16,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,17,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,18,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,19,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,20,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,21,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,22,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,23,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,24,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,25,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,26,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,27,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,28,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,29,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,30,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,31,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,32,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,33,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,34,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,35,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,36,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,37,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,38,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,39,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,40,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,41,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,42,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,43,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,44,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,45,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,46,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,47,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,48,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,49,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,50,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,51,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Basic,52,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,53,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,54,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,55,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,56,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,57,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,58,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,59,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Basic,60,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,1,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,2,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,3,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,4,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,5,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,6,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,7,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,8,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,9,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,10,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,11,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,12,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,13,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,14,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,15,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,16,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,17,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,18,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,19,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,20,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,21,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,22,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,23,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,24,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,25,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,26,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,27,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,28,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,29,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,30,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,31,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,32,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,33,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,34,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,35,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,36,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,37,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,38,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,39,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,40,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,41,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,42,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Advanced,43,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,44,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,45,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,46,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,47,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,48,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,49,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,50,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,51,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,52,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,53,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,54,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,55,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,56,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,57,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,58,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,59,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Advanced,60,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,1,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,2,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,3,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,4,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,5,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,6,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,7,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,8,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,9,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,10,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,11,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,12,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,13,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,14,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,15,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,16,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,17,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,18,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,19,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,20,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,21,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,22,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,23,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,24,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,25,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,26,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,27,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,28,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,29,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,30,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,31,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,32,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,33,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,34,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,35,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,36,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,37,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,38,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,39,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,40,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,41,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,42,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,43,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,44,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,45,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,46,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,47,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,48,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,49,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,50,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,51,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,52,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,53,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,54,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,55,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,56,XSS,XSS,True,True,browser_dialog_event
+OWASP_Juice_Shop,XSS,Evasion,57,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,58,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,59,XSS,XSS,True,False,no_dialog_or_reflection
+OWASP_Juice_Shop,XSS,Evasion,60,XSS,XSS,True,False,no_dialog_or_reflection
+XVWA,XSS,Basic,1,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,2,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,3,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,4,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,5,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,6,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,7,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,8,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,9,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,10,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,11,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,12,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,13,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,14,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,15,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,16,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,17,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,18,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,19,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,20,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,21,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,22,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,23,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,24,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,25,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,26,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,27,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,28,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,29,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,30,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,31,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,32,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,33,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,34,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,35,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,36,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,37,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,38,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,39,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,40,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,41,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,42,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,43,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,44,XSS,XSS,True,False,payload_reflected_without_dialog
+XVWA,XSS,Basic,45,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,46,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,47,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,48,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,49,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,50,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,51,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,52,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,53,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,54,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,55,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,56,XSS,XSS,True,False,payload_reflected_without_dialog
+XVWA,XSS,Basic,57,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,58,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,59,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Basic,60,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,1,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,2,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,3,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,4,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,5,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,6,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,7,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,8,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,9,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,10,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,11,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,12,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,13,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,14,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,15,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,16,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,17,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,18,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,19,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,20,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,21,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,22,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,23,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,24,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,25,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,26,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,27,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,28,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,29,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,30,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,31,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,32,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,33,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,34,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,35,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,36,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,37,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,38,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,39,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,40,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,41,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,42,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,43,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,44,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,45,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,46,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,47,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,48,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,49,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,50,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,51,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,52,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,53,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,54,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,55,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,56,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,57,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,58,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,59,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Advanced,60,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,1,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,2,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,3,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,4,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,5,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,6,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,7,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,8,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,9,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,10,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,11,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,12,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,13,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,14,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,15,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,16,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,17,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,18,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,19,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,20,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,21,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,22,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,23,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,24,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,25,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,26,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,27,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,28,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,29,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,30,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,31,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,32,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,33,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,34,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,35,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,36,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,37,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,38,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,39,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,40,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,41,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,42,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,43,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,44,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,45,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,46,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,47,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,48,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,49,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,50,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,51,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,52,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,53,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,54,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,55,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,56,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,57,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,58,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,59,XSS,XSS,True,True,browser_dialog_event
+XVWA,XSS,Evasion,60,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,1,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,2,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,3,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,4,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,5,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,6,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,7,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,8,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,9,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,10,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,11,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,12,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,13,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,14,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,15,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,16,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,17,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,18,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,19,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,20,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,21,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,22,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,23,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,24,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,25,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,26,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,27,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,28,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,29,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,30,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,31,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,32,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,33,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,34,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,35,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,36,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,37,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,38,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,39,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,40,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,41,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,42,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,43,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,44,XSS,XSS,True,False,payload_reflected_without_dialog
+bWAPP,XSS,Basic,45,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,46,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,47,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,48,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,49,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,50,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,51,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,52,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,53,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,54,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,55,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,56,XSS,XSS,True,False,payload_reflected_without_dialog
+bWAPP,XSS,Basic,57,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,58,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,59,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Basic,60,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,1,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,2,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,3,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,4,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,5,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,6,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,7,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,8,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,9,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,10,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,11,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,12,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,13,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,14,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,15,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,16,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,17,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,18,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,19,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,20,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,21,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,22,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,23,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,24,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,25,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,26,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,27,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,28,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,29,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,30,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,31,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,32,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,33,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,34,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,35,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,36,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,37,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,38,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,39,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,40,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,41,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,42,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,43,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,44,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,45,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,46,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,47,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,48,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,49,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,50,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,51,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,52,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,53,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,54,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,55,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,56,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,57,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,58,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,59,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Advanced,60,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,1,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,2,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,3,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,4,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,5,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,6,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,7,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,8,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,9,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,10,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,11,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,12,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,13,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,14,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,15,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,16,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,17,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,18,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,19,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,20,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,21,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,22,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,23,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,24,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,25,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,26,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,27,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,28,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,29,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,30,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,31,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,32,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,33,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,34,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,35,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,36,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,37,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,38,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,39,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,40,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,41,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,42,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,43,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,44,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,45,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,46,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,47,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,48,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,49,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,50,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,51,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,52,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,53,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,54,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,55,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,56,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,57,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,58,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,59,XSS,XSS,True,True,browser_dialog_event
+bWAPP,XSS,Evasion,60,XSS,XSS,True,True,browser_dialog_event
+DVWA,Command Injection,Basic,1,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,2,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,3,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,4,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,5,LFI,CMD,False,False,
+DVWA,Command Injection,Basic,6,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,7,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,8,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,9,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,10,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Basic,11,IDOR,CMD,False,False,
+DVWA,Command Injection,Basic,12,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,13,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,14,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,15,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,16,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,17,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,18,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,19,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,20,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,21,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,22,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,23,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,24,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,25,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,26,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,27,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,28,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,29,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,30,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,31,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,32,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,33,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,34,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,35,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,36,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,37,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,38,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,39,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,40,GRAPHQL,CMD,False,False,
+DVWA,Command Injection,Basic,41,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,42,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,43,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,44,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,45,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,46,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,47,LFI,CMD,False,False,
+DVWA,Command Injection,Basic,48,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,49,IDOR,CMD,False,False,
+DVWA,Command Injection,Basic,50,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,51,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,52,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,53,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,54,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,55,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Basic,56,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,57,CMD,CMD,True,False,
+DVWA,Command Injection,Basic,58,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Basic,59,SQL,CMD,False,False,
+DVWA,Command Injection,Basic,60,IDOR,CMD,False,False,
+DVWA,Command Injection,Advanced,1,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,2,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,3,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,4,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,5,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,6,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,7,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,8,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,9,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,10,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,11,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,12,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,13,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,14,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,15,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,16,IDOR,CMD,False,False,
+DVWA,Command Injection,Advanced,17,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,18,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,19,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,20,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,21,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,22,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,23,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,24,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,25,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,26,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,27,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,28,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,29,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,30,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,31,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,32,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,33,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,34,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,35,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,36,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,37,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,38,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,39,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,40,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,41,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,42,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,43,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,44,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,45,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,46,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,47,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,48,LFI,CMD,False,False,
+DVWA,Command Injection,Advanced,49,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,50,IDOR,CMD,False,False,
+DVWA,Command Injection,Advanced,51,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,52,IDOR,CMD,False,False,
+DVWA,Command Injection,Advanced,53,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,54,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,55,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,56,CMD,CMD,True,False,
+DVWA,Command Injection,Advanced,57,IDOR,CMD,False,False,
+DVWA,Command Injection,Advanced,58,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,59,SQL,CMD,False,False,
+DVWA,Command Injection,Advanced,60,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,1,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,2,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,3,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Evasion,4,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,5,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,6,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,7,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,8,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,9,IDOR,CMD,False,False,
+DVWA,Command Injection,Evasion,10,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,11,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,12,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,13,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,14,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,15,LFI,CMD,False,False,
+DVWA,Command Injection,Evasion,16,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,17,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,18,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,19,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Evasion,20,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Evasion,21,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,22,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,23,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,24,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,25,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,26,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,27,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,28,IDOR,CMD,False,False,
+DVWA,Command Injection,Evasion,29,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,30,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,31,IDOR,CMD,False,False,
+DVWA,Command Injection,Evasion,32,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,33,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,34,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,35,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,36,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,37,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,38,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,39,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,40,LFI,CMD,False,False,
+DVWA,Command Injection,Evasion,41,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,42,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Evasion,43,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,44,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,45,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,46,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,47,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,48,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,49,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,50,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,51,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,52,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,53,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,54,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,55,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,56,CMD,CMD,True,True,command_output_marker
+DVWA,Command Injection,Evasion,57,SQL,CMD,False,False,
+DVWA,Command Injection,Evasion,58,CMD,CMD,True,False,
+DVWA,Command Injection,Evasion,59,LFI,CMD,False,True,command_output_marker
+DVWA,Command Injection,Evasion,60,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,1,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,2,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,3,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,4,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,5,LFI,CMD,False,False,
+XVWA,Command Injection,Basic,6,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,7,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,8,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,9,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,10,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Basic,11,IDOR,CMD,False,False,
+XVWA,Command Injection,Basic,12,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,13,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,14,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,15,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,16,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,17,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,18,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,19,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,20,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,21,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,22,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,23,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,24,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,25,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,26,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,27,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,28,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,29,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,30,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,31,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,32,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,33,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,34,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,35,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,36,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,37,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,38,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,39,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,40,GRAPHQL,CMD,False,False,
+XVWA,Command Injection,Basic,41,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,42,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,43,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,44,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,45,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,46,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,47,LFI,CMD,False,False,
+XVWA,Command Injection,Basic,48,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,49,IDOR,CMD,False,False,
+XVWA,Command Injection,Basic,50,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,51,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,52,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,53,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,54,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,55,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Basic,56,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,57,CMD,CMD,True,False,
+XVWA,Command Injection,Basic,58,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Basic,59,SQL,CMD,False,False,
+XVWA,Command Injection,Basic,60,IDOR,CMD,False,False,
+XVWA,Command Injection,Advanced,1,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,2,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,3,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,4,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,5,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,6,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,7,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,8,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,9,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,10,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,11,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,12,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,13,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,14,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,15,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,16,IDOR,CMD,False,False,
+XVWA,Command Injection,Advanced,17,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,18,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,19,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,20,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,21,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,22,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,23,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,24,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,25,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,26,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,27,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,28,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,29,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,30,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,31,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,32,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,33,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,34,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,35,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,36,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,37,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,38,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,39,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,40,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,41,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,42,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,43,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,44,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,45,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,46,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,47,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,48,LFI,CMD,False,False,
+XVWA,Command Injection,Advanced,49,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,50,IDOR,CMD,False,False,
+XVWA,Command Injection,Advanced,51,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,52,IDOR,CMD,False,False,
+XVWA,Command Injection,Advanced,53,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,54,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,55,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,56,CMD,CMD,True,False,
+XVWA,Command Injection,Advanced,57,IDOR,CMD,False,False,
+XVWA,Command Injection,Advanced,58,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,59,SQL,CMD,False,False,
+XVWA,Command Injection,Advanced,60,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,1,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,2,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,3,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Evasion,4,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,5,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,6,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,7,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,8,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,9,IDOR,CMD,False,False,
+XVWA,Command Injection,Evasion,10,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,11,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,12,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,13,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,14,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,15,LFI,CMD,False,False,
+XVWA,Command Injection,Evasion,16,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,17,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,18,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,19,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Evasion,20,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Evasion,21,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,22,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,23,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,24,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,25,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,26,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,27,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,28,IDOR,CMD,False,False,
+XVWA,Command Injection,Evasion,29,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,30,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,31,IDOR,CMD,False,False,
+XVWA,Command Injection,Evasion,32,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,33,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,34,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,35,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,36,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,37,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,38,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,39,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,40,LFI,CMD,False,False,
+XVWA,Command Injection,Evasion,41,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,42,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Evasion,43,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,44,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,45,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,46,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,47,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,48,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,49,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,50,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,51,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,52,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,53,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,54,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,55,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,56,CMD,CMD,True,True,command_output_marker
+XVWA,Command Injection,Evasion,57,SQL,CMD,False,False,
+XVWA,Command Injection,Evasion,58,CMD,CMD,True,False,
+XVWA,Command Injection,Evasion,59,LFI,CMD,False,True,command_output_marker
+XVWA,Command Injection,Evasion,60,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,1,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,2,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,3,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,4,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,5,LFI,CMD,False,False,
+bWAPP,Command Injection,Basic,6,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,7,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,8,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,9,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,10,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Basic,11,IDOR,CMD,False,False,
+bWAPP,Command Injection,Basic,12,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,13,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,14,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,15,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,16,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,17,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,18,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,19,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,20,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,21,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,22,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,23,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,24,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,25,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,26,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,27,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,28,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,29,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,30,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,31,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,32,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,33,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,34,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,35,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,36,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,37,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,38,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,39,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,40,GRAPHQL,CMD,False,False,
+bWAPP,Command Injection,Basic,41,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,42,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,43,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,44,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,45,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,46,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,47,LFI,CMD,False,False,
+bWAPP,Command Injection,Basic,48,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,49,IDOR,CMD,False,False,
+bWAPP,Command Injection,Basic,50,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,51,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,52,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,53,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,54,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,55,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Basic,56,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,57,CMD,CMD,True,False,
+bWAPP,Command Injection,Basic,58,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Basic,59,SQL,CMD,False,False,
+bWAPP,Command Injection,Basic,60,IDOR,CMD,False,False,
+bWAPP,Command Injection,Advanced,1,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,2,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,3,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,4,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,5,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,6,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,7,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,8,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,9,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,10,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,11,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,12,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,13,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,14,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,15,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,16,IDOR,CMD,False,False,
+bWAPP,Command Injection,Advanced,17,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,18,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,19,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,20,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,21,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,22,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,23,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,24,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,25,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,26,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,27,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,28,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,29,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,30,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,31,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,32,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,33,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,34,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,35,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,36,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,37,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,38,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,39,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,40,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,41,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,42,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,43,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,44,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,45,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,46,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,47,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,48,LFI,CMD,False,False,
+bWAPP,Command Injection,Advanced,49,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,50,IDOR,CMD,False,False,
+bWAPP,Command Injection,Advanced,51,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,52,IDOR,CMD,False,False,
+bWAPP,Command Injection,Advanced,53,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,54,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,55,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,56,CMD,CMD,True,False,
+bWAPP,Command Injection,Advanced,57,IDOR,CMD,False,False,
+bWAPP,Command Injection,Advanced,58,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,59,SQL,CMD,False,False,
+bWAPP,Command Injection,Advanced,60,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,1,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,2,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,3,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Evasion,4,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,5,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,6,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,7,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,8,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,9,IDOR,CMD,False,False,
+bWAPP,Command Injection,Evasion,10,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,11,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,12,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,13,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,14,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,15,LFI,CMD,False,False,
+bWAPP,Command Injection,Evasion,16,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,17,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,18,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,19,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Evasion,20,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Evasion,21,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,22,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,23,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,24,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,25,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,26,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,27,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,28,IDOR,CMD,False,False,
+bWAPP,Command Injection,Evasion,29,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,30,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,31,IDOR,CMD,False,False,
+bWAPP,Command Injection,Evasion,32,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,33,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,34,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,35,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,36,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,37,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,38,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,39,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,40,LFI,CMD,False,False,
+bWAPP,Command Injection,Evasion,41,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,42,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Evasion,43,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,44,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,45,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,46,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,47,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,48,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,49,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,50,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,51,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,52,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,53,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,54,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,55,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,56,CMD,CMD,True,True,command_output_marker
+bWAPP,Command Injection,Evasion,57,SQL,CMD,False,False,
+bWAPP,Command Injection,Evasion,58,CMD,CMD,True,False,
+bWAPP,Command Injection,Evasion,59,LFI,CMD,False,True,command_output_marker
+bWAPP,Command Injection,Evasion,60,CMD,CMD,True,True,command_output_marker
+XVWA,Open Redirect,Basic,1,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,2,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,3,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,4,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,5,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,6,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,7,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,8,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,9,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,10,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,11,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,12,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,13,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,14,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,15,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,16,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,17,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,18,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,19,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,20,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,21,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Basic,22,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,23,SQL,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,24,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,25,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,26,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Basic,27,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,1,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,2,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,3,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,4,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,5,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,6,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,7,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,8,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,9,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,10,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,11,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,12,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,13,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,14,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,15,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,16,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,17,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,18,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,19,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,20,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,21,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,22,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,23,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,24,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,25,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,26,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Advanced,27,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,1,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,2,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,3,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,4,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,5,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,6,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,7,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,8,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,9,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,10,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,11,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,12,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,13,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,14,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,15,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,16,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,17,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,18,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,19,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,20,XXE,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,21,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,22,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,23,OPEN_REDIRECT,OPEN_REDIRECT,True,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,24,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,25,XSS,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,26,CMD,OPEN_REDIRECT,False,True,external_location_not_followed
+XVWA,Open Redirect,Evasion,27,XSS,OPEN_REDIRECT,False,True,external_location_not_followed

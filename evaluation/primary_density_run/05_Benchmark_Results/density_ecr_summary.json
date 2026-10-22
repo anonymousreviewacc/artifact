@@ -1,0 +1,127 @@
+{
+  "run_id": "model6_20261011T085840Z",
+  "generated_payload_rows": 341,
+  "benchmark_result_rows": 825,
+  "supported_oracle_trials": 625,
+  "confirmed_supported_trials": 274,
+  "pooled_ECR": 0.4384,
+  "pooled_ECR_percent": 43.84,
+  "confirmed_all_rows_including_unvalidated_oracles": 274,
+  "outcome_counts": {
+    "SQL_RESULT_DIFFERENTIAL": 52,
+    "SQL_ERROR_SIGNAL_UNCONFIRMED": 62,
+    "NO_CONFIRMATION_SIGNAL": 397,
+    "JAVASCRIPT_DIALOG_CONFIRMED": 175,
+    "OBJECT_RESPONSE_UNCONFIRMED": 32,
+    "COMMAND_OUTPUT_CONFIRMED": 18,
+    "FILE_CONTENT_CONFIRMED": 17,
+    "SKIPPED_SAFETY_OR_SIDE_EFFECT": 33,
+    "XML_PARSER_SIGNAL_UNCONFIRMED": 18,
+    "EXTERNAL_REDIRECT_CONFIRMED": 12,
+    "API_RESPONSE_UNCONFIRMED": 9
+  },
+  "skipped_ssrf_rfi_rows": 33,
+  "supported_pairs": [
+    [
+      "Command Injection",
+      "DVWA"
+    ],
+    [
+      "Command Injection",
+      "XVWA"
+    ],
+    [
+      "Command Injection",
+      "bWAPP"
+    ],
+    [
+      "Local File Inclusion",
+      "DVWA"
+    ],
+    [
+      "Local File Inclusion",
+      "XVWA"
+    ],
+    [
+      "Open Redirect",
+      "OWASP_Juice_Shop"
+    ],
+    [
+      "Open Redirect",
+      "XVWA"
+    ],
+    [
+      "Path Traversal",
+      "DVWA"
+    ],
+    [
+      "Path Traversal",
+      "XVWA"
+    ],
+    [
+      "SQL Injection",
+      "DVWA"
+    ],
+    [
+      "SQL Injection",
+      "XVWA"
+    ],
+    [
+      "XSS",
+      "DVWA"
+    ],
+    [
+      "XSS",
+      "OWASP_Juice_Shop"
+    ],
+    [
+      "XSS",
+      "XVWA"
+    ],
+    [
+      "XSS",
+      "bWAPP"
+    ]
+  ],
+  "excluded_pairs_without_validated_oracle": [
+    [
+      "API Abuse",
+      "OWASP_Juice_Shop"
+    ],
+    [
+      "GraphQL Injection",
+      "OWASP_Juice_Shop"
+    ],
+    [
+      "IDOR",
+      "OWASP_Juice_Shop"
+    ],
+    [
+      "IDOR",
+      "XVWA"
+    ],
+    [
+      "XXE",
+      "bWAPP"
+    ]
+  ],
+  "safety_skipped_pairs": [
+    [
+      "Remote File Inclusion",
+      "XVWA"
+    ],
+    [
+      "SSRF",
+      "XVWA"
+    ]
+  ],
+  "benchmark_environment_error_pairs": [
+    [
+      "SQL Injection",
+      "bWAPP"
+    ]
+  ],
+  "ECR_definition": "Confirmed payload/site executions divided by tested payload/site trials for the explicitly listed class/site pairs with direct behavioural oracles. Unsupported pairs and SSRF/RFI are excluded, not counted as failures.",
+  "Table9_limitation": "The original four-way behavioural outcome decomposition is not recoverable from this run: response bodies and explicit filtering/runtime-invalid labels were not retained. The companion table lists only observable outcome groups and is not a replacement for Table 9.",
+  "Screenshots": "Representative per-site/category states in 06_Benchmark_Screenshots; the CSV is the per-payload evidence."
+}

@@ -1,0 +1,16 @@
+﻿tool,site,class,route,seconds,requests,scanner_result,run_id
+sqlmap 1.10.10.1#dev,DVWA,SQL Injection,http://127.0.0.1:4280/vulnerabilities/sqli/?id=<input>&Submit=Submit,3.78,171,Injection detected,20261011T123356Z_sqlmap_DVWA_SQL_Injection
+sqlmap 1.10.10.1#dev,XVWA,SQL Injection,http://127.0.0.1:8082/xvwa/vulnerabilities/sqli/,3.62,102,Injection detected,20261011T123356Z_sqlmap_XVWA_SQL_Injection
+sqlmap 1.10.10.1#dev,bWAPP,SQL Injection,http://127.0.0.1:8081/sqli_1.php?title=probe&action=search,2.34,71,No injection detected,20261011T123356Z_sqlmap_bWAPP_SQL_Injection
+XSStrike 3.1.5,DVWA,XSS,http://127.0.0.1:4280/vulnerabilities/xss_r/?name=<input>,28.33,3077,Reflections found; payload candidates generated,20261011T123637Z_xsstrike_DVWA_XSS
+XSStrike 3.1.5,XVWA,XSS,http://127.0.0.1:8082/xvwa/vulnerabilities/reflected_xss/?item=<input>,31.86,3077,Reflections found; payload candidates generated,20261011T123637Z_xsstrike_XVWA_XSS
+XSStrike 3.1.5,bWAPP,XSS,http://127.0.0.1:8081/xss_get.php?firstname=<input>&lastname=<input>&form=submit,55.81,6153,Reflections found; payload candidates generated,20261011T123637Z_xsstrike_bWAPP_XSS
+Wapiti 3.2.2,DVWA,SQL Injection,http://127.0.0.1:4280/vulnerabilities/sqli/?id=<input>&Submit=Submit,3.64,11,SQLi alert,20261011T123850Z_wapiti_DVWA_SQL_Injection
+Wapiti 3.2.2,XVWA,SQL Injection,http://127.0.0.1:8082/xvwa/vulnerabilities/sqli/,2.88,4,SQLi alert,20261011T123850Z_wapiti_XVWA_SQL_Injection
+Wapiti 3.2.2,bWAPP,SQL Injection,http://127.0.0.1:8081/sqli_1.php?title=probe&action=search,2.83,16,No selected-module alert,20261011T123850Z_wapiti_bWAPP_SQL_Injection
+Wapiti 3.2.2,DVWA,XSS,http://127.0.0.1:4280/vulnerabilities/xss_r/?name=<input>,2.94,3,XSS alert,20261011T123850Z_wapiti_DVWA_XSS
+Wapiti 3.2.2,XVWA,XSS,http://127.0.0.1:8082/xvwa/vulnerabilities/reflected_xss/?item=<input>,3.0,3,XSS alert,20261011T123850Z_wapiti_XVWA_XSS
+Wapiti 3.2.2,bWAPP,XSS,http://127.0.0.1:8081/xss_get.php?firstname=<input>&lastname=<input>&form=submit,3.17,6,XSS alert,20261011T123850Z_wapiti_bWAPP_XSS
+Wapiti 3.2.2,DVWA,Command Injection,http://127.0.0.1:4280/vulnerabilities/exec/,65.92,20,command-execution alert,20261011T123850Z_wapiti_DVWA_Command_Injection
+Wapiti 3.2.2,XVWA,Command Injection,http://127.0.0.1:8082/xvwa/vulnerabilities/cmdi/?target=<input>,2.88,6,command-execution alert,20261011T123850Z_wapiti_XVWA_Command_Injection
+Wapiti 3.2.2,bWAPP,Command Injection,http://127.0.0.1:8081/commandi.php,3.22,74,command-execution alert,20261011T123850Z_wapiti_bWAPP_Command_Injection

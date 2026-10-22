@@ -1,0 +1,40 @@
+{
+  "classifier_campaign": {
+    "run_id": "candidate_v5_http_params_weight05_family_split_20261010",
+    "deployed_model_sha256": "3c5cb844542a3d5a9a901ec055068b7d7df26050b0dfdf355e2c7342f8b61b1a",
+    "category_macro_f1": 0.8644696085363114,
+    "category_test_rows": 14203,
+    "note": "Separate grouped held-out classifier evaluation; weights not retrained for density change."
+  },
+  "prior_generator_benchmark": {
+    "run_id": "model6_20261010T204533Z",
+    "generated_output_entries": 1548,
+    "benchmark_rows": 3357,
+    "oracle_supported_trials": 1701,
+    "confirmed": 926,
+    "exploratory_rate_percent": 54.44,
+    "note": "Pre-density generator, distinct experiment; not comparable with later ECR."
+  },
+  "density_generator_benchmark": {
+    "run_id": "model6_20261011T085840Z",
+    "attempts": 2160,
+    "accepted_output_entries_after_per_call_dedup": 341,
+    "globally_distinct_payload_texts_ignoring_context": 171,
+    "attempt_level_predicate_pass_attempts": 2090,
+    "psr": 0.15787037037037038,
+    "mutation_attempts": 667,
+    "invalid_mutations": 31,
+    "imr": 0.046476761619190406,
+    "benchmark_rows": 825,
+    "oracle_supported_trials": 625,
+    "confirmed": 274,
+    "main_run_ecr_percent": 43.84,
+    "note": "Changed density generator; Model 6 weights unchanged."
+  },
+  "supplemental_probes": {
+    "SSRF": "0/9 confirmed, loopback-only; not ECR",
+    "RFI": "9/9 local-canary HTTP includes, HTTPS skipped; not ECR",
+    "XXE": "0/12 file-marker confirmation; URL-encoded Evasion skipped; not ECR"
+  },
+  "ecr_scope": "Only the six main-run oracle-supported classes contribute to pooled ECR 274/625. The supplemental probe ratios are reported separately. IDOR, GraphQL Injection, API Abuse are not estimable."
+}

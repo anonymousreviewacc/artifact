@@ -1,0 +1,32 @@
+{
+  "total_rows": 3357,
+  "environment_error_rows": 180,
+  "oracle_supported_rows": 1701,
+  "oracle_confirmed_rows": 926,
+  "exploratory_pooled_confirmation_pct": 54.44,
+  "counts_by_category_outcome": {
+    "SQL Injection|NO_CONFIRMATION_SIGNAL|false": 158,
+    "SQL Injection|SQL_RESULT_DIFFERENTIAL|true": 182,
+    "SQL Injection|SQL_ERROR_SIGNAL_UNCONFIRMED|false": 20,
+    "SQL Injection|BENCHMARK_ENVIRONMENT_ERROR|false": 180,
+    "XSS|JAVASCRIPT_DIALOG_CONFIRMED|true": 573,
+    "XSS|REFLECTED_NOT_EXECUTED|false": 6,
+    "XSS|NO_CONFIRMATION_SIGNAL|false": 141,
+    "IDOR|NO_CONFIRMATION_SIGNAL|false": 180,
+    "IDOR|OBJECT_RESPONSE_UNCONFIRMED|false": 180,
+    "Command Injection|NO_CONFIRMATION_SIGNAL|false": 450,
+    "Command Injection|COMMAND_OUTPUT_CONFIRMED|true": 90,
+    "Path Traversal|NO_CONFIRMATION_SIGNAL|false": 360,
+    "SSRF|SKIPPED_SAFETY_OR_SIDE_EFFECT|false": 135,
+    "Local File Inclusion|NO_CONFIRMATION_SIGNAL|false": 216,
+    "Remote File Inclusion|SKIPPED_SAFETY_OR_SIDE_EFFECT|false": 81,
+    "XXE|XML_PARSER_SIGNAL_UNCONFIRMED|false": 81,
+    "GraphQL Injection|NO_CONFIRMATION_SIGNAL|false": 81,
+    "Open Redirect|NO_CONFIRMATION_SIGNAL|false": 81,
+    "Open Redirect|EXTERNAL_REDIRECT_CONFIRMED|true": 81,
+    "API Abuse|API_RESPONSE_UNCONFIRMED|false": 81
+  },
+  "paired_payload_site_trials": 1701,
+  "paired_model_label_correct": 1431,
+  "paired_runtime_confirmed": 926
+}

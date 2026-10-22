@@ -1,0 +1,145 @@
+﻿variant,category,profile,attempts,mutation_attempts,invalid_mutation_attempts,valid_unique_per_call,psr_cell,imr_cell
+full_hybrid_density,API Abuse,Advanced,60,18,0,3,0.05,0.0
+full_hybrid_density,API Abuse,Basic,60,9,0,3,0.05,0.0
+full_hybrid_density,API Abuse,Evasion,60,28,0,3,0.05,0.0
+full_hybrid_density,Command Injection,Advanced,60,16,0,18,0.3,0.0
+full_hybrid_density,Command Injection,Basic,60,13,0,15,0.25,0.0
+full_hybrid_density,Command Injection,Evasion,60,16,11,5,0.08333333333333333,0.6875
+full_hybrid_density,GraphQL Injection,Advanced,60,20,0,3,0.05,0.0
+full_hybrid_density,GraphQL Injection,Basic,60,16,0,5,0.08333333333333333,0.0
+full_hybrid_density,GraphQL Injection,Evasion,60,21,0,5,0.08333333333333333,0.0
+full_hybrid_density,IDOR,Advanced,60,18,0,11,0.18333333333333332,0.0
+full_hybrid_density,IDOR,Basic,60,17,0,10,0.16666666666666666,0.0
+full_hybrid_density,IDOR,Evasion,60,18,0,11,0.18333333333333332,0.0
+full_hybrid_density,Local File Inclusion,Advanced,60,17,0,7,0.11666666666666667,0.0
+full_hybrid_density,Local File Inclusion,Basic,60,20,0,7,0.11666666666666667,0.0
+full_hybrid_density,Local File Inclusion,Evasion,60,20,0,7,0.11666666666666667,0.0
+full_hybrid_density,Open Redirect,Advanced,60,20,0,4,0.06666666666666667,0.0
+full_hybrid_density,Open Redirect,Basic,60,22,0,4,0.06666666666666667,0.0
+full_hybrid_density,Open Redirect,Evasion,60,21,0,4,0.06666666666666667,0.0
+full_hybrid_density,Path Traversal,Advanced,60,21,0,14,0.23333333333333334,0.0
+full_hybrid_density,Path Traversal,Basic,60,13,0,13,0.21666666666666667,0.0
+full_hybrid_density,Path Traversal,Evasion,60,24,0,15,0.25,0.0
+full_hybrid_density,Remote File Inclusion,Advanced,60,16,0,6,0.1,0.0
+full_hybrid_density,Remote File Inclusion,Basic,60,17,0,6,0.1,0.0
+full_hybrid_density,Remote File Inclusion,Evasion,60,11,0,6,0.1,0.0
+full_hybrid_density,SQL Injection,Advanced,60,17,3,18,0.3,0.17647058823529413
+full_hybrid_density,SQL Injection,Basic,60,24,1,27,0.45,0.041666666666666664
+full_hybrid_density,SQL Injection,Evasion,60,18,1,24,0.4,0.05555555555555555
+full_hybrid_density,SSRF,Advanced,60,18,0,5,0.08333333333333333,0.0
+full_hybrid_density,SSRF,Basic,60,17,0,5,0.08333333333333333,0.0
+full_hybrid_density,SSRF,Evasion,60,13,0,5,0.08333333333333333,0.0
+full_hybrid_density,XSS,Advanced,60,18,0,22,0.36666666666666664,0.0
+full_hybrid_density,XSS,Basic,60,12,2,15,0.25,0.16666666666666666
+full_hybrid_density,XSS,Evasion,60,20,8,14,0.23333333333333334,0.4
+full_hybrid_density,XXE,Advanced,60,17,0,6,0.1,0.0
+full_hybrid_density,XXE,Basic,60,14,0,6,0.1,0.0
+full_hybrid_density,XXE,Evasion,60,18,0,6,0.1,0.0
+mutation_only_fixed2,API Abuse,Advanced,60,60,0,3,0.05,0.0
+mutation_only_fixed2,API Abuse,Basic,60,60,0,3,0.05,0.0
+mutation_only_fixed2,API Abuse,Evasion,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Command Injection,Advanced,60,60,0,16,0.26666666666666666,0.0
+mutation_only_fixed2,Command Injection,Basic,60,60,0,14,0.23333333333333334,0.0
+mutation_only_fixed2,Command Injection,Evasion,60,60,43,7,0.11666666666666667,0.7166666666666667
+mutation_only_fixed2,GraphQL Injection,Advanced,60,60,0,3,0.05,0.0
+mutation_only_fixed2,GraphQL Injection,Basic,60,60,0,3,0.05,0.0
+mutation_only_fixed2,GraphQL Injection,Evasion,60,60,0,3,0.05,0.0
+mutation_only_fixed2,IDOR,Advanced,60,60,0,7,0.11666666666666667,0.0
+mutation_only_fixed2,IDOR,Basic,60,60,0,7,0.11666666666666667,0.0
+mutation_only_fixed2,IDOR,Evasion,60,60,0,7,0.11666666666666667,0.0
+mutation_only_fixed2,Local File Inclusion,Advanced,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,Local File Inclusion,Basic,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,Local File Inclusion,Evasion,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,Open Redirect,Advanced,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Open Redirect,Basic,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Open Redirect,Evasion,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Path Traversal,Advanced,60,60,0,8,0.13333333333333333,0.0
+mutation_only_fixed2,Path Traversal,Basic,60,60,0,8,0.13333333333333333,0.0
+mutation_only_fixed2,Path Traversal,Evasion,60,60,0,8,0.13333333333333333,0.0
+mutation_only_fixed2,Remote File Inclusion,Advanced,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Remote File Inclusion,Basic,60,60,0,3,0.05,0.0
+mutation_only_fixed2,Remote File Inclusion,Evasion,60,60,0,3,0.05,0.0
+mutation_only_fixed2,SQL Injection,Advanced,60,60,4,35,0.5833333333333334,0.06666666666666667
+mutation_only_fixed2,SQL Injection,Basic,60,60,1,39,0.65,0.016666666666666666
+mutation_only_fixed2,SQL Injection,Evasion,60,60,6,38,0.6333333333333333,0.1
+mutation_only_fixed2,SSRF,Advanced,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,SSRF,Basic,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,SSRF,Evasion,60,60,0,4,0.06666666666666667,0.0
+mutation_only_fixed2,XSS,Advanced,60,60,4,21,0.35,0.06666666666666667
+mutation_only_fixed2,XSS,Basic,60,60,7,21,0.35,0.11666666666666667
+mutation_only_fixed2,XSS,Evasion,60,60,36,9,0.15,0.6
+mutation_only_fixed2,XXE,Advanced,60,60,0,3,0.05,0.0
+mutation_only_fixed2,XXE,Basic,60,60,0,3,0.05,0.0
+mutation_only_fixed2,XXE,Evasion,60,60,0,3,0.05,0.0
+rule_mutation_density_no_filter,API Abuse,Advanced,60,18,0,3,0.05,0.0
+rule_mutation_density_no_filter,API Abuse,Basic,60,9,0,3,0.05,0.0
+rule_mutation_density_no_filter,API Abuse,Evasion,60,28,0,3,0.05,0.0
+rule_mutation_density_no_filter,Command Injection,Advanced,60,16,0,18,0.3,0.0
+rule_mutation_density_no_filter,Command Injection,Basic,60,13,0,15,0.25,0.0
+rule_mutation_density_no_filter,Command Injection,Evasion,60,16,11,5,0.08333333333333333,0.6875
+rule_mutation_density_no_filter,GraphQL Injection,Advanced,60,20,0,3,0.05,0.0
+rule_mutation_density_no_filter,GraphQL Injection,Basic,60,16,0,5,0.08333333333333333,0.0
+rule_mutation_density_no_filter,GraphQL Injection,Evasion,60,21,0,5,0.08333333333333333,0.0
+rule_mutation_density_no_filter,IDOR,Advanced,60,18,0,11,0.18333333333333332,0.0
+rule_mutation_density_no_filter,IDOR,Basic,60,17,0,10,0.16666666666666666,0.0
+rule_mutation_density_no_filter,IDOR,Evasion,60,18,0,11,0.18333333333333332,0.0
+rule_mutation_density_no_filter,Local File Inclusion,Advanced,60,17,0,7,0.11666666666666667,0.0
+rule_mutation_density_no_filter,Local File Inclusion,Basic,60,20,0,7,0.11666666666666667,0.0
+rule_mutation_density_no_filter,Local File Inclusion,Evasion,60,20,0,7,0.11666666666666667,0.0
+rule_mutation_density_no_filter,Open Redirect,Advanced,60,20,0,4,0.06666666666666667,0.0
+rule_mutation_density_no_filter,Open Redirect,Basic,60,22,0,4,0.06666666666666667,0.0
+rule_mutation_density_no_filter,Open Redirect,Evasion,60,21,0,4,0.06666666666666667,0.0
+rule_mutation_density_no_filter,Path Traversal,Advanced,60,21,0,14,0.23333333333333334,0.0
+rule_mutation_density_no_filter,Path Traversal,Basic,60,13,0,13,0.21666666666666667,0.0
+rule_mutation_density_no_filter,Path Traversal,Evasion,60,24,0,15,0.25,0.0
+rule_mutation_density_no_filter,Remote File Inclusion,Advanced,60,16,0,6,0.1,0.0
+rule_mutation_density_no_filter,Remote File Inclusion,Basic,60,17,0,6,0.1,0.0
+rule_mutation_density_no_filter,Remote File Inclusion,Evasion,60,11,0,6,0.1,0.0
+rule_mutation_density_no_filter,SQL Injection,Advanced,60,17,3,18,0.3,0.17647058823529413
+rule_mutation_density_no_filter,SQL Injection,Basic,60,24,1,27,0.45,0.041666666666666664
+rule_mutation_density_no_filter,SQL Injection,Evasion,60,18,1,24,0.4,0.05555555555555555
+rule_mutation_density_no_filter,SSRF,Advanced,60,18,0,5,0.08333333333333333,0.0
+rule_mutation_density_no_filter,SSRF,Basic,60,17,0,5,0.08333333333333333,0.0
+rule_mutation_density_no_filter,SSRF,Evasion,60,13,0,5,0.08333333333333333,0.0
+rule_mutation_density_no_filter,XSS,Advanced,60,18,0,22,0.36666666666666664,0.0
+rule_mutation_density_no_filter,XSS,Basic,60,12,2,15,0.25,0.16666666666666666
+rule_mutation_density_no_filter,XSS,Evasion,60,20,8,14,0.23333333333333334,0.4
+rule_mutation_density_no_filter,XXE,Advanced,60,17,0,6,0.1,0.0
+rule_mutation_density_no_filter,XXE,Basic,60,14,0,6,0.1,0.0
+rule_mutation_density_no_filter,XXE,Evasion,60,18,0,6,0.1,0.0
+rule_only,API Abuse,Advanced,60,0,0,3,0.05,N/A
+rule_only,API Abuse,Basic,60,0,0,3,0.05,N/A
+rule_only,API Abuse,Evasion,60,0,0,3,0.05,N/A
+rule_only,Command Injection,Advanced,60,0,0,8,0.13333333333333333,N/A
+rule_only,Command Injection,Basic,60,0,0,8,0.13333333333333333,N/A
+rule_only,Command Injection,Evasion,60,0,0,0,0.0,N/A
+rule_only,GraphQL Injection,Advanced,60,0,0,3,0.05,N/A
+rule_only,GraphQL Injection,Basic,60,0,0,3,0.05,N/A
+rule_only,GraphQL Injection,Evasion,60,0,0,3,0.05,N/A
+rule_only,IDOR,Advanced,60,0,0,7,0.11666666666666667,N/A
+rule_only,IDOR,Basic,60,0,0,7,0.11666666666666667,N/A
+rule_only,IDOR,Evasion,60,0,0,7,0.11666666666666667,N/A
+rule_only,Local File Inclusion,Advanced,60,0,0,4,0.06666666666666667,N/A
+rule_only,Local File Inclusion,Basic,60,0,0,4,0.06666666666666667,N/A
+rule_only,Local File Inclusion,Evasion,60,0,0,4,0.06666666666666667,N/A
+rule_only,Open Redirect,Advanced,60,0,0,3,0.05,N/A
+rule_only,Open Redirect,Basic,60,0,0,3,0.05,N/A
+rule_only,Open Redirect,Evasion,60,0,0,3,0.05,N/A
+rule_only,Path Traversal,Advanced,60,0,0,8,0.13333333333333333,N/A
+rule_only,Path Traversal,Basic,60,0,0,8,0.13333333333333333,N/A
+rule_only,Path Traversal,Evasion,60,0,0,8,0.13333333333333333,N/A
+rule_only,Remote File Inclusion,Advanced,60,0,0,3,0.05,N/A
+rule_only,Remote File Inclusion,Basic,60,0,0,3,0.05,N/A
+rule_only,Remote File Inclusion,Evasion,60,0,0,3,0.05,N/A
+rule_only,SQL Injection,Advanced,60,0,0,10,0.16666666666666666,N/A
+rule_only,SQL Injection,Basic,60,0,0,10,0.16666666666666666,N/A
+rule_only,SQL Injection,Evasion,60,0,0,10,0.16666666666666666,N/A
+rule_only,SSRF,Advanced,60,0,0,5,0.08333333333333333,N/A
+rule_only,SSRF,Basic,60,0,0,5,0.08333333333333333,N/A
+rule_only,SSRF,Evasion,60,0,0,5,0.08333333333333333,N/A
+rule_only,XSS,Advanced,60,0,0,10,0.16666666666666666,N/A
+rule_only,XSS,Basic,60,0,0,10,0.16666666666666666,N/A
+rule_only,XSS,Evasion,60,0,0,10,0.16666666666666666,N/A
+rule_only,XXE,Advanced,60,0,0,3,0.05,N/A
+rule_only,XXE,Basic,60,0,0,3,0.05,N/A
+rule_only,XXE,Evasion,60,0,0,3,0.05,N/A
