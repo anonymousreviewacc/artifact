@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payload_categories">
+        <item>SQL Injection</item>
+        <item>XSS</item>
+        <item>Command Injection</item>
+        <item>Path Traversal</item>
+        <item>HTTP Requests</item>
+        <item>API Fuzzing</item>
+        <item>Authentication Bypass</item>
+        <item>SSRF</item>
+        <item>XXE</item>
+        <item>CSRF</item>
+    </string-array>
+
+    <string-array name="complexity_levels">
+        <item>Basic</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+</resources>

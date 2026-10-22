@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- MAIN SCROLL VIEW -->
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- HEADER -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🧠 Hybrid Payload Generator"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- STATUS -->
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Initializing..."
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- TARGET INPUT -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Target URL"
+                app:helperText="Example: http://testphp.vulnweb.com/listproducts.php?cat=">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etTarget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=""/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- DESCRIPTION -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Attack Description"
+                app:helperText="Example: numeric parameter SQL injection test">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:hint=""/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- CATEGORY MODE -->
+
+            <Spinner
+                android:id="@+id/spCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <!-- SINGLE CATEGORY -->
+
+            <LinearLayout
+                android:id="@+id/llSingleCategoryContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="8dp">
+
+                <Spinner
+                    android:id="@+id/spSingleCategoryType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <!-- MULTI CATEGORY OPTIONS -->
+
+            <LinearLayout
+                android:id="@+id/llCategoryOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="8dp">
+
+                <CheckBox android:id="@+id/cbSQL" android:text="SQL Injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbXSS" android:text="Cross Site Scripting (XSS)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbIDOR" android:text="IDOR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbCommand" android:text="Command Injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbPath" android:text="Path Traversal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbSSRF" android:text="SSRF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbLFI" android:text="Local File Inclusion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbRFI" android:text="Remote File Inclusion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbXXE" android:text="XXE Injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbGraphQL" android:text="GraphQL Injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbOpenRedirect" android:text="Open Redirect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox android:id="@+id/cbAPI" android:text="API Abuse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <!-- SELECT / DESELECT -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/btnSelectAll"
+                        android:text="Select All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btnDeselectAll"
+                        android:text="Deselect All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- COMPLEXITY -->
+
+            <Spinner
+                android:id="@+id/spComplexity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"/>
+
+            <!-- ENABLE HYBRID -->
+
+            <Switch
+                android:id="@+id/swUseGNN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Hybrid AI"
+                android:checked="true"
+                android:layout_marginTop="8dp"/>
+
+            <!-- GENERATE BUTTON -->
+
+            <Button
+                android:id="@+id/btnGenerate"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="GENERATE PAYLOADS"
+                android:layout_marginTop="10dp"/>
+
+            <!-- COPY BUTTON -->
+
+            <Button
+                android:id="@+id/btnCopyAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copy All Payloads"
+                android:layout_marginTop="6dp"/>
+
+            <!-- RESULTS -->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPayloads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <!-- FLOATING SCROLL BUTTONS -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <ImageButton
+            android:id="@+id/btnScrollTop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/arrow_up_float"
+            android:background="@android:drawable/btn_default"
+            android:contentDescription="Scroll Top"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/btnScrollBottom"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/arrow_down_float"
+            android:background="@android:drawable/btn_default"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Scroll Bottom"/>
+
+    </LinearLayout>
+
+</FrameLayout>

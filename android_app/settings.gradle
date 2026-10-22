@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+        // JitPack (only if plugins ever come from GitHub)
+        maven { url "https://jitpack.io" }
+    }
+}
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencyResolutionManagement {
+    // Forces all modules to use ONLY these repositories
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
+    repositories {
+        google()
+        mavenCentral()
+
+        // REQUIRED for Android-SpinKit and any GitHub-hosted libs
+        maven { url "https://jitpack.io" }
+    }
+}
+
+rootProject.name = "PlGenn"
+include(":app")

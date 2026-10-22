@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- App primary palette -->
+    <color name="primary">#6750A4</color>
+    <color name="primary_dark">#4F378B</color>
+    <color name="accent">#03DAC5</color>
+
+    <!-- Background & surfaces -->
+    <color name="background">#F6F5FA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#1C1B1F</color>
+    <color name="text_secondary">#49454F</color>
+
+    <!-- Status / semantic colors -->
+    <color name="error">#D32F2F</color>
+    <color name="warning">#F9A825</color>
+    <color name="success">#2E7D32</color>
+
+    <color name="colorSQL">#FF2196F3</color>    <!-- Blue for SQL -->
+    <color name="colorXSS">#FFE91E63</color>    <!-- Pink for XSS -->
+    <color name="colorPath">#FF4CAF50</color>   <!-- Green for Path -->
+    <color name="colorCMD">#FFFF9800</color>    <!-- Orange for Command -->
+    <color name="colorAPI">#FF9C27B0</color>    <!-- Purple for API -->
+    <color name="colorIDOR">#FF607D8B</color>   <!-- Blue Grey for IDOR -->
+
+</resources>

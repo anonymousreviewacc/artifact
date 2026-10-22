@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlGenN</string>
+    <string name="generate_payload">Generate Payload</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="share_payload">Share Payload</string>
+    <string name="payload_generated">Payload Generated Successfully!</string>
+</resources>

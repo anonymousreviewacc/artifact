@@ -1,0 +1,135 @@
+package com.example.plgenn.utils;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.json.JSONException;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import okhttp3.*;
+
+public class LLMGenerator {
+    private static final String API_KEY = "YOUR_OPENAI_API_KEY";
+    private static final String API_URL = "https://api.openai.com/v1/chat/completions";
+
+    public String generate(String target, String description, String httpRequest) {
+        String timestamp = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault()).format(new Date());
+
+        // Check if API key is set
+        if (API_KEY.equals("YOUR_OPENAI_API_KEY")) {
+            return getFallbackOutput(target, description, timestamp);
+        }
+
+        try {
+            String prompt = createPrompt(target, description, httpRequest);
+            String response = callOpenAIAPI(prompt);
+            return formatOutput(target, description, response, timestamp);
+        } catch (Exception e) {
+            return getFallbackOutput(target, description, timestamp);
+        }
+    }
+
+    private String createPrompt(String target, String description, String httpRequest) {
+        return "TARGET: " + target + "\n" +
+                "VULNERABILITY DESCRIPTION: " + description + "\n" +
+                "HTTP REQUEST TEMPLATE: " + httpRequest + "\n\n" +
+                "Generate 3-5 specific security testing payloads for the above scenario.\n\n" +
+                "Requirements:\n" +
+                "1. Be specific to the vulnerability mentioned in description\n" +
+                "2. Format as valid HTTP request modifications\n" +
+                "3. Include different attack vectors\n" +
+                "4. Add brief comments explaining each payload\n" +
+                "5. Output only the payloads, no extra text\n\n" +
+                "Example format:\n" +
+                "GET /api/users?id=1' OR '1'='1  # Basic SQL injection\n" +
+                "POST /login {\"username\": \"admin'--\", \"password\": \"anything\"}  # SQL comment attack\n\n" +
+                "Generate payloads now:";
+    }
+
+    private String callOpenAIAPI(String prompt) throws IOException {
+        OkHttpClient client = new OkHttpClient();
+
+        try {
+            // Create JSON request body
+            JSONObject json = new JSONObject();
+            json.put("model", "gpt-3.5-turbo");
+            json.put("temperature", 0.7);
+            json.put("max_tokens", 500);
+
+            JSONObject systemMessage = new JSONObject();
+            systemMessage.put("role", "system");
+            systemMessage.put("content", "You are a security expert. Generate only payload code.");
+
+            JSONObject userMessage = new JSONObject();
+            userMessage.put("role", "user");
+            userMessage.put("content", prompt);
+
+            // Note: Fixed the messages array creation
+            JSONArray messagesArray = new JSONArray();
+            messagesArray.put(systemMessage);
+            messagesArray.put(userMessage);
+            json.put("messages", messagesArray);
+
+            RequestBody body = RequestBody.create(
+                    MediaType.parse("application/json"),
+                    json.toString()
+            );
+
+            Request request = new Request.Builder()
+                    .url(API_URL)
+                    .addHeader("Authorization", "Bearer " + API_KEY)
+                    .addHeader("Content-Type", "application/json")
+                    .post(body)
+                    .build();
+
+            Response response = client.newCall(request).execute();
+            if (response.isSuccessful()) {
+                String responseBody = response.body().string();
+                JSONObject jsonResponse = new JSONObject(responseBody);
+                return jsonResponse.getJSONArray("choices")
+                        .getJSONObject(0)
+                        .getJSONObject("message")
+                        .getString("content");
+            } else {
+                throw new IOException("API Error: " + response.code());
+            }
+        } catch (JSONException e) {
+            throw new IOException("JSON creation error: " + e.getMessage());
+        }
+    }
+
+    private String formatOutput(String target, String description, String payloads, String timestamp) {
+        return "🧠 LLM-POWERED PAYLOAD GENERATOR\n" +
+                "==================================================\n" +
+                "🔍 Target: " + target + "\n" +
+                "📝 Description: " + description + "\n" +
+                "⏰ Time: " + timestamp + "\n" +
+                "==================================================\n\n" +
+                "🎯 AI-Generated Payloads:\n" +
+                payloads + "\n" +
+                "==================================================\n" +
+                "🤖 Generated by GPT-3.5 Turbo";
+    }
+
+    private String getFallbackOutput(String target, String description, String timestamp) {
+        return "🧠 LLM-POWERED PAYLOAD GENERATOR\n" +
+                "==================================================\n" +
+                "🔍 Target: " + target + "\n" +
+                "📝 Description: " + description + "\n" +
+                "⏰ Time: " + timestamp + "\n" +
+                "==================================================\n\n" +
+                "⚠️ LLM Service Unavailable\n\n" +
+                "Possible reasons:\n" +
+                "1. No API key configured\n" +
+                "2. Network issue\n" +
+                "3. No credits available\n\n" +
+                "Suggested actions:\n" +
+                "1. Add OpenAI API key in LLMGenerator.java\n" +
+                "2. Use Rule-Based Generator instead\n" +
+                "3. Check internet connection\n\n" +
+                "Example payload for '" + description + "':\n" +
+                "GET /api?param=<script>alert(1)</script>\n" +
+                "POST /data {\"__proto__\": {\"polluted\": true}}";
+    }
+}

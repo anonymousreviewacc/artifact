@@ -1,0 +1,14 @@
+[
+  "SQL",
+  "XSS",
+  "IDOR",
+  "CMD",
+  "PATH",
+  "SSRF",
+  "LFI",
+  "OPEN_REDIRECT",
+  "XXE",
+  "GRAPHQL",
+  "API_ABUSE",
+  "RFI"
+]

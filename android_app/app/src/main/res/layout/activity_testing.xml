@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧪 Payload Testing"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test generated payloads safely using Termux on your phone."
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- ================= GITHUB STYLE CODE BLOCK ================= -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/surface"
+            android:padding="12dp">
+
+            <!-- HEADER -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvLang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bash"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/btnCopy"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_copy"
+                    android:contentDescription="Copy code"/>
+            </RelativeLayout>
+
+            <!-- CODE -->
+            <TextView
+                android:id="@+id/tvCommand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="curl -s https://raw.githubusercontent.com/NAVANEETHAN22/plgenn_app/main/plgenn_setup.sh | bash"
+                android:textIsSelectable="true"
+                android:textSize="13sp"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+        <!-- ================= INSTRUCTIONS ================= -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nHow to use Termux:"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Install Termux (from F-Droid)\n2. Open Termux\n3. Paste the copied command\n4. Press Enter\n5. Local testing server starts\n6. Paste payloads to test vulnerability"
+            android:layout_marginTop="8dp"/>
+
+        <!-- ACTION BUTTONS -->
+        <Button
+            android:id="@+id/btnInstallTermux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⬇ Install Termux"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnOpenTermux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚀 Open Termux"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
