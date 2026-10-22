@@ -1,0 +1,109 @@
+{
+  "completed_utc": "2026-10-10T18:15:42.327173+00:00",
+  "test": {
+    "category_accuracy": 0.9484615926212772,
+    "category_macro_f1": 0.8644696085363114,
+    "category_weighted_f1": 0.9511165615132993,
+    "pattern_accuracy_on_unambiguous_labels": 0.870719540035512,
+    "obfuscation_accuracy_on_unambiguous_labels": 0.9940970006381621,
+    "pattern_test_rows_scored": 11827,
+    "obfuscation_test_rows_scored": 6268,
+    "category_test_rows": 14203,
+    "test_family_groups": 10772,
+    "category_macro_f1_family_bootstrap_ci95": {
+      "class": "MACRO_F1",
+      "f1_ci95_low": 0.8395481730587349,
+      "f1_ci95_high": 0.8903689949973046
+    }
+  },
+  "data_audit": {
+    "original_rows": 89256,
+    "original_unique_category_payloads": 58644,
+    "original_duplicate_payload_groups": 27578,
+    "original_rows_removed_by_dedup": 30612,
+    "unique_payloads_with_conflicting_obfuscation_labels": 27578,
+    "unique_payloads_with_conflicting_pattern_labels": 168,
+    "supplemental_records_in_source_file": 12543,
+    "supplemental_exact_duplicates_omitted": 59,
+    "supplemental_records_added": 12484,
+    "raw_rows_before_exact_dedup_including_supplement": 101799,
+    "total_unique_records_after_merge": 71128
+  },
+  "split": {
+    "method": "outer StratifiedGroupKFold(5) test holdout; inner StratifiedGroupKFold(8) development holdout",
+    "outer_test_fold": {
+      "selected_fold": 2,
+      "split_score": 0.018917878428868825,
+      "complement_rows": 56925,
+      "heldout_rows": 14203,
+      "heldout_fraction": 0.1996822629625464,
+      "heldout_support": {
+        "SQL": 2710,
+        "XSS": 673,
+        "IDOR": 39,
+        "CMD": 263,
+        "PATH": 8777,
+        "SSRF": 33,
+        "LFI": 1405,
+        "OPEN_REDIRECT": 106,
+        "XXE": 70,
+        "GRAPHQL": 28,
+        "API_ABUSE": 44,
+        "RFI": 55
+      }
+    },
+    "inner_development_fold": {
+      "selected_fold": 0,
+      "split_score": 0.016002622530759007,
+      "complement_rows": 49869,
+      "heldout_rows": 7056,
+      "heldout_fraction": 0.12395256916996047,
+      "heldout_support": {
+        "SQL": 1368,
+        "XSS": 372,
+        "IDOR": 24,
+        "CMD": 110,
+        "PATH": 4354,
+        "SSRF": 28,
+        "LFI": 665,
+        "OPEN_REDIRECT": 45,
+        "XXE": 25,
+        "GRAPHQL": 16,
+        "API_ABUSE": 26,
+        "RFI": 23
+      }
+    },
+    "train_rows": 49869,
+    "development_rows": 7056,
+    "test_rows": 14203,
+    "train_fraction": 0.7011162973793724,
+    "development_fraction": 0.0992014396580812,
+    "test_fraction": 0.1996822629625464,
+    "train_groups": 37698,
+    "development_groups": 5343,
+    "test_groups": 10772,
+    "test_support": {
+      "SQL": 2710,
+      "XSS": 673,
+      "IDOR": 39,
+      "CMD": 263,
+      "PATH": 8777,
+      "SSRF": 33,
+      "LFI": 1405,
+      "OPEN_REDIRECT": 106,
+      "XXE": 70,
+      "GRAPHQL": 28,
+      "API_ABUSE": 44,
+      "RFI": 55
+    }
+  },
+  "notes": [
+    "The original 89,256-row corpus and supplemental source records are merged, then exact duplicate payload strings are removed before the family split.",
+    "The final test split groups heuristic canonical template families; the corpus lacks row-level source provenance, so this is not a source-aware split.",
+    "The supplemental PATT SSRF, IDOR, and GraphQL examples have class/pattern labels but no execution-profile label; they are excluded from obfuscation-head loss.",
+    "HttpParamsDataset attack rows were added only for SQL, XSS, CMD, and PATH. Its source labels do not provide the model's structural-pattern or obfuscation labels, so those two heads are masked for these rows.",
+    "The HTTP parameter dataset documents that its examples were assembled from sqlmap, XSSYA, Vega Scanner, FuzzDB, and CSIC2010; source-family provenance is not available for each row.",
+    "Ambiguous profile labels for identical original payloads are masked for the obfuscation head.",
+    "These classifier metrics do not measure PSR, IMR, ECR, exploit confirmation, or generator behavior."
+  ]
+}

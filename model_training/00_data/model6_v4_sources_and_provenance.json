@@ -1,0 +1,44 @@
+{
+  "purpose": "Training-only source/provenance manifest for Model 6 candidate v4; no app files modified.",
+  "primary_corpus": {
+    "file": "original_89256_dataset.json",
+    "rows": 89256,
+    "sha256": "eb70a0de974688a6d4f257f07c0275a33f627d2e3e4bc068afac7f2ab47e4641",
+    "provenance": "Existing project corpus; original row-level sources are not recorded."
+  },
+  "supplemental": {
+    "file": "supplemental_curated_payloads_v4_http_params.json",
+    "records": 12543,
+    "sha256": "fb5de65202dd774a395491168faf9ddff07761ce231470a2ffa95b03ddae30d5",
+    "records_before_dedup_total_with_primary": 101799
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "license": "MIT",
+      "use": "Existing manually curated v3 additions carried forward; v4 does not bulk-import the repository.",
+      "snapshot_commit": "3ac27901c711bdf3f5b65a7b1d1820a1f65bd09a",
+      "commit_field_note": "This is the inspected repository snapshot, not proof that every earlier curated record came from this exact commit; v4 carries forward the existing supplement and performs no bulk import from this checkout."
+    },
+    {
+      "url": "https://github.com/Morzeux/HttpParamsDataset",
+      "file": "payload_full.csv",
+      "license": "MIT",
+      "use": "Imported only explicit attack_type rows sqli/xss/cmdi/path-traversal; excluded norm/anom summary rows. pattern and obfuscation targets are masked. The source README attributes examples to sqlmap, XSSYA, Vega Scanner, FuzzDB, and CSIC2010; individual source provenance is unavailable.",
+      "snapshot_commit": "926670a710283f87c05b554680facf3f9530548c",
+      "commit_field_note": "Exact shallow-clone commit used for the imported payload_full.csv snapshot."
+    },
+    {
+      "url": "https://github.com/foospidy/payloads",
+      "license": "GPL-3.0",
+      "use": "Inspected as a candidate source; no new records imported in v4."
+    }
+  ],
+  "reproducibility": {
+    "python": "3.10 local environment",
+    "training_script": "train_model6_v4_http_params.py",
+    "random_seed": 44,
+    "split": "family-grouped train/development/test split; tokenizer and scaler fit on train only."
+  },
+  "label_caveat": "Payload signatures alone cannot prove a vulnerability. IDOR and other context-dependent labels remain limited by the available source corpus."
+}
