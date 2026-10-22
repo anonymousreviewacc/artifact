@@ -1,0 +1,53 @@
+{
+  "inputs": [
+    {
+      "tensor_index": 0,
+      "tensor_name": "serving_default_ltig_input:0",
+      "shape": [
+        1,
+        8
+      ],
+      "semantic": "LTIG features"
+    },
+    {
+      "tensor_index": 1,
+      "tensor_name": "serving_default_text_input:0",
+      "shape": [
+        1,
+        100
+      ],
+      "semantic": "token sequence"
+    }
+  ],
+  "outputs": [
+    {
+      "tensor_index": 29,
+      "tensor_name": "StatefulPartitionedCall_1:1",
+      "shape": [
+        1,
+        36
+      ],
+      "semantic": "structural pattern"
+    },
+    {
+      "tensor_index": 25,
+      "tensor_name": "StatefulPartitionedCall_1:0",
+      "shape": [
+        1,
+        12
+      ],
+      "semantic": "category"
+    },
+    {
+      "tensor_index": 27,
+      "tensor_name": "StatefulPartitionedCall_1:2",
+      "shape": [
+        1,
+        3
+      ],
+      "semantic": "obfuscation"
+    }
+  ],
+  "verified_for_model5_positional_contract": true,
+  "note": "Verified by TensorFlow Lite interpreter tensor indices and shapes; model is not installed in Android app."
+}
